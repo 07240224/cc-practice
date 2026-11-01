@@ -1,0 +1,80 @@
+{
+  "reviewer": "independent marked_regions_gate agent",
+  "stage": "P01 平面布局规划，不是可行走成品或建筑美术验收",
+  "files": {
+    "全校布局规划.json": "8a755a72fae40f94d2b4f0df39258ce5a36d49305935512a942e2372ea398c25",
+    "打开全校规划.html": "50dcfbbdf3b28f41fe33bb6e91af09999881de18f0130ef6148f9ffc93b19e34"
+  },
+  "geometry": {
+    "method": "Independent segment-distance capsule checks at actual declared road width; building-edge containment sampled at <=1 reference-image unit; strict polygon crossings excluding declared connected volumes.",
+    "roadsChecked": 26,
+    "connectionLinesChecked": 2,
+    "buildingRegistrationItems": 87,
+    "roadBuildingOverlaps": [],
+    "roadWaterSportsExcludedOverlaps": [],
+    "buildingEdgesOutsideCampus": [],
+    "unrelatedBuildingOverlaps": []
+  },
+  "layoutReview": [
+    "三大片区与西南附属地块分开；武川路、武东路、政立路、国定路及国权北路各自命名。",
+    "武川路111号与武东路288号定位在同一西片两处入口；国定路777号、武东路100号分别定位。",
+    "西片保留会计学院、四教、图书馆、大草坪及运动设施的图示邻接。",
+    "国定片区一教在二教南侧，第三食堂在西缘，新体育馆在北部中段。",
+    "武东片区运动场居中；三教位于南端；阶梯教室位于三教北侧偏东。",
+    "灰色斜线地块保留，武川路与西南灰块边界侵入已修复。"
+  ],
+  "visualReview": {
+    "screenshots": [
+      "01-全校布局规划.png",
+      "02-武川片区.png",
+      "03-国定片区.png",
+      "04-武东片区.png"
+    ],
+    "conclusions": [
+      "各片区独立放大后楼名清晰，三教全名可读。",
+      "平面色块、运动场、水系与保留地块在全景中可区分。",
+      "来源分为用户图示、2023校方存档、按图面位置登记，未强行推断未知院系名称。",
+      "当前仅绘规划占地及主通路；正门与连廊安排在P02实景核对。"
+    ]
+  },
+  "browserReview": {
+    "mode": "Playwright, inline HTML, network offline",
+    "embeddedDataMatchesJson": true,
+    "buildingCount": 87,
+    "zoneCounts": {
+      "W": 21,
+      "G": 49,
+      "D": 16,
+      "A": 1
+    },
+    "testedViewports": [
+      "1366x768",
+      "1920x1080"
+    ],
+    "testedActions": [
+      "三片区与全校切换",
+      "名称和编号检索",
+      "占位选择",
+      "三类名称来源显示",
+      "通路规划层关闭/开启",
+      "复位"
+    ],
+    "screenSpaceLabelPixels": {
+      "groundLabel": 13,
+      "buildingLabel": 14
+    },
+    "errors": [],
+    "networkRequests": []
+  },
+  "originalMapDelivery": {
+    "path": "传送/campus-map-windows.zip",
+    "bytes": 564111635,
+    "sha256": "3569375953d8efaa21db1f31d4a950d05752f30a2650e1018858c560f8a9a4a1",
+    "zipEntries": 12,
+    "crcErrors": null,
+    "historicalCommit": "5473cb3048ab96bf4ea50fe5f4ec3b1179222438",
+    "restoredMain": "df87ac474afc1ce62e3aa7987a2dfc8f6543c609",
+    "matchesHistoricalLfsOidAndSize": true
+  },
+  "conclusion": "P01规划交付与原始大地图恢复分别核验通过；后续门位、细支路、白模行走与建筑美术属于P02及以后阶段。"
+}

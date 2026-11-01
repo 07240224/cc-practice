@@ -1,0 +1,52 @@
+{
+  "roadBuildingIntersections": [],
+  "excludedIntrusions": [],
+  "waterOrSportsIntrusions": [],
+  "outOfSite": [],
+  "unrelatedBuildingOverlaps": [],
+  "connectedVolumes": [
+    [
+      "体育馆及附属体块",
+      [
+        "W07",
+        "W20"
+      ]
+    ],
+    [
+      "第十一宿舍组",
+      [
+        "G03",
+        "G04"
+      ]
+    ],
+    [
+      "第九十宿舍组",
+      [
+        "G05",
+        "G06"
+      ]
+    ],
+    [
+      "育衡与档案组",
+      [
+        "G37",
+        "G38"
+      ]
+    ],
+    [
+      "科研实验楼组",
+      [
+        "G43",
+        "G44"
+      ]
+    ],
+    [
+      "三教与信息管理组",
+      [
+        "D09",
+        "D10"
+      ]
+    ]
+  ],
+  "exclusionCheckScope": "全部内部与外部路面及跨区连接线"
+}

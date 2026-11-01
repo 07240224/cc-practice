@@ -1,0 +1,19 @@
+{
+  "edition": "P01",
+  "date": "2026-11-01",
+  "scope": "只制作布局规划，无建筑美术；原始游戏未修改",
+  "files": {
+    "01-全校布局规划.png": "91d38a48097b218acb0a240307b5c3bf6135d0e94b943a308c1e95b4278f3ce9",
+    "02-武川片区.png": "1c2db83094f6df9ed9cf39eb9a3de1a722a87794d0fd179921143de829f549e6",
+    "03-国定片区.png": "bd8e164f6bc3ff8b12fa653812d7b0a5ebe383a8027b437953566f742269f18d",
+    "04-武东片区.png": "57963691544f13187c5c11e638c9691efce8cc4239a503fb6d77e2e6f7708f0b",
+    "05-笔记本视图.png": "28f6e9c2d82646325578e745c194f9844e2d74f5cdcc28825c0f2c642d74290e",
+    "全校布局规划.json": "8a755a72fae40f94d2b4f0df39258ce5a36d49305935512a942e2372ea398c25",
+    "布局几何检查.json": "e2a4fca14db31b2836f9944d668624fa52c64ee13317295fcab1bd16845c1718",
+    "建筑占位登记.csv": "e3eedabd533b7803df44d6f03f8790473b3d90991c2eabf17a049be70a9d405f",
+    "打开全校规划.html": "50dcfbbdf3b28f41fe33bb6e91af09999881de18f0130ef6148f9ffc93b19e34",
+    "独立规划复核.json": "1fbad4e0c2619c06adcfa723ea5e9b10ba5e697d09324668893c77e2fba14b05",
+    "规划说明.txt": "42754bb1175fe55a5797c7d6916e2d4f95032dee3beb9ad201b8993ebe5b9b3f",
+    "规划页检查.json": "f5aa5ed373a3940d3244319ea3c06278c61bffe522fe97d9400e2fb0efa4c679"
+  }
+}
