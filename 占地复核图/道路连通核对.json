@@ -1,0 +1,45 @@
+{
+  "stage": "等待用户确认的俯视占地稿",
+  "buildingComponents": 115,
+  "nameAnchors": 88,
+  "exclusions": 3,
+  "method": "道路连续几何向内收缩1图面单位后核对关键通道，排除角点接触",
+  "checkpoints": {
+    "十九号楼院内": {
+      "sameMainComponent": true,
+      "distance": 0.0
+    },
+    "体育馆北侧": {
+      "sameMainComponent": true,
+      "distance": 0.0
+    },
+    "中央步行街": {
+      "sameMainComponent": true,
+      "distance": 0.0
+    },
+    "湖侧纵路": {
+      "sameMainComponent": true,
+      "distance": 0.0
+    },
+    "教学组院内": {
+      "sameMainComponent": true,
+      "distance": 0.54
+    },
+    "学生中心北侧": {
+      "sameMainComponent": true,
+      "distance": 0.0
+    },
+    "学生中心北路西端": {
+      "sameMainComponent": true,
+      "distance": 0.0
+    },
+    "运动场北端": {
+      "sameMainComponent": true,
+      "distance": 0.0
+    },
+    "三教北侧": {
+      "sameMainComponent": true,
+      "distance": 0.0
+    }
+  }
+}
