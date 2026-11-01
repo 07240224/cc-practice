@@ -1,0 +1,269 @@
+{
+  "revision": "R2",
+  "purpose": "按原地图内容决定美术投入；以用户俯视图约束三片布局",
+  "mainBuildings": [
+    {
+      "id": "finance",
+      "name": "金融学院 · 毓秀楼",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "B级重点主景：保留五道拱门、浅灰石墙、石阶；背面简化",
+      "newMapTarget": "D02 · 运动场西侧金融学院",
+      "placementRule": "独立识别楼体"
+    },
+    {
+      "id": "teaching3",
+      "name": "第三教学楼",
+      "artTier": "A",
+      "existingRole": "场景入口绑定＋介绍",
+      "sceneBinding": "a50（三教外部与楼层）",
+      "treatment": "入口、门牌、到达前场、镜头可见立面精做；屋顶与背面简化",
+      "newMapTarget": "D09 · 武东南端三教",
+      "placementRule": "与信管保持连体组关系，独立入口"
+    },
+    {
+      "id": "scai",
+      "name": "计算机与人工智能学院",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "武东院楼组 · 学院节点",
+      "placementRule": "保留独立介绍和双柱雨棚；楼体归属按学院地址核对，不沿用旧图南北拼接"
+    },
+    {
+      "id": "sime",
+      "name": "信息管理与工程学院",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "D10 · 三教西端信管",
+      "placementRule": "共享连续楼体，独立介绍锚点"
+    },
+    {
+      "id": "activity",
+      "name": "大学生活动中心",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "G48 · 学生中心所在活动组团（规划迁移）",
+      "placementRule": "由该组团承接原活动中心介绍；这是内容落位决定，不将两者认定为同一历史建筑"
+    },
+    {
+      "id": "research",
+      "name": "科研实验大楼",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "G43＋G44 · 西南科研组团",
+      "placementRule": "一个科研节点，塔楼与裙房共同制作"
+    },
+    {
+      "id": "bookstore",
+      "name": "匡时书店",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "绿叶—湖畔景观支线",
+      "placementRule": "独立店面识别；沿用原节点内容，实体门址核对后放置"
+    },
+    {
+      "id": "greenleaf_canteen",
+      "name": "绿叶餐厅 · 第一食堂",
+      "artTier": "A",
+      "existingRole": "场景入口绑定＋介绍",
+      "sceneBinding": "b1021（餐厅）",
+      "treatment": "入口、门牌、到达前场、镜头可见立面精做；屋顶与背面简化",
+      "newMapTarget": "G26 · 第一食堂",
+      "placementRule": "沿用绿叶餐厅入口绑定"
+    },
+    {
+      "id": "sufe_cafe",
+      "name": "六食堂 · SUFE Café",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "国定餐饮服务组",
+      "placementRule": "保留六食堂与咖啡内容；以实体餐饮门址归位"
+    },
+    {
+      "id": "teaching2",
+      "name": "第二教学楼",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "G21 · 国定教学组北侧",
+      "placementRule": "与一教各自保留介绍，统一投影"
+    },
+    {
+      "id": "teaching1",
+      "name": "第一教学楼",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "G22 · 国定教学组南侧",
+      "placementRule": "与梯教保持图示相邻关系"
+    },
+    {
+      "id": "guodinglecture",
+      "name": "国定路梯教",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "G23 · 一教西侧梯教",
+      "placementRule": "低层体块单独识别"
+    },
+    {
+      "id": "guoding_gym",
+      "name": "国定路综合体育馆",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "G17 · 国定北部体育馆",
+      "placementRule": "保留大跨度屋顶与入口"
+    },
+    {
+      "id": "student_dormitory",
+      "name": "学生宿舍",
+      "artTier": "A",
+      "existingRole": "场景入口绑定＋介绍",
+      "sceneBinding": "dormitory（寝室）",
+      "treatment": "入口、门牌、到达前场、镜头可见立面精做；屋顶与背面简化",
+      "newMapTarget": "国定南部宿舍组 · 代表入口",
+      "placementRule": "只设一个原图寝室入口，不为整组楼逐栋新增室内"
+    },
+    {
+      "id": "halal_canteen",
+      "name": "清真食堂",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "国定生活服务支线",
+      "placementRule": "保留介绍与区域传送目的地；实体门址核对后放置"
+    },
+    {
+      "id": "cainiao_station",
+      "name": "菜鸟驿站",
+      "artTier": "A",
+      "existingRole": "场景入口绑定＋介绍",
+      "sceneBinding": "a40（菜鸟驿站）",
+      "treatment": "入口、门牌、到达前场、镜头可见立面精做；屋顶与背面简化",
+      "newMapTarget": "国定生活服务支线",
+      "placementRule": "保留快递场景入口、门头与取件前场；实体门址核对后放置"
+    },
+    {
+      "id": "third_canteen",
+      "name": "第三食堂",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "G10 · 国定片区西侧第三食堂",
+      "placementRule": "纠正旧图武东标签，保留原介绍内容"
+    },
+    {
+      "id": "statistics",
+      "name": "统计与数据科学学院",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "轮廓、主材质、特色立面与介绍入口单独制作；重复窗格与背面复用",
+      "newMapTarget": "D07＋D12 · 运动场东侧统计院楼组",
+      "placementRule": "一组统计内容，两块校园占地；一个介绍锚点，不复制两份功能"
+    },
+    {
+      "id": "wudonglecture",
+      "name": "武东路阶梯教室",
+      "artTier": "B",
+      "existingRole": "建筑介绍",
+      "sceneBinding": null,
+      "treatment": "B级重点主景：保留横向窗带、凹入楼梯间与红砖基座；连廊按结构节点制作",
+      "newMapTarget": "D08 · 三教北侧梯教",
+      "placementRule": "保持与三教的通行联系"
+    }
+  ],
+  "sceneBindings": {
+    "teaching3": "a50（三教外部与楼层）",
+    "greenleaf_canteen": "b1021（餐厅）",
+    "student_dormitory": "dormitory（寝室）",
+    "cainiao_station": "a40（菜鸟驿站）",
+    "track": "d1（田径场）"
+  },
+  "retainedFunctions": [
+    "19处主要建筑内容及原有介绍节点",
+    "5类场景入口绑定；开放条件沿用现有状态",
+    "水塔攀爬与观景",
+    "老校门庭院往返",
+    "春晖湖桥面通行与水体碰撞",
+    "两处教学连廊下方地面通路、柱脚及遮挡",
+    "8个区域传送点，更新名称与落点对应新布局",
+    "宿主其他地点菜单与现有返回路径"
+  ],
+  "backgroundPolicy": {
+    "W": "武川片区整体按C级背景制作；图书馆、会计学院、四教保留独特轮廓，大草坪和道路保留；不新增室内与交互。",
+    "G": "保留原图教学、住宿、餐饮、快递与景观节点。宿舍只精做主角所住的一栋及其前场，其余同组楼共享模块；行政/教技/办公等作为C级背景。",
+    "D": "三教与田径场为A级功能节点；梯教、金融、计算机、信管、统计等原图主楼为B级，门前与特色立面优先；沿街办公及次要院楼C级。"
+  },
+  "tiers": {
+    "A": "可进入/可操作节点与结构性通路：入口、操作区、标识、碰撞、遮挡和返回落点完整制作；无需精做每一面。",
+    "B": "原图主要介绍建筑与标志景观：独立识别轮廓和主立面，保留介绍；不扩展新室内或新交易功能。",
+    "C": "无原图独立内容的背景建筑：基础体块＋统一窗带/屋顶模块；按组团共享素材，保留实际道路、间距和天际线。"
+  },
+  "workAllocation": {
+    "A_and_structural_nodes": "55%",
+    "B_and_signature_landscape": "30%",
+    "C_background": "15%",
+    "meaning": "制作资源分配目标，不是建筑数量或实测工时"
+  },
+  "navigation": {
+    "guoding_daily_loop": "主角宿舍—餐饮节点—一教/二教/国定梯教—宿舍；清真与菜鸟作为生活支线接入",
+    "wudong_academic_loop": "校园入口—金融与运动场—院楼/三教/梯教—主路返回",
+    "landscape_branch": "绿叶步行街—书店—湖畔与水塔；保留原图标志景观与介绍",
+    "wuchuan_branch": "跨路连接后沿图书馆、四教及大草坪形成观光支线；不把整片宿舍/办公庭院变成逐栋任务点",
+    "constraints": "以上是功能连接方案，线路的实际落点服从校园路网；不沿旧工程坐标重新拼接三个片区。"
+  },
+  "simplification": [
+    "重复宿舍组共享2—3套立面模块，用层数、窗带、屋顶和色调变化区分",
+    "次要行政与办公楼只保留轮廓及临路面，背面降低细节",
+    "原图未承载内容的附属房、车库、机房采用简化体块",
+    "大面积草坪保持留白；仅保留有地点特征的树阵、标志树、水岸与必要设施",
+    "不为每个占位新增招牌、精细门廊、室内或交互",
+    "组团合批不等于合并碰撞，楼间原有穿行通道保持开放"
+  ],
+  "qualityRules": [
+    "细节量可减，素材清晰度、画风与投影保持统一；不靠低像素缩图做背景",
+    "植物保持独立体积与接地，不剪切成长条平片",
+    "楼前设施不能被楼墙误遮挡；背向入口用正确拆层和局部淡出保证可用",
+    "A/B级地点正常行走可读楼名；C级减少悬浮标牌",
+    "主楼保留旧ID；同步entry、places、交互区、返回落点及小地图/区域传送数据"
+  ],
+  "deliveryOrder": [
+    "先在总图标清A/B/C和旧内容ID，锁定保留与简化清单",
+    "先做国定日常功能圈与武东三教—梯教—运动场核心的可走白模",
+    "优先完成A级入口与结构性通路，再完成B级识别立面",
+    "最后用统一模块补齐C级背景和武川观光支线，整图检查布局与风格"
+  ],
+  "sourceFiles": [
+    "locations/campus_map/painted/building_links.json",
+    "modules/a3/locations/a50/location_definition.tres:63",
+    "locations/campus_map/walking_campus_host.gd:configure/request_interact",
+    "locations/campus_map/painted/scripts/main.gd:_process/show_building",
+    "locations/campus_map/painted/data/campus.json"
+  ],
+  "placementRules": {
+    "semanticIDs": "19个内容ID不等于19座独立新楼；连体楼共享体块，入口与介绍分别保留",
+    "detailGate": "名单中按组团登记的点先完成门址对照，再进入白模入口定位；不以旧图自由拼接坐标代替校园位置"
+  },
+  "plotPolicy": "底图沿用P01的几何关系，仅用于表示片区与投入层次；有明确对应名称的主楼着色，未逐栋对应的原图节点列入区域任务框，不伪造具体门位或新建筑。"
+}
