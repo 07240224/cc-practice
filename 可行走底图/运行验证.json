@@ -1,0 +1,27 @@
+{
+  "offline": true,
+  "keyboardMove": true,
+  "teleport": true,
+  "noBounce": true,
+  "redPaths": [
+    {
+      "id": "RED1",
+      "start": true,
+      "end": true,
+      "path": 2
+    },
+    {
+      "id": "RED2",
+      "start": true,
+      "end": true,
+      "path": 7
+    },
+    {
+      "id": "RED3",
+      "start": true,
+      "end": true,
+      "path": 6
+    }
+  ],
+  "errors": []
+}

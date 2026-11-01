@@ -1,0 +1,48 @@
+{
+  "red": [
+    {
+      "id": "RED1",
+      "length": 2,
+      "distance": 0.44181761684279464,
+      "remaining": 0
+    },
+    {
+      "id": "RED2",
+      "length": 7,
+      "distance": 0.6241077004076054,
+      "remaining": 0
+    },
+    {
+      "id": "RED3",
+      "length": 6,
+      "distance": 0.6574932874076279,
+      "remaining": 0
+    }
+  ],
+  "reach": [
+    {
+      "target": [
+        1220,
+        893
+      ],
+      "path": 15
+    },
+    {
+      "target": [
+        1822,
+        626
+      ],
+      "path": 32
+    },
+    {
+      "target": [
+        1390,
+        292
+      ],
+      "path": 23
+    }
+  ],
+  "westLibrary": 6,
+  "forward": "wuchuan",
+  "reverse": "guoding"
+}
