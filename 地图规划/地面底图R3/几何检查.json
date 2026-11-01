@@ -1,0 +1,11 @@
+{
+  "invalid": [],
+  "roadBuildingIntersections": [],
+  "roadExclusions": [],
+  "roadWaterSport": [],
+  "buildingOverlaps": [],
+  "outsideSite": [],
+  "WRoadComponents": 1,
+  "GRoadComponents": 1,
+  "DRoadComponents": 1
+}
