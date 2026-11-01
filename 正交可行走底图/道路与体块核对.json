@@ -1,0 +1,26 @@
+{
+  "camera": {
+    "type": "OrthographicCamera",
+    "elevationFromHorizontal": 35,
+    "azimuthFromSouth": 12.5,
+    "viewHeight": 80
+  },
+  "scale": {
+    "referenceToWorld": 1,
+    "characterHeight": 2.5,
+    "characterRadius": 0.6,
+    "doorHeight": 3.1,
+    "floorHeight": 3.7,
+    "units": "统一游戏单位；不宣称测绘米制"
+  },
+  "roadConstruction": {
+    "centerlines": "piecewise linear",
+    "ordinaryJoin": "miter",
+    "onlyJunctionArcs": true
+  },
+  "roadActualBuildingIntersections": {
+    "wuchuan": [],
+    "guoding": []
+  },
+  "reservationsCollidable": false
+}
