@@ -1,0 +1,622 @@
+{
+  "placements": [
+    {
+      "id": "library",
+      "lot": "W06",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "accounting",
+      "lot": "W01",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "teaching4",
+      "lot": "W08",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "economics",
+      "lot": "W10",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "phoenix",
+      "lot": "W02",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "enterprise",
+      "lot": "W03",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "wuchuan_pool",
+      "lot": "W04",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "exchange",
+      "lot": "W05",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "wuchuan_hall",
+      "lot": "W07",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "badminton",
+      "lot": "W09",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "wuchuan_canteen",
+      "lot": "W12",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "advanced_research",
+      "lot": "W11",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "w13",
+      "lot": "W13",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "w14",
+      "lot": "W14",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "w15",
+      "lot": "W15",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "w16",
+      "lot": "W16",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "w17",
+      "lot": "W17",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "w18",
+      "lot": "W18",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "academic_link",
+      "lot": "D09",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "wudonglecture",
+      "lot": "D08",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "statistics",
+      "lot": "D07",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "finance",
+      "lot": "D02",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "activity",
+      "lot": "G48",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "research",
+      "lot": "G43",
+      "shift": [
+        -2.0,
+        0.0
+      ]
+    },
+    {
+      "id": "bookstore",
+      "lot": "G46",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "guoding_gym",
+      "lot": "G17",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "teaching1",
+      "lot": "G22",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "teaching2",
+      "lot": "G21",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "guodinglecture",
+      "lot": "G23",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "greenleaf_canteen",
+      "lot": "G26",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "sufe_cafe",
+      "lot": "G28",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "halal_canteen",
+      "lot": "G41",
+      "shift": [
+        0.0,
+        4.0
+      ]
+    },
+    {
+      "id": "third_canteen",
+      "lot": "G10",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "cainiao_station",
+      "lot": "G50",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "old_gate",
+      "lot": "D04",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "water_tower",
+      "lot": "G28",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "g01",
+      "lot": "G01",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "g02",
+      "lot": "G02",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "g03",
+      "lot": "G03",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "g04",
+      "lot": "G04",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "g05",
+      "lot": "G05",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "g06",
+      "lot": "G06",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "g07",
+      "lot": "G07",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "g08",
+      "lot": "G08",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "g11",
+      "lot": "G11",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "g12",
+      "lot": "G12",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "g13",
+      "lot": "G13",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "g14",
+      "lot": "G14",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "g15",
+      "lot": "G15",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "g16",
+      "lot": "G16",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "g29",
+      "lot": "G29",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "g34",
+      "lot": "G34",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "g35",
+      "lot": "G35",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "g30",
+      "lot": "G30",
+      "shift": [
+        0,
+        4
+      ]
+    },
+    {
+      "id": "g31",
+      "lot": "G31",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "g32",
+      "lot": "G32",
+      "shift": [
+        0,
+        4
+      ]
+    },
+    {
+      "id": "g33",
+      "lot": "G33",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "g09",
+      "lot": "G09",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "admin",
+      "lot": "G18",
+      "shift": [
+        -2.0,
+        2.0
+      ]
+    },
+    {
+      "id": "tech_n",
+      "lot": "G19",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "tech_s",
+      "lot": "G20",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "law",
+      "lot": "G24",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "graduate",
+      "lot": "G27",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "bath",
+      "lot": "G25",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "medical",
+      "lot": "G42",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "redtile",
+      "lot": "G39",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "art",
+      "lot": "G40",
+      "shift": [
+        -2.0,
+        0.0
+      ]
+    },
+    {
+      "id": "museum",
+      "lot": "G36",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "archive",
+      "lot": "G38",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ningyuanB",
+      "lot": "G45",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ningyuanA",
+      "lot": "G47",
+      "shift": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "teacher",
+      "lot": "D01",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "humanities",
+      "lot": "D04",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "business",
+      "lot": "D06",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "westoffice",
+      "lot": "D03",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "affairs",
+      "lot": "D11",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "stats_e",
+      "lot": "D12",
+      "shift": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "roadBuildingOverlaps": [],
+  "buildingOverlaps": []
+}

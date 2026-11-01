@@ -1,0 +1,1927 @@
+[
+  {
+    "id": "academic_link",
+    "name": "连体教学与院楼",
+    "map": "guoding",
+    "lot": "D09",
+    "style": "academic_link",
+    "center": [
+      1154,
+      939
+    ],
+    "rotation": 25,
+    "entry": [
+      1199.7941982939824,
+      933.0931055019223
+    ],
+    "arrival": [
+      1199.7941982939824,
+      933.0931055019223
+    ],
+    "tier": "main",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "wudonglecture",
+    "name": "阶梯教室（武东）",
+    "map": "guoding",
+    "lot": "D08",
+    "style": "academic",
+    "center": [
+      1190,
+      879
+    ],
+    "rotation": 25,
+    "entry": [
+      1188.7578002634095,
+      891.7164043587177
+    ],
+    "arrival": [
+      1188.7578002634095,
+      891.7164043587177
+    ],
+    "tier": "main",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "statistics",
+    "name": "统计与管理学院楼",
+    "map": "guoding",
+    "lot": "D07",
+    "style": "statistics",
+    "center": [
+      1147.0,
+      848.0
+    ],
+    "rotation": 25,
+    "entry": [
+      1151.6488008791478,
+      857.9693856574031
+    ],
+    "arrival": [
+      1151.6488008791478,
+      857.9693856574031
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "finance",
+    "name": "金融学院楼",
+    "map": "guoding",
+    "lot": "D02",
+    "style": "finance",
+    "center": [
+      858.0,
+      778.0
+    ],
+    "rotation": -20,
+    "entry": [
+      852.5276777067893,
+      793.0350819325745
+    ],
+    "arrival": [
+      852.5276777067893,
+      793.0350819325745
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "activity",
+    "name": "学生中心",
+    "map": "guoding",
+    "lot": "G48",
+    "style": "activity",
+    "center": [
+      1175,
+      700
+    ],
+    "rotation": 25,
+    "entry": [
+      1185.354147412647,
+      722.2045407823979
+    ],
+    "arrival": [
+      1185.354147412647,
+      722.2045407823979
+    ],
+    "tier": "main",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "research",
+    "name": "科研实验楼",
+    "map": "guoding",
+    "lot": "G43",
+    "style": "research",
+    "center": [
+      1294.48,
+      624.49
+    ],
+    "rotation": 0,
+    "entry": [
+      1294.48,
+      649.49
+    ],
+    "arrival": [
+      1294.48,
+      649.49
+    ],
+    "tier": "main",
+    "placementShift": [
+      -2.0,
+      0.0
+    ]
+  },
+  {
+    "id": "bookstore",
+    "name": "18号楼",
+    "map": "guoding",
+    "lot": "G46",
+    "style": "bookstore",
+    "center": [
+      1129,
+      615
+    ],
+    "rotation": 25,
+    "entry": [
+      1144.407232379623,
+      607.8154895504081
+    ],
+    "arrival": [
+      1144.407232379623,
+      607.8154895504081
+    ],
+    "tier": "main",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "guoding_gym",
+    "name": "新体育馆",
+    "map": "guoding",
+    "lot": "G17",
+    "style": "gym",
+    "center": [
+      1291.15,
+      287.97
+    ],
+    "rotation": 0,
+    "entry": [
+      1266.15,
+      327.97
+    ],
+    "arrival": [
+      1266.15,
+      327.97
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "teaching1",
+    "name": "第一教学楼",
+    "map": "guoding",
+    "lot": "G22",
+    "style": "teaching",
+    "center": [
+      1706.0,
+      453.58
+    ],
+    "rotation": 0,
+    "entry": [
+      1706.0,
+      467.08
+    ],
+    "arrival": [
+      1706.0,
+      467.08
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "teaching2",
+    "name": "第二教学楼",
+    "map": "guoding",
+    "lot": "G21",
+    "style": "teaching",
+    "center": [
+      1666.25,
+      405.87
+    ],
+    "rotation": 0,
+    "entry": [
+      1666.25,
+      420.87
+    ],
+    "arrival": [
+      1666.25,
+      420.87
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "guodinglecture",
+    "name": "阶梯教室（国定）",
+    "map": "guoding",
+    "lot": "G23",
+    "style": "hall",
+    "center": [
+      1625.65,
+      453.17
+    ],
+    "rotation": 0,
+    "entry": [
+      1625.65,
+      468.67
+    ],
+    "arrival": [
+      1625.65,
+      468.67
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "greenleaf_canteen",
+    "name": "第一食堂 / 教工餐厅",
+    "map": "guoding",
+    "lot": "G26",
+    "style": "greenleaf",
+    "center": [
+      1407.74,
+      460.61
+    ],
+    "rotation": 0,
+    "entry": [
+      1407.74,
+      476.61
+    ],
+    "arrival": [
+      1407.74,
+      476.61
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "sufe_cafe",
+    "name": "第六宿舍",
+    "map": "guoding",
+    "lot": "G28",
+    "style": "cafe",
+    "center": [
+      1252,
+      466
+    ],
+    "rotation": 0,
+    "entry": [
+      1252.0,
+      477.5
+    ],
+    "arrival": [
+      1252.0,
+      477.5
+    ],
+    "tier": "main",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "halal_canteen",
+    "name": "第二食堂",
+    "map": "guoding",
+    "lot": "G41",
+    "style": "halal",
+    "center": [
+      1477.47,
+      580.38
+    ],
+    "rotation": 0,
+    "entry": [
+      1477.47,
+      595.38
+    ],
+    "arrival": [
+      1477.47,
+      595.38
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      4.0
+    ]
+  },
+  {
+    "id": "third_canteen",
+    "name": "第三食堂",
+    "map": "guoding",
+    "lot": "G10",
+    "style": "newcanteen",
+    "center": [
+      1045.3,
+      435.68
+    ],
+    "rotation": -18,
+    "entry": [
+      1038.9651516153135,
+      455.17665858405064
+    ],
+    "arrival": [
+      1038.9651516153135,
+      455.17665858405064
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "cainiao_station",
+    "name": "菜鸟驿站 · 快递中心",
+    "map": "guoding",
+    "lot": "G50",
+    "style": "cainiao",
+    "center": [
+      1839,
+      623
+    ],
+    "rotation": 25,
+    "entry": [
+      1842.8035643556664,
+      631.1567700833299
+    ],
+    "arrival": [
+      1842.8035643556664,
+      631.1567700833299
+    ],
+    "tier": "main",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "old_gate",
+    "name": "同新楼 / 人文学院楼",
+    "map": "guoding",
+    "lot": "D04",
+    "style": "oldgate",
+    "center": [
+      840,
+      842
+    ],
+    "rotation": -20,
+    "entry": [
+      837.947879140046,
+      847.6381557247155
+    ],
+    "arrival": [
+      837.947879140046,
+      847.6381557247155
+    ],
+    "tier": "main",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "water_tower",
+    "name": "第六宿舍",
+    "map": "guoding",
+    "lot": "G28",
+    "style": "watertower",
+    "center": [
+      1252,
+      440
+    ],
+    "rotation": 0,
+    "entry": [
+      1252.0,
+      446.0
+    ],
+    "arrival": [
+      1252.0,
+      446.0
+    ],
+    "tier": "main",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "library",
+    "name": "图书馆",
+    "map": "wuchuan",
+    "lot": "W06",
+    "style": "library",
+    "center": [
+      654.73,
+      733.94
+    ],
+    "rotation": 20,
+    "entry": [
+      703.5197272987117,
+      753.9603024481987
+    ],
+    "arrival": [
+      703.5197272987117,
+      753.9603024481987
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "accounting",
+    "name": "会计学院楼",
+    "map": "wuchuan",
+    "lot": "W01",
+    "style": "accounting",
+    "center": [
+      431.04,
+      468.02
+    ],
+    "rotation": 0,
+    "entry": [
+      431.04,
+      490.52
+    ],
+    "arrival": [
+      431.04,
+      490.52
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "teaching4",
+    "name": "第四教学楼",
+    "map": "wuchuan",
+    "lot": "W08",
+    "style": "teaching4",
+    "center": [
+      612.0,
+      561.0
+    ],
+    "rotation": 20,
+    "entry": [
+      618.156362579862,
+      577.9144671741464
+    ],
+    "arrival": [
+      618.156362579862,
+      577.9144671741464
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "economics",
+    "name": "经济学院",
+    "map": "wuchuan",
+    "lot": "W10",
+    "style": "economics",
+    "center": [
+      714.0,
+      449.0
+    ],
+    "rotation": 20,
+    "entry": [
+      720.3273726515249,
+      466.3843134845393
+    ],
+    "arrival": [
+      720.3273726515249,
+      466.3843134845393
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "phoenix",
+    "name": "凤凰楼 / 公共经济与管理学院",
+    "map": "wuchuan",
+    "lot": "W02",
+    "style": "phoenix",
+    "center": [
+      405.0,
+      542.0
+    ],
+    "rotation": 20,
+    "entry": [
+      411.15636257986205,
+      558.9144671741464
+    ],
+    "arrival": [
+      411.15636257986205,
+      558.9144671741464
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "enterprise",
+    "name": "创业中心",
+    "map": "wuchuan",
+    "lot": "W03",
+    "style": "enterprise",
+    "center": [
+      347.0,
+      589.0
+    ],
+    "rotation": 65,
+    "entry": [
+      361.04777069906805,
+      595.5505830569808
+    ],
+    "arrival": [
+      361.04777069906805,
+      595.5505830569808
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "wuchuan_pool",
+    "name": "体育馆游泳池",
+    "map": "wuchuan",
+    "lot": "W04",
+    "style": "sporthall",
+    "center": [
+      282.26,
+      623.36
+    ],
+    "rotation": 65,
+    "entry": [
+      299.4798479536963,
+      631.3897469730733
+    ],
+    "arrival": [
+      299.4798479536963,
+      631.3897469730733
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "exchange",
+    "name": "学术交流中心",
+    "map": "wuchuan",
+    "lot": "W05",
+    "style": "exchange",
+    "center": [
+      365.95,
+      693.96
+    ],
+    "rotation": 0,
+    "entry": [
+      365.95,
+      713.96
+    ],
+    "arrival": [
+      365.95,
+      713.96
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "wuchuan_hall",
+    "name": "风雨操场",
+    "map": "wuchuan",
+    "lot": "W07",
+    "style": "sporthall",
+    "center": [
+      649.0,
+      628.0
+    ],
+    "rotation": 20,
+    "entry": [
+      658.234543869793,
+      653.3717007612195
+    ],
+    "arrival": [
+      658.234543869793,
+      653.3717007612195
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "badminton",
+    "name": "羽毛球馆",
+    "map": "wuchuan",
+    "lot": "W09",
+    "style": "sporthall",
+    "center": [
+      628.0,
+      449.0
+    ],
+    "rotation": 20,
+    "entry": [
+      635.6954532248276,
+      470.14308396768297
+    ],
+    "arrival": [
+      635.6954532248276,
+      470.14308396768297
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "wuchuan_canteen",
+    "name": "第四食堂",
+    "map": "wuchuan",
+    "lot": "W12",
+    "style": "canteen",
+    "center": [
+      783.0,
+      478.0
+    ],
+    "rotation": 20,
+    "entry": [
+      788.8143424365363,
+      493.9747745533604
+    ],
+    "arrival": [
+      788.8143424365363,
+      493.9747745533604
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "advanced_research",
+    "name": "高等研究院",
+    "map": "wuchuan",
+    "lot": "W11",
+    "style": "office",
+    "center": [
+      696.0,
+      416.0
+    ],
+    "rotation": 20,
+    "entry": [
+      699.9332316482452,
+      426.8064651390379
+    ],
+    "arrival": [
+      699.9332316482452,
+      426.8064651390379
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "w13",
+    "name": "21号楼",
+    "map": "wuchuan",
+    "lot": "W13",
+    "style": "dorm",
+    "center": [
+      826.0,
+      503.0
+    ],
+    "rotation": 20,
+    "entry": [
+      829.7622215765823,
+      513.336618828645
+    ],
+    "arrival": [
+      829.7622215765823,
+      513.336618828645
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "w14",
+    "name": "22号楼",
+    "map": "wuchuan",
+    "lot": "W14",
+    "style": "dorm",
+    "center": [
+      780.0,
+      521.0
+    ],
+    "rotation": 20,
+    "entry": [
+      783.7622215765823,
+      531.336618828645
+    ],
+    "arrival": [
+      783.7622215765823,
+      531.336618828645
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "w15",
+    "name": "23号楼",
+    "map": "wuchuan",
+    "lot": "W15",
+    "style": "dorm",
+    "center": [
+      740.0,
+      544.0
+    ],
+    "rotation": 20,
+    "entry": [
+      743.7622215765823,
+      554.336618828645
+    ],
+    "arrival": [
+      743.7622215765823,
+      554.336618828645
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "w16",
+    "name": "24号楼",
+    "map": "wuchuan",
+    "lot": "W16",
+    "style": "dorm",
+    "center": [
+      804.92,
+      566.97
+    ],
+    "rotation": 20,
+    "entry": [
+      808.8532316482451,
+      577.776465139038
+    ],
+    "arrival": [
+      808.8532316482451,
+      577.776465139038
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "w17",
+    "name": "25号楼",
+    "map": "wuchuan",
+    "lot": "W17",
+    "style": "dorm",
+    "center": [
+      760.0,
+      589.0
+    ],
+    "rotation": 20,
+    "entry": [
+      763.9332316482452,
+      599.806465139038
+    ],
+    "arrival": [
+      763.9332316482452,
+      599.806465139038
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "w18",
+    "name": "26号楼",
+    "map": "wuchuan",
+    "lot": "W18",
+    "style": "dorm",
+    "center": [
+      783.84,
+      627.92
+    ],
+    "rotation": 20,
+    "entry": [
+      787.9442417199081,
+      639.1963114494308
+    ],
+    "arrival": [
+      787.9442417199081,
+      639.1963114494308
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g01",
+    "name": "27号楼",
+    "map": "guoding",
+    "lot": "G01",
+    "style": "dorm",
+    "center": [
+      937.0,
+      278.0
+    ],
+    "rotation": -8,
+    "entry": [
+      931.9201818149576,
+      314.14478450906734
+    ],
+    "arrival": [
+      931.9201818149576,
+      314.14478450906734
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g02",
+    "name": "20号楼",
+    "map": "guoding",
+    "lot": "G02",
+    "style": "dorm",
+    "center": [
+      1168.0,
+      259.0
+    ],
+    "rotation": 0,
+    "entry": [
+      1168.0,
+      273.5
+    ],
+    "arrival": [
+      1168.0,
+      273.5
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g03",
+    "name": "第十一宿舍",
+    "map": "guoding",
+    "lot": "G03",
+    "style": "dorm",
+    "center": [
+      1035,
+      307
+    ],
+    "rotation": 0,
+    "entry": [
+      1035.0,
+      320.0
+    ],
+    "arrival": [
+      1035.0,
+      320.0
+    ],
+    "tier": "context",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "g04",
+    "name": "第十一宿舍西",
+    "map": "guoding",
+    "lot": "G04",
+    "style": "dorm",
+    "center": [
+      981,
+      326
+    ],
+    "rotation": 0,
+    "entry": [
+      981.0,
+      359.5
+    ],
+    "arrival": [
+      981.0,
+      359.5
+    ],
+    "tier": "context",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "g05",
+    "name": "第十宿舍",
+    "map": "guoding",
+    "lot": "G05",
+    "style": "dorm",
+    "center": [
+      1028,
+      338
+    ],
+    "rotation": 0,
+    "entry": [
+      1028.0,
+      349.5
+    ],
+    "arrival": [
+      1028.0,
+      349.5
+    ],
+    "tier": "context",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "g06",
+    "name": "第九宿舍",
+    "map": "guoding",
+    "lot": "G06",
+    "style": "dorm",
+    "center": [
+      1058,
+      360
+    ],
+    "rotation": 0,
+    "entry": [
+      1058.0,
+      372.5
+    ],
+    "arrival": [
+      1058.0,
+      372.5
+    ],
+    "tier": "context",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "g07",
+    "name": "第八宿舍",
+    "map": "guoding",
+    "lot": "G07",
+    "style": "dorm",
+    "center": [
+      1128.0,
+      389.0
+    ],
+    "rotation": 0,
+    "entry": [
+      1128.0,
+      403.0
+    ],
+    "arrival": [
+      1128.0,
+      403.0
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g08",
+    "name": "第七宿舍",
+    "map": "guoding",
+    "lot": "G08",
+    "style": "dorm",
+    "center": [
+      1168.0,
+      422.0
+    ],
+    "rotation": 0,
+    "entry": [
+      1168.0,
+      436.5
+    ],
+    "arrival": [
+      1168.0,
+      436.5
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g11",
+    "name": "17号楼",
+    "map": "guoding",
+    "lot": "G11",
+    "style": "dorm",
+    "center": [
+      1105.0,
+      455.0
+    ],
+    "rotation": 25,
+    "entry": [
+      1109.6488008791478,
+      464.96938565740317
+    ],
+    "arrival": [
+      1109.6488008791478,
+      464.96938565740317
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g12",
+    "name": "14号楼",
+    "map": "guoding",
+    "lot": "G12",
+    "style": "dorm",
+    "center": [
+      1067.0,
+      481.0
+    ],
+    "rotation": 25,
+    "entry": [
+      1071.860110010018,
+      491.4225395509215
+    ],
+    "arrival": [
+      1071.860110010018,
+      491.4225395509215
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g13",
+    "name": "13号楼",
+    "map": "guoding",
+    "lot": "G13",
+    "style": "dorm",
+    "center": [
+      1078.0,
+      505.0
+    ],
+    "rotation": 25,
+    "entry": [
+      1082.860110010018,
+      515.4225395509214
+    ],
+    "arrival": [
+      1082.860110010018,
+      515.4225395509214
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g14",
+    "name": "16号楼",
+    "map": "guoding",
+    "lot": "G14",
+    "style": "dorm",
+    "center": [
+      1134.0,
+      483.0
+    ],
+    "rotation": 25,
+    "entry": [
+      1140.3392739261105,
+      496.5946168055498
+    ],
+    "arrival": [
+      1140.3392739261105,
+      496.5946168055498
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g15",
+    "name": "15号楼",
+    "map": "guoding",
+    "lot": "G15",
+    "style": "dorm",
+    "center": [
+      1152.0,
+      523.0
+    ],
+    "rotation": 25,
+    "entry": [
+      1158.1279647952401,
+      536.1414629120314
+    ],
+    "arrival": [
+      1158.1279647952401,
+      536.1414629120314
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g16",
+    "name": "12号楼",
+    "map": "guoding",
+    "lot": "G16",
+    "style": "dorm",
+    "center": [
+      1090.0,
+      540.0
+    ],
+    "rotation": 25,
+    "entry": [
+      1095.0714191408883,
+      550.8756934444398
+    ],
+    "arrival": [
+      1095.0714191408883,
+      550.8756934444398
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g29",
+    "name": "第五宿舍",
+    "map": "guoding",
+    "lot": "G29",
+    "style": "dorm",
+    "center": [
+      1313,
+      466
+    ],
+    "rotation": 0,
+    "entry": [
+      1313.0,
+      478.5
+    ],
+    "arrival": [
+      1313.0,
+      478.5
+    ],
+    "tier": "context",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "g34",
+    "name": "第二宿舍",
+    "map": "guoding",
+    "lot": "G34",
+    "style": "dorm",
+    "center": [
+      1483.0,
+      506.0
+    ],
+    "rotation": 0,
+    "entry": [
+      1483.0,
+      519.0
+    ],
+    "arrival": [
+      1483.0,
+      519.0
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g35",
+    "name": "第一宿舍",
+    "map": "guoding",
+    "lot": "G35",
+    "style": "dorm",
+    "center": [
+      1487.0,
+      546.0
+    ],
+    "rotation": 0,
+    "entry": [
+      1487.0,
+      559.0
+    ],
+    "arrival": [
+      1487.0,
+      559.0
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "g30",
+    "name": "北四宿舍",
+    "map": "guoding",
+    "lot": "G30",
+    "style": "dormL",
+    "center": [
+      1287,
+      509
+    ],
+    "rotation": 0,
+    "entry": [
+      1287.0,
+      510.0
+    ],
+    "arrival": [
+      1287.0,
+      510.0
+    ],
+    "tier": "context",
+    "placementShift": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": "g31",
+    "name": "南四宿舍",
+    "map": "guoding",
+    "lot": "G31",
+    "style": "dormL",
+    "center": [
+      1334,
+      535
+    ],
+    "rotation": 0,
+    "entry": [
+      1334.0,
+      536.0
+    ],
+    "arrival": [
+      1334.0,
+      536.0
+    ],
+    "tier": "context",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "g32",
+    "name": "北三宿舍",
+    "map": "guoding",
+    "lot": "G32",
+    "style": "dormL",
+    "center": [
+      1395,
+      509
+    ],
+    "rotation": 0,
+    "entry": [
+      1395.0,
+      510.0
+    ],
+    "arrival": [
+      1395.0,
+      510.0
+    ],
+    "tier": "context",
+    "placementShift": [
+      0,
+      4
+    ]
+  },
+  {
+    "id": "g33",
+    "name": "南三宿舍",
+    "map": "guoding",
+    "lot": "G33",
+    "style": "dormL",
+    "center": [
+      1424,
+      540
+    ],
+    "rotation": 0,
+    "entry": [
+      1424.0,
+      541.0
+    ],
+    "arrival": [
+      1424.0,
+      541.0
+    ],
+    "tier": "context",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "g09",
+    "name": "19号楼",
+    "map": "guoding",
+    "lot": "G09",
+    "style": "dormcourt",
+    "center": [
+      967.53,
+      425.51
+    ],
+    "rotation": -18,
+    "entry": [
+      942.802530576326,
+      417.4755581462514
+    ],
+    "arrival": [
+      942.802530576326,
+      417.4755581462514
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "admin",
+    "name": "行政大楼",
+    "map": "guoding",
+    "lot": "G18",
+    "style": "office",
+    "center": [
+      1615.47,
+      257.9
+    ],
+    "rotation": 0,
+    "entry": [
+      1615.47,
+      278.9
+    ],
+    "arrival": [
+      1615.47,
+      278.9
+    ],
+    "tier": "context",
+    "placementShift": [
+      -2.0,
+      2.0
+    ]
+  },
+  {
+    "id": "tech_n",
+    "name": "教技中心 / 网络信息中心",
+    "map": "guoding",
+    "lot": "G19",
+    "style": "office",
+    "center": [
+      1628.21,
+      324.8
+    ],
+    "rotation": 0,
+    "entry": [
+      1628.21,
+      339.3
+    ],
+    "arrival": [
+      1628.21,
+      339.3
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "tech_s",
+    "name": "教技中心南楼",
+    "map": "guoding",
+    "lot": "G20",
+    "style": "office",
+    "center": [
+      1631.64,
+      361.8
+    ],
+    "rotation": 0,
+    "entry": [
+      1631.64,
+      376.3
+    ],
+    "arrival": [
+      1631.64,
+      376.3
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "law",
+    "name": "法学院",
+    "map": "guoding",
+    "lot": "G24",
+    "style": "office",
+    "center": [
+      1480.1,
+      410.53
+    ],
+    "rotation": 0,
+    "entry": [
+      1480.1,
+      425.53
+    ],
+    "arrival": [
+      1480.1,
+      425.53
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "graduate",
+    "name": "研究生院",
+    "map": "guoding",
+    "lot": "G27",
+    "style": "office",
+    "center": [
+      1481.14,
+      460.57
+    ],
+    "rotation": 0,
+    "entry": [
+      1481.14,
+      478.57
+    ],
+    "arrival": [
+      1481.14,
+      478.57
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "bath",
+    "name": "浴室 / 理发室",
+    "map": "guoding",
+    "lot": "G25",
+    "style": "service",
+    "center": [
+      1413.0,
+      424.0
+    ],
+    "rotation": 0,
+    "entry": [
+      1413.0,
+      435.5
+    ],
+    "arrival": [
+      1413.0,
+      435.5
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "medical",
+    "name": "医疗健康服务中心",
+    "map": "guoding",
+    "lot": "G42",
+    "style": "medical",
+    "center": [
+      1393.0,
+      631.0
+    ],
+    "rotation": 180,
+    "entry": [
+      1393.0,
+      617.5
+    ],
+    "arrival": [
+      1393.0,
+      617.5
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "redtile",
+    "name": "红瓦楼",
+    "map": "guoding",
+    "lot": "G39",
+    "style": "redtile",
+    "center": [
+      1660.15,
+      569.49
+    ],
+    "rotation": 0,
+    "entry": [
+      1660.15,
+      588.49
+    ],
+    "arrival": [
+      1660.15,
+      588.49
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "art",
+    "name": "学生艺术中心",
+    "map": "guoding",
+    "lot": "G40",
+    "style": "art",
+    "center": [
+      1771.45,
+      573.97
+    ],
+    "rotation": 0,
+    "entry": [
+      1771.45,
+      595.97
+    ],
+    "arrival": [
+      1771.45,
+      595.97
+    ],
+    "tier": "main",
+    "placementShift": [
+      -2.0,
+      0.0
+    ]
+  },
+  {
+    "id": "museum",
+    "name": "商学博物馆 / 校史馆",
+    "map": "guoding",
+    "lot": "G36",
+    "style": "museum",
+    "center": [
+      1552.32,
+      489.89
+    ],
+    "rotation": 0,
+    "entry": [
+      1552.32,
+      516.39
+    ],
+    "arrival": [
+      1552.32,
+      516.39
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "archive",
+    "name": "档案馆",
+    "map": "guoding",
+    "lot": "G38",
+    "style": "office",
+    "center": [
+      1559.29,
+      542.78
+    ],
+    "rotation": 0,
+    "entry": [
+      1559.29,
+      555.78
+    ],
+    "arrival": [
+      1559.29,
+      555.78
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "ningyuanB",
+    "name": "宁远楼B",
+    "map": "guoding",
+    "lot": "G45",
+    "style": "office",
+    "center": [
+      1118.0,
+      582.0
+    ],
+    "rotation": 25,
+    "entry": [
+      1126.2410561039437,
+      599.6730018472147
+    ],
+    "arrival": [
+      1126.2410561039437,
+      599.6730018472147
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "ningyuanA",
+    "name": "宁远楼A",
+    "map": "guoding",
+    "lot": "G47",
+    "style": "office",
+    "center": [
+      1153,
+      650
+    ],
+    "rotation": 25,
+    "entry": [
+      1160.818437842203,
+      666.766694060178
+    ],
+    "arrival": [
+      1160.818437842203,
+      666.766694060178
+    ],
+    "tier": "context",
+    "placementShift": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "teacher",
+    "name": "教工之家 / 教师发展中心",
+    "map": "guoding",
+    "lot": "D01",
+    "style": "office",
+    "center": [
+      860.06,
+      730.01
+    ],
+    "rotation": 25,
+    "entry": [
+      867.2445104495919,
+      745.417232379623
+    ],
+    "arrival": [
+      867.2445104495919,
+      745.417232379623
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "humanities",
+    "name": "同新楼 / 人文学院楼",
+    "map": "guoding",
+    "lot": "D04",
+    "style": "humanities",
+    "center": [
+      910.0,
+      881.0
+    ],
+    "rotation": 25,
+    "entry": [
+      918.2410561039436,
+      898.6730018472147
+    ],
+    "arrival": [
+      918.2410561039436,
+      898.6730018472147
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "business",
+    "name": "商学院楼",
+    "map": "guoding",
+    "lot": "D06",
+    "style": "business",
+    "center": [
+      1068.0,
+      887.0
+    ],
+    "rotation": 25,
+    "entry": [
+      1075.6071287113325,
+      903.3135401666597
+    ],
+    "arrival": [
+      1075.6071287113325,
+      903.3135401666597
+    ],
+    "tier": "main",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "westoffice",
+    "name": "运动场西侧院楼",
+    "map": "guoding",
+    "lot": "D03",
+    "style": "office",
+    "center": [
+      935.0,
+      801.0
+    ],
+    "rotation": 25,
+    "entry": [
+      948.3124752448321,
+      829.5486952916544
+    ],
+    "arrival": [
+      948.3124752448321,
+      829.5486952916544
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "affairs",
+    "name": "教务处",
+    "map": "guoding",
+    "lot": "D11",
+    "style": "office",
+    "center": [
+      1209.0,
+      770.0
+    ],
+    "rotation": 25,
+    "entry": [
+      1215.3392739261105,
+      783.5946168055498
+    ],
+    "arrival": [
+      1215.3392739261105,
+      783.5946168055498
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "id": "stats_e",
+    "name": "统计学院楼",
+    "map": "guoding",
+    "lot": "D12",
+    "style": "office",
+    "center": [
+      1228.0,
+      803.0
+    ],
+    "rotation": 25,
+    "entry": [
+      1234.3392739261105,
+      816.5946168055498
+    ],
+    "arrival": [
+      1234.3392739261105,
+      816.5946168055498
+    ],
+    "tier": "context",
+    "placementShift": [
+      0.0,
+      0.0
+    ]
+  }
+]

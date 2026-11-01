@@ -1,0 +1,428 @@
+[
+  {
+    "id": "academic_link",
+    "title": "信管—人工智能—第三教学楼",
+    "features": "以用户确认的左右关系为布局依据；连续六层楼体，统一横窗带；左、中入口窄雨棚，右侧三教宽红褐雨棚；武东连廊接右段。",
+    "references": [
+      {
+        "file": "campusTour-38.jpg",
+        "imageURL": "https://p7.itc.cn/q_70/images03/20230810/7f6efb77e7df4527821d5446bdd2ded7.png",
+        "pageURL": "https://www.sohu.com/a/710669474_121124732"
+      },
+      {
+        "file": "campusTour2-19.jpg",
+        "imageURL": "https://p3.itc.cn/q_70/images03/20220810/dda4e234e73b4c00a1f61bd3af0700fe.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      }
+    ]
+  },
+  {
+    "id": "wudonglecture",
+    "title": "武东路梯教",
+    "features": "实拍参考-lecture及连廊侧面、下方照片；独立六层体量、横向窗带、双柱入口、跨路上层连廊。",
+    "references": [
+      {
+        "file": "reference-lecture.jpg",
+        "pageURL": "https://github.com/i-m-not-sufer/sufe-campus-adventure/tree/main/docs/c1_wudong_link_20261030",
+        "imageURL": "原工程实拍参考"
+      },
+      {
+        "file": "reference-corridor-side.jpg",
+        "pageURL": "https://github.com/i-m-not-sufer/sufe-campus-adventure/tree/main/docs/c1_wudong_link_20261030",
+        "imageURL": "原工程实拍参考"
+      },
+      {
+        "file": "reference-corridor-under.jpg",
+        "pageURL": "https://github.com/i-m-not-sufer/sufe-campus-adventure/tree/main/docs/c1_wudong_link_20261030",
+        "imageURL": "原工程实拍参考"
+      }
+    ]
+  },
+  {
+    "id": "finance",
+    "title": "毓秀楼",
+    "features": "中部四层、两翼三层；五连拱、中央三列凹入竖窗带、两侧菱形窄窗饰、灰石墙。",
+    "references": [
+      {
+        "file": "finance-09.jpg",
+        "imageURL": "https://sof.sufe.edu.cn/_upload/article/images/a8/bf/cb0aca314761bc8f9e65fb3ce41d/06f70978-12f6-4da3-b0c9-d108484448f6.jpg",
+        "pageURL": "https://sof.sufe.edu.cn/d5/f9/c7109a120313/page.htm"
+      },
+      {
+        "file": "finance2-04.jpg",
+        "imageURL": "https://sof.sufe.edu.cn/_upload/article/images/59/6a/51110816411eba5bc7b982ddf86f/bc09a460-2b6b-437d-943b-edcd01599f8d.jpg",
+        "pageURL": "https://sof.sufe.edu.cn/50/ed/c7109a217325/page.htm"
+      },
+      {
+        "file": "campusTour-30.jpg",
+        "imageURL": "https://p3.itc.cn/q_70/images03/20230810/aeacde9c488144b1b5358b2657544de3.png",
+        "pageURL": "https://www.sohu.com/a/710669474_121124732"
+      }
+    ]
+  },
+  {
+    "id": "activity",
+    "title": "学生中心／明德楼",
+    "features": "近景三层红砖白框门面、宽雨棚双柱；远景高塔属于后方建筑，不计入本体。翼体按校园图组织。",
+    "references": [
+      {
+        "file": "studentReal-00.jpg",
+        "imageURL": "https://www.shhk.gov.cn/shhk/2f7424c4-dcc0-4042-91f2-8d0a3adb1b9b/797948b0-d1eb-4b84-9a92-06dc2d54db3c/20240328090418044309.png",
+        "pageURL": "https://www.shhk.gov.cn/xwzx/002003/20240328/2f7424c4-dcc0-4042-91f2-8d0a3adb1b9b.html"
+      },
+      {
+        "file": "campusTour2-15.jpg",
+        "imageURL": "https://p9.itc.cn/q_70/images03/20220810/9018dac39a864c81923e577070768a7c.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      }
+    ]
+  },
+  {
+    "id": "research",
+    "title": "科研实验楼",
+    "features": "高红砖塔楼、连续竖向窄窗、低层裙房及中央玻璃入口。",
+    "references": [
+      {
+        "file": "researchAlt-00.jpg",
+        "imageURL": "https://itcs-sufe.github.io/ITCS-Workshop2026/img/research-building.png",
+        "pageURL": "https://itcs-sufe.github.io/ITCS-Workshop2026/"
+      },
+      {
+        "file": "campusTour-39.jpg",
+        "imageURL": "https://p5.itc.cn/q_70/images03/20230810/bcb67a3811f842469e10ff46e90beb6f.png",
+        "pageURL": "https://www.sohu.com/a/710669474_121124732"
+      }
+    ]
+  },
+  {
+    "id": "bookstore",
+    "title": "匡时书店",
+    "features": "三层白墙，长条楼身与圆弧端头共用平屋面；端头三层拱门窗、小铁艺阳台；长边底层拱廊。位置采用武东100号040幢与原18号楼区域关系。",
+    "references": [
+      {
+        "file": "bookstore-38.jpg",
+        "imageURL": "https://sh.people.com.cn/mediafile/pic/20241118/32/9303251077734205888.jpg",
+        "pageURL": "https://sh.people.com.cn/n2/2024/1118/c134768-41045798.html"
+      },
+      {
+        "file": "bookstore-40.jpg",
+        "imageURL": "https://sh.people.com.cn/mediafile/pic/20241118/51/3146667208034372647.jpg",
+        "pageURL": "https://sh.people.com.cn/n2/2024/1118/c134768-41045798.html"
+      },
+      {
+        "file": "bookstore-42.jpg",
+        "imageURL": "https://sh.people.com.cn/mediafile/pic/20241118/56/16904320301651990352.jpg",
+        "pageURL": "https://sh.people.com.cn/n2/2024/1118/c134768-41045798.html"
+      }
+    ]
+  },
+  {
+    "id": "guoding_gym",
+    "title": "综合体育馆",
+    "features": "橙红悬挑上部、下收斜面、细长竖缝、低基座、端部水平格栅与屋顶天窗；不把效果图作实景证据。",
+    "references": [
+      {
+        "file": "campus-03.jpg",
+        "imageURL": "https://www.sufe.edu.cn/_upload/article/images/68/3a/3dae6c7e4324b942dc7e5fec9ea8/5e5a4964-e858-4bc2-8f18-5d631393c721.jpg",
+        "pageURL": "https://www.sufe.edu.cn/fxsc/list.htm"
+      },
+      {
+        "file": "campusTour2-13.jpg",
+        "imageURL": "https://p1.itc.cn/q_70/images03/20220810/69047adfb01d4c6f9b60d8a01a5c0222.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      },
+      {
+        "file": "gym-02.jpg",
+        "imageURL": "https://sports.sufe.edu.cn/_upload/article/images/25/5a/d7d036ef430d803243591907761f/09314409-6149-44cd-a855-f768b0754ada.png",
+        "pageURL": "https://sports.sufe.edu.cn/63/a8/c1930a222120/page.htm"
+      }
+    ]
+  },
+  {
+    "id": "teaching1",
+    "title": "第一教学楼",
+    "features": "国定教学区奶油色墙、成组竖窗、红瓦边檐与屋顶退台；补一教二教上层连廊，廊下地面独立可通行。",
+    "references": [
+      {
+        "file": "campusEnglish-04.jpg",
+        "imageURL": "https://english.sufe.edu.cn/_upload/article/images/fa/97/04b857bd4053be5efb322638393b/4c062fb2-2f8c-48d3-9da8-b1057e82991e.jpg",
+        "pageURL": "https://english.sufe.edu.cn/Introduction/list.htm"
+      },
+      {
+        "file": "campusTour2-16.jpg",
+        "imageURL": "https://p3.itc.cn/q_70/images03/20220810/eecf1cf270ef472c817668d4f4a1711d.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      }
+    ]
+  },
+  {
+    "id": "teaching2",
+    "title": "第二教学楼",
+    "features": "四层体量，红瓦边檐、屋顶楼梯间、浅色立面、红瓦入口门廊；与一教的连廊独立制作。",
+    "references": [
+      {
+        "file": "campusEnglish-04.jpg",
+        "imageURL": "https://english.sufe.edu.cn/_upload/article/images/fa/97/04b857bd4053be5efb322638393b/4c062fb2-2f8c-48d3-9da8-b1057e82991e.jpg",
+        "pageURL": "https://english.sufe.edu.cn/Introduction/list.htm"
+      },
+      {
+        "file": "campusTour2-17.jpg",
+        "imageURL": "https://p0.itc.cn/q_70/images03/20220810/902aa30627764ae8a45088c2fc90d8da.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      },
+      {
+        "file": "campusTour-22.jpg",
+        "imageURL": "https://p1.itc.cn/q_70/images03/20230810/d2a6db5a66574d319ce6587c712a7357.png",
+        "pageURL": "https://www.sohu.com/a/710669474_121124732"
+      }
+    ]
+  },
+  {
+    "id": "guodinglecture",
+    "title": "国定梯教",
+    "features": "低层浅墙、平屋顶、长窗组和入口雨棚；所在教学组团布局以用户初始校园图为准。",
+    "references": [
+      {
+        "file": "campusTour2-18.jpg",
+        "imageURL": "https://p5.itc.cn/q_70/images03/20220810/e9738ae7d11e4abd85826c4f4758d351.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      },
+      {
+        "file": "campusEnglish-03.jpg",
+        "imageURL": "https://english.sufe.edu.cn/_upload/article/images/fa/97/04b857bd4053be5efb322638393b/3145e814-f3d6-4030-826a-725cd6d34f4a.jpg",
+        "pageURL": "https://english.sufe.edu.cn/Introduction/list.htm"
+      }
+    ]
+  },
+  {
+    "id": "statistics",
+    "title": "统计与管理学院",
+    "features": "灰褐砖、三层立面、中央山墙、窄竖窗与凹入口；不复制教学楼的长窗带。",
+    "references": [
+      {
+        "file": "campusTour-34.jpg",
+        "imageURL": "https://p9.itc.cn/q_70/images03/20230810/6a0cb5eeebe9405c891a2bad6007db31.jpeg",
+        "pageURL": "https://www.sohu.com/a/710669474_121124732"
+      },
+      {
+        "file": "campusTour2-27.jpg",
+        "imageURL": "https://p4.itc.cn/q_70/images03/20220810/a20bd9fed811469490a9e5ed4fa504d6.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      }
+    ]
+  },
+  {
+    "id": "greenleaf_canteen",
+    "title": "绿叶／第一食堂",
+    "features": "两层浅墙、红坡屋顶、落地玻璃、上层叶形窗饰与小阳台。",
+    "references": [
+      {
+        "file": "canteens-03.jpg",
+        "imageURL": "https://imagepphcloud.thepaper.cn/pph/image/320/265/527.jpg",
+        "pageURL": "https://m.thepaper.cn/newsDetail_forward_28589772"
+      },
+      {
+        "file": "food22-00.jpg",
+        "imageURL": "https://p6.itc.cn/q_70/images03/20220827/5e4c34d022364163a9a69653d604ebc2.jpeg",
+        "pageURL": "https://www.sohu.com/a/580347882_120731724"
+      }
+    ]
+  },
+  {
+    "id": "sufe_cafe",
+    "title": "第六食堂／SUFE Café",
+    "features": "橙色波纹金属、两层长条体量、底层通透玻璃、较高的玻璃端部；水塔在其后方独立制作。",
+    "references": [
+      {
+        "file": "canteens-10.jpg",
+        "imageURL": "https://imagepphcloud.thepaper.cn/pph/image/320/265/537.jpg",
+        "pageURL": "https://m.thepaper.cn/newsDetail_forward_28589772"
+      },
+      {
+        "file": "heritage-58.jpg",
+        "imageURL": "https://sh.people.com.cn/mediafile/pic/20231204/95/12299518759431838819.jpg",
+        "pageURL": "https://sh.people.com.cn/n2/2023/1204/c134768-40664974.html"
+      },
+      {
+        "file": "food26-16.jpg",
+        "imageURL": "https://q4.itc.cn/q_70/images03/20260808/c3218e69d7b5440580e3c7a6fe25dd15.jpeg",
+        "pageURL": "https://www.sohu.com/a/1060332483_121124732"
+      }
+    ]
+  },
+  {
+    "id": "halal_canteen",
+    "title": "第二／清真食堂",
+    "features": "两层砖楼、底层连续拱窗、上层横向长窗、端部外楼梯。",
+    "references": [
+      {
+        "file": "food17-08.jpg",
+        "imageURL": "http://5b0988e595225.cdn.sohucs.com/images/20170824/2a4c1751ec2544e28ada73564fdbf229.jpeg",
+        "pageURL": "https://www.sohu.com/a/166937445_784785"
+      },
+      {
+        "file": "food22-04.jpg",
+        "imageURL": "https://p8.itc.cn/q_70/images03/20220827/cdd1eac8c714468498b6af52ec9b3f96.jpeg",
+        "pageURL": "https://www.sohu.com/a/580347882_120731724"
+      }
+    ]
+  },
+  {
+    "id": "third_canteen",
+    "title": "第三／新食堂",
+    "features": "三层红砖楼、宽屋顶檐口、中央竖向玻璃厅、侧边开放楼梯阳台。",
+    "references": [
+      {
+        "file": "food17-20.jpg",
+        "imageURL": "http://5b0988e595225.cdn.sohucs.com/images/20170824/5605d99c4077476ab4c0f99ecb7e51c9.jpeg",
+        "pageURL": "https://www.sohu.com/a/166937445_784785"
+      },
+      {
+        "file": "food22-08.jpg",
+        "imageURL": "https://p4.itc.cn/q_70/images03/20220827/2c6edf6e56504823a4f561c5790b79b3.jpeg",
+        "pageURL": "https://www.sohu.com/a/580347882_120731724"
+      }
+    ]
+  },
+  {
+    "id": "cainiao_station",
+    "title": "菜鸟驿站",
+    "features": "单层大厅、宽蓝檐、玻璃入口、两侧快递柜；第二张用于核对柜体，不计成第二个外观角度。",
+    "references": [
+      {
+        "file": "services23-12.jpg",
+        "imageURL": "https://p0.itc.cn/q_70/images03/20230805/ac02cbb857734f4cbbd021f61404b9bf.jpeg",
+        "pageURL": "https://www.sohu.com/a/709077644_121124213"
+      },
+      {
+        "file": "services22-08.jpg",
+        "imageURL": "https://p7.itc.cn/q_70/images03/20220819/83fd715e86e34002b2ef769320d409dc.jpeg",
+        "pageURL": "https://www.sohu.com/a/578243194_121124732"
+      }
+    ]
+  },
+  {
+    "id": "library",
+    "title": "英贤图书馆",
+    "features": "七层主翼与五层附翼，保留围合内院；主高翼端面留大块白墙，嵌入竖向玻璃厅。两张航拍为同一构图，仅按一个角度计，官网简介用于核对层数。",
+    "references": [
+      {
+        "file": "libraryAerial-00.jpg",
+        "imageURL": "https://p3-sdbk2-media.byteimg.com/tos-cn-i-xv4ileqgde/23016f56187c433884ffaf1fadcfca3c~tplv-xv4ileqgde-resize-w%3A750.image",
+        "pageURL": "https://m.baike.com/wikiid/2114891045630780431"
+      },
+      {
+        "file": "campusTour2-21.jpg",
+        "imageURL": "https://p4.itc.cn/q_70/images03/20220810/20254970fa3d40f1975296ab2728970d.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      }
+    ]
+  },
+  {
+    "id": "accounting",
+    "title": "会计学院",
+    "features": "浅暖色体量、上层方窗、下部横向凹入带、中央玻璃入口与台阶。两张长立面照片为同一构图。",
+    "references": [
+      {
+        "file": "campusTour-31.jpg",
+        "imageURL": "https://p9.itc.cn/q_70/images03/20230810/cc92650b8e774bc8be128822d6305328.png",
+        "pageURL": "https://www.sohu.com/a/710669474_121124732"
+      },
+      {
+        "file": "campusTour2-32.jpg",
+        "imageURL": "https://p2.itc.cn/q_70/images03/20220810/53e03398e1bb44bd90a40dfece555ea9.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      },
+      {
+        "file": "accounting-129.jpg",
+        "imageURL": "https://sa.sufe.edu.cn/_upload/article/images/77/25/d05b311c46ebadf3b6cb57d24804/cf4d461b-4071-4d50-897e-37870fc9a1a7_s.jpg",
+        "pageURL": "https://sa.sufe.edu.cn/92/f1/c3044a234225/page.htm"
+      }
+    ]
+  },
+  {
+    "id": "economics",
+    "title": "经济学院",
+    "features": "浅灰高楼、转角窗带、纵向主楼和侧翼；重复照片按一构图记。",
+    "references": [
+      {
+        "file": "campusTour-35.jpg",
+        "imageURL": "https://p1.itc.cn/q_70/images03/20230810/f9a4db715ee74592b40d7bba60f0804c.png",
+        "pageURL": "https://www.sohu.com/a/710669474_121124732"
+      },
+      {
+        "file": "campusTour2-24.jpg",
+        "imageURL": "https://p6.itc.cn/q_70/images03/20220810/90314a2c0784419197e1a18f8ce1a0e7.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      }
+    ]
+  },
+  {
+    "id": "phoenix",
+    "title": "凤凰楼",
+    "features": "暖浅墙、中央大面积玻璃入口、规则方窗；重复照片按一构图记。",
+    "references": [
+      {
+        "file": "campusTour-37.jpg",
+        "imageURL": "https://p1.itc.cn/q_70/images03/20230810/069448bed55c4046815ccb94b9d649d5.png",
+        "pageURL": "https://www.sohu.com/a/710669474_121124732"
+      },
+      {
+        "file": "campusTour2-29.jpg",
+        "imageURL": "https://p8.itc.cn/q_70/images03/20220810/3536306ad9ef4615ab34d82b47c23e3e.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      }
+    ]
+  },
+  {
+    "id": "enterprise",
+    "title": "创业中心",
+    "features": "三层红砖与玻璃门厅；第二张仅作同校区材料参照，不计作本栋角度。",
+    "references": [
+      {
+        "file": "campusTour2-20.jpg",
+        "imageURL": "https://p3.itc.cn/q_70/images03/20220810/cde323fc6a4e4192b481104ef01eb6bf.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      },
+      {
+        "file": "campusTour-16.jpg",
+        "imageURL": "https://p8.itc.cn/q_70/images03/20230810/8398ff6f9b8842de998bc188418a60d3.jpeg",
+        "pageURL": "https://www.sohu.com/a/710669474_121124732"
+      }
+    ]
+  },
+  {
+    "id": "old_gate",
+    "title": "复建老校门",
+    "features": "位于武东入口与毓秀楼轴线之间；白石墙、中间贯通门洞、深色歇山屋顶、青绿彩梁、两侧六角窗；取消文字匾额。",
+    "references": [
+      {
+        "file": "campusTour-15.jpg",
+        "imageURL": "https://p0.itc.cn/q_70/images03/20230810/44c3403d870e437c9993b732773b5b4a.jpeg",
+        "pageURL": "https://www.sohu.com/a/710669474_121124732"
+      },
+      {
+        "file": "campusTour2-05.jpg",
+        "imageURL": "https://p6.itc.cn/q_70/images03/20220810/ad6f250fa2d244aba2d3d63f8055f32f.jpeg",
+        "pageURL": "https://www.sohu.com/a/575779661_121124732"
+      }
+    ]
+  },
+  {
+    "id": "water_tower",
+    "title": "水塔",
+    "features": "国定校区咖啡厅后方；细圆柱、上扩锥碗、环形顶缘、轻栏杆和顶盖。",
+    "references": [
+      {
+        "file": "heritage-64.jpg",
+        "imageURL": "https://sh.people.com.cn/mediafile/pic/20231204/77/16565932169494035181.jpg",
+        "pageURL": "https://sh.people.com.cn/n2/2023/1204/c134768-40664974.html"
+      },
+      {
+        "file": "heritage17-14.jpg",
+        "imageURL": "https://5b0988e595225.cdn.sohucs.com/images/20170916/dfca635160514e9db12c609ad998f921.jpeg",
+        "pageURL": "https://www.sohu.com/a/192407899_522974"
+      }
+    ]
+  }
+]

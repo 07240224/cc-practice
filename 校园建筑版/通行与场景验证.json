@@ -1,0 +1,960 @@
+{
+  "arrivals": [
+    {
+      "id": "academic_link",
+      "valid": true
+    },
+    {
+      "id": "wudonglecture",
+      "valid": true
+    },
+    {
+      "id": "statistics",
+      "valid": true
+    },
+    {
+      "id": "finance",
+      "valid": true
+    },
+    {
+      "id": "activity",
+      "valid": true
+    },
+    {
+      "id": "research",
+      "valid": true
+    },
+    {
+      "id": "bookstore",
+      "valid": true
+    },
+    {
+      "id": "guoding_gym",
+      "valid": true
+    },
+    {
+      "id": "teaching1",
+      "valid": true
+    },
+    {
+      "id": "teaching2",
+      "valid": true
+    },
+    {
+      "id": "guodinglecture",
+      "valid": true
+    },
+    {
+      "id": "greenleaf_canteen",
+      "valid": true
+    },
+    {
+      "id": "sufe_cafe",
+      "valid": true
+    },
+    {
+      "id": "halal_canteen",
+      "valid": true
+    },
+    {
+      "id": "third_canteen",
+      "valid": true
+    },
+    {
+      "id": "cainiao_station",
+      "valid": true
+    },
+    {
+      "id": "old_gate",
+      "valid": true
+    },
+    {
+      "id": "water_tower",
+      "valid": true
+    },
+    {
+      "id": "g01",
+      "valid": true
+    },
+    {
+      "id": "g02",
+      "valid": true
+    },
+    {
+      "id": "g03",
+      "valid": true
+    },
+    {
+      "id": "g04",
+      "valid": true
+    },
+    {
+      "id": "g05",
+      "valid": true
+    },
+    {
+      "id": "g06",
+      "valid": true
+    },
+    {
+      "id": "g07",
+      "valid": true
+    },
+    {
+      "id": "g08",
+      "valid": true
+    },
+    {
+      "id": "g11",
+      "valid": true
+    },
+    {
+      "id": "g12",
+      "valid": true
+    },
+    {
+      "id": "g13",
+      "valid": true
+    },
+    {
+      "id": "g14",
+      "valid": true
+    },
+    {
+      "id": "g15",
+      "valid": true
+    },
+    {
+      "id": "g16",
+      "valid": true
+    },
+    {
+      "id": "g29",
+      "valid": true
+    },
+    {
+      "id": "g34",
+      "valid": true
+    },
+    {
+      "id": "g35",
+      "valid": true
+    },
+    {
+      "id": "g30",
+      "valid": true
+    },
+    {
+      "id": "g31",
+      "valid": true
+    },
+    {
+      "id": "g32",
+      "valid": true
+    },
+    {
+      "id": "g33",
+      "valid": true
+    },
+    {
+      "id": "g09",
+      "valid": true
+    },
+    {
+      "id": "admin",
+      "valid": true
+    },
+    {
+      "id": "tech_n",
+      "valid": true
+    },
+    {
+      "id": "tech_s",
+      "valid": true
+    },
+    {
+      "id": "law",
+      "valid": true
+    },
+    {
+      "id": "graduate",
+      "valid": true
+    },
+    {
+      "id": "bath",
+      "valid": true
+    },
+    {
+      "id": "medical",
+      "valid": true
+    },
+    {
+      "id": "redtile",
+      "valid": true
+    },
+    {
+      "id": "art",
+      "valid": true
+    },
+    {
+      "id": "museum",
+      "valid": true
+    },
+    {
+      "id": "archive",
+      "valid": true
+    },
+    {
+      "id": "ningyuanB",
+      "valid": true
+    },
+    {
+      "id": "ningyuanA",
+      "valid": true
+    },
+    {
+      "id": "teacher",
+      "valid": true
+    },
+    {
+      "id": "humanities",
+      "valid": true
+    },
+    {
+      "id": "business",
+      "valid": true
+    },
+    {
+      "id": "westoffice",
+      "valid": true
+    },
+    {
+      "id": "affairs",
+      "valid": true
+    },
+    {
+      "id": "stats_e",
+      "valid": true
+    },
+    {
+      "id": "library",
+      "valid": true
+    },
+    {
+      "id": "accounting",
+      "valid": true
+    },
+    {
+      "id": "teaching4",
+      "valid": true
+    },
+    {
+      "id": "economics",
+      "valid": true
+    },
+    {
+      "id": "phoenix",
+      "valid": true
+    },
+    {
+      "id": "enterprise",
+      "valid": true
+    },
+    {
+      "id": "wuchuan_pool",
+      "valid": true
+    },
+    {
+      "id": "exchange",
+      "valid": true
+    },
+    {
+      "id": "wuchuan_hall",
+      "valid": true
+    },
+    {
+      "id": "badminton",
+      "valid": true
+    },
+    {
+      "id": "wuchuan_canteen",
+      "valid": true
+    },
+    {
+      "id": "advanced_research",
+      "valid": true
+    },
+    {
+      "id": "w13",
+      "valid": true
+    },
+    {
+      "id": "w14",
+      "valid": true
+    },
+    {
+      "id": "w15",
+      "valid": true
+    },
+    {
+      "id": "w16",
+      "valid": true
+    },
+    {
+      "id": "w17",
+      "valid": true
+    },
+    {
+      "id": "w18",
+      "valid": true
+    }
+  ],
+  "routes": [
+    {
+      "id": "academic_link",
+      "segments": 4,
+      "invalid": []
+    },
+    {
+      "id": "wudonglecture",
+      "segments": 8,
+      "invalid": []
+    },
+    {
+      "id": "statistics",
+      "segments": 8,
+      "invalid": []
+    },
+    {
+      "id": "finance",
+      "segments": 14,
+      "invalid": []
+    },
+    {
+      "id": "activity",
+      "segments": 14,
+      "invalid": []
+    },
+    {
+      "id": "research",
+      "segments": 17,
+      "invalid": []
+    },
+    {
+      "id": "bookstore",
+      "segments": 19,
+      "invalid": []
+    },
+    {
+      "id": "guoding_gym",
+      "segments": 30,
+      "invalid": []
+    },
+    {
+      "id": "teaching1",
+      "segments": 40,
+      "invalid": []
+    },
+    {
+      "id": "teaching2",
+      "segments": 40,
+      "invalid": []
+    },
+    {
+      "id": "guodinglecture",
+      "segments": 37,
+      "invalid": []
+    },
+    {
+      "id": "greenleaf_canteen",
+      "segments": 27,
+      "invalid": []
+    },
+    {
+      "id": "sufe_cafe",
+      "segments": 24,
+      "invalid": []
+    },
+    {
+      "id": "halal_canteen",
+      "segments": 28,
+      "invalid": []
+    },
+    {
+      "id": "third_canteen",
+      "segments": 25,
+      "invalid": []
+    },
+    {
+      "id": "cainiao_station",
+      "segments": 45,
+      "invalid": []
+    },
+    {
+      "id": "old_gate",
+      "segments": 14,
+      "invalid": []
+    },
+    {
+      "id": "water_tower",
+      "segments": 26,
+      "invalid": []
+    },
+    {
+      "id": "g01",
+      "segments": 34,
+      "invalid": []
+    },
+    {
+      "id": "g02",
+      "segments": 34,
+      "invalid": []
+    },
+    {
+      "id": "g03",
+      "segments": 32,
+      "invalid": []
+    },
+    {
+      "id": "g04",
+      "segments": 29,
+      "invalid": []
+    },
+    {
+      "id": "g05",
+      "segments": 29,
+      "invalid": []
+    },
+    {
+      "id": "g06",
+      "segments": 29,
+      "invalid": []
+    },
+    {
+      "id": "g07",
+      "segments": 28,
+      "invalid": []
+    },
+    {
+      "id": "g08",
+      "segments": 26,
+      "invalid": []
+    },
+    {
+      "id": "g11",
+      "segments": 25,
+      "invalid": []
+    },
+    {
+      "id": "g12",
+      "segments": 24,
+      "invalid": []
+    },
+    {
+      "id": "g13",
+      "segments": 22,
+      "invalid": []
+    },
+    {
+      "id": "g14",
+      "segments": 24,
+      "invalid": []
+    },
+    {
+      "id": "g15",
+      "segments": 22,
+      "invalid": []
+    },
+    {
+      "id": "g16",
+      "segments": 21,
+      "invalid": []
+    },
+    {
+      "id": "g29",
+      "segments": 26,
+      "invalid": []
+    },
+    {
+      "id": "g34",
+      "segments": 29,
+      "invalid": []
+    },
+    {
+      "id": "g35",
+      "segments": 29,
+      "invalid": []
+    },
+    {
+      "id": "g30",
+      "segments": 24,
+      "invalid": []
+    },
+    {
+      "id": "g31",
+      "segments": 23,
+      "invalid": []
+    },
+    {
+      "id": "g32",
+      "segments": 25,
+      "invalid": []
+    },
+    {
+      "id": "g33",
+      "segments": 26,
+      "invalid": []
+    },
+    {
+      "id": "g09",
+      "segments": 29,
+      "invalid": []
+    },
+    {
+      "id": "admin",
+      "segments": 44,
+      "invalid": []
+    },
+    {
+      "id": "tech_n",
+      "segments": 42,
+      "invalid": []
+    },
+    {
+      "id": "tech_s",
+      "segments": 41,
+      "invalid": []
+    },
+    {
+      "id": "law",
+      "segments": 32,
+      "invalid": []
+    },
+    {
+      "id": "graduate",
+      "segments": 30,
+      "invalid": []
+    },
+    {
+      "id": "bath",
+      "segments": 31,
+      "invalid": []
+    },
+    {
+      "id": "medical",
+      "segments": 25,
+      "invalid": []
+    },
+    {
+      "id": "redtile",
+      "segments": 36,
+      "invalid": []
+    },
+    {
+      "id": "art",
+      "segments": 42,
+      "invalid": []
+    },
+    {
+      "id": "museum",
+      "segments": 32,
+      "invalid": []
+    },
+    {
+      "id": "archive",
+      "segments": 32,
+      "invalid": []
+    },
+    {
+      "id": "ningyuanB",
+      "segments": 19,
+      "invalid": []
+    },
+    {
+      "id": "ningyuanA",
+      "segments": 16,
+      "invalid": []
+    },
+    {
+      "id": "teacher",
+      "segments": 15,
+      "invalid": []
+    },
+    {
+      "id": "humanities",
+      "segments": 10,
+      "invalid": []
+    },
+    {
+      "id": "business",
+      "segments": 6,
+      "invalid": []
+    },
+    {
+      "id": "westoffice",
+      "segments": 11,
+      "invalid": []
+    },
+    {
+      "id": "affairs",
+      "segments": 11,
+      "invalid": []
+    },
+    {
+      "id": "stats_e",
+      "segments": 10,
+      "invalid": []
+    },
+    {
+      "id": "library",
+      "segments": 4,
+      "invalid": []
+    },
+    {
+      "id": "accounting",
+      "segments": 18,
+      "invalid": []
+    },
+    {
+      "id": "teaching4",
+      "segments": 10,
+      "invalid": []
+    },
+    {
+      "id": "economics",
+      "segments": 10,
+      "invalid": []
+    },
+    {
+      "id": "phoenix",
+      "segments": 19,
+      "invalid": []
+    },
+    {
+      "id": "enterprise",
+      "segments": 21,
+      "invalid": []
+    },
+    {
+      "id": "wuchuan_pool",
+      "segments": 23,
+      "invalid": []
+    },
+    {
+      "id": "exchange",
+      "segments": 18,
+      "invalid": []
+    },
+    {
+      "id": "wuchuan_hall",
+      "segments": 6,
+      "invalid": []
+    },
+    {
+      "id": "badminton",
+      "segments": 11,
+      "invalid": []
+    },
+    {
+      "id": "wuchuan_canteen",
+      "segments": 10,
+      "invalid": []
+    },
+    {
+      "id": "advanced_research",
+      "segments": 12,
+      "invalid": []
+    },
+    {
+      "id": "w13",
+      "segments": 9,
+      "invalid": []
+    },
+    {
+      "id": "w14",
+      "segments": 7,
+      "invalid": []
+    },
+    {
+      "id": "w15",
+      "segments": 6,
+      "invalid": []
+    },
+    {
+      "id": "w16",
+      "segments": 6,
+      "invalid": []
+    },
+    {
+      "id": "w17",
+      "segments": 5,
+      "invalid": []
+    },
+    {
+      "id": "w18",
+      "segments": 3,
+      "invalid": []
+    }
+  ],
+  "camera": {
+    "type": "OrthographicCamera",
+    "elevation": 35,
+    "azimuth": 12.5,
+    "zoom": 1,
+    "rowDot": 1.2615686273420579e-11,
+    "rowLengths": [
+      12.499999999998655,
+      12.500000000000144
+    ]
+  },
+  "bridges": [
+    {
+      "id": "wudong-link",
+      "underValid": true,
+      "route": 1,
+      "start": [
+        1177.9737137143024,
+        893.4349727458851
+      ],
+      "end": [
+        1176.9630509936926,
+        917.2583742774125
+      ],
+      "clearance": 5.85
+    },
+    {
+      "id": "north-teaching-link",
+      "underValid": true,
+      "route": 1,
+      "start": [
+        1694.375,
+        417.87
+      ],
+      "end": [
+        1694.375,
+        443.08
+      ],
+      "clearance": 5.85
+    }
+  ],
+  "walls": [
+    {
+      "mid": "guoding",
+      "p": [
+        1236,
+        700
+      ],
+      "passable": false
+    },
+    {
+      "mid": "guoding",
+      "p": [
+        1332,
+        649
+      ],
+      "passable": false
+    },
+    {
+      "mid": "guoding",
+      "p": [
+        1339,
+        672
+      ],
+      "passable": false
+    },
+    {
+      "mid": "guoding",
+      "p": [
+        1362,
+        680
+      ],
+      "passable": false
+    },
+    {
+      "mid": "wuchuan",
+      "p": [
+        210,
+        681
+      ],
+      "passable": false
+    },
+    {
+      "mid": "wuchuan",
+      "p": [
+        257,
+        582
+      ],
+      "passable": false
+    },
+    {
+      "mid": "wuchuan",
+      "p": [
+        297,
+        543
+      ],
+      "passable": false
+    },
+    {
+      "mid": "wuchuan",
+      "p": [
+        280,
+        523
+      ],
+      "passable": false
+    }
+  ],
+  "portal": [
+    "guoding",
+    "wuchuan"
+  ],
+  "tri": {
+    "center": [
+      1154,
+      939
+    ],
+    "entries": [
+      {
+        "id": "sime",
+        "x": -44,
+        "z": 10,
+        "porch": "single",
+        "world": [
+          1120.039113034757,
+          970.2835125351039
+        ]
+      },
+      {
+        "id": "scai",
+        "x": 0,
+        "z": 10,
+        "porch": "single",
+        "world": [
+          1159.9166556643697,
+          951.6883090185131
+        ]
+      },
+      {
+        "id": "teaching3",
+        "x": 44,
+        "z": 10,
+        "porch": "wide",
+        "world": [
+          1199.7941982939824,
+          933.0931055019223
+        ]
+      }
+    ],
+    "footprint": [
+      {
+        "outer": [
+          [
+            1091.7701190122475,
+            956.9844908810383
+          ],
+          [
+            1207.7775157529386,
+            902.8893533782286
+          ],
+          [
+            1216.2298809877525,
+            921.0155091189617
+          ],
+          [
+            1100.2224842470614,
+            975.1106466217714
+          ]
+        ],
+        "holes": []
+      }
+    ],
+    "bridgeEnd": [
+      1176.9630509936926,
+      917.2583742774125
+    ]
+  },
+  "errors": [],
+  "externalRequests": [],
+  "mainIdentities": [
+    "academic_link",
+    "wudonglecture",
+    "statistics",
+    "finance",
+    "activity",
+    "research",
+    "bookstore",
+    "guoding_gym",
+    "teaching1",
+    "teaching2",
+    "guodinglecture",
+    "greenleaf_canteen",
+    "sufe_cafe",
+    "halal_canteen",
+    "third_canteen",
+    "cainiao_station",
+    "old_gate",
+    "water_tower",
+    "library",
+    "accounting",
+    "teaching4",
+    "economics",
+    "phoenix",
+    "enterprise",
+    "wuchuan_pool",
+    "exchange",
+    "wuchuan_hall",
+    "badminton",
+    "wuchuan_canteen",
+    "advanced_research",
+    "w13",
+    "w14",
+    "w15",
+    "w16",
+    "w17",
+    "w18",
+    "g01",
+    "g02",
+    "g03",
+    "g04",
+    "g05",
+    "g06",
+    "g07",
+    "g08",
+    "g11",
+    "g12",
+    "g13",
+    "g14",
+    "g15",
+    "g16",
+    "g29",
+    "g34",
+    "g35",
+    "g30",
+    "g31",
+    "g32",
+    "g33",
+    "g09",
+    "admin",
+    "tech_n",
+    "tech_s",
+    "law",
+    "graduate",
+    "bath",
+    "medical",
+    "redtile",
+    "art",
+    "museum",
+    "archive",
+    "ningyuanB",
+    "ningyuanA",
+    "teacher",
+    "humanities",
+    "business",
+    "westoffice",
+    "affairs",
+    "stats_e",
+    "sime",
+    "scai",
+    "teaching3",
+    "student_dormitory"
+  ]
+}

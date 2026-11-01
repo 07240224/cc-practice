@@ -1,0 +1,36 @@
+{
+  "walks": [
+    {
+      "id": "academic_link",
+      "segments": 4,
+      "steps": 505,
+      "distance": 0.13067644154465607,
+      "remaining": 0
+    },
+    {
+      "id": "bookstore",
+      "segments": 19,
+      "steps": 2665,
+      "distance": 0.2952506791043311,
+      "remaining": 0
+    },
+    {
+      "id": "library",
+      "segments": 4,
+      "steps": 508,
+      "distance": 0.29203721075848665,
+      "remaining": 0
+    },
+    {
+      "id": "old_gate",
+      "segments": 14,
+      "steps": 2053,
+      "distance": 0.15480484834226835,
+      "remaining": 0
+    }
+  ],
+  "reveal": [
+    "academic_link-body"
+  ],
+  "errors": []
+}
