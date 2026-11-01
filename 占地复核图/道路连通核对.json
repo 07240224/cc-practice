@@ -1,6 +1,6 @@
 {
   "stage": "等待用户确认的俯视占地稿",
-  "buildingComponents": 115,
+  "buildingComponents": 86,
   "nameAnchors": 88,
   "exclusions": 3,
   "method": "道路连续几何向内收缩1图面单位后核对关键通道，排除角点接触",
@@ -41,5 +41,7 @@
       "sameMainComponent": true,
       "distance": 0.0
     }
-  }
+  },
+  "revision": "F02",
+  "roadsChange": "本轮未改道路几何，原连通核对继续适用"
 }
