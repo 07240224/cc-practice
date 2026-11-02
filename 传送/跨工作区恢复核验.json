@@ -1,0 +1,47 @@
+{
+  "checkedAt": "2026-11-02",
+  "scope": "Linux云端：全新目录恢复、独立虚拟环境安装、任意cwd重建、离线浏览器通行和文档生成；V3应用未改。",
+  "capsule": {
+    "name": "campus-workspace-recovery-v1.zip",
+    "bytes": 73977698,
+    "sha256": "cf70f059bef7e9f32d06807c839d57d4f34a39870e9cc1b50b530d5a7a25de8c",
+    "manifestSHA256": "8f8ed2c8fb47f5a8f2bf7a4bc9d4849ad499f5ddea96904b73ddc26b39a3ce2e",
+    "manifestBytes": 42149,
+    "files": 241,
+    "expandedBytes": 95420172
+  },
+  "restoredFiles": 351,
+  "reproductionSHA256": {
+    "打开校园.html": "0f29b78ef4ac7abc7658f0212152fc0536507a418fe0aad9735fb44316813cc7",
+    "运行脚本.js": "cbf93c10fa83d7badfce1bf3b13bbae7b37dbdf263e3a88d2d42155fb13ad8c7",
+    "场景数据.json": "e344746b388ba6fb757d974df3647c9aa3d7c5c29bd839bf5feff8995e371153",
+    "建筑建模.js": "bfa04ea717f0733e91c0fd0567e13cf01151f176641cc909d651e6ff902e5c6e",
+    "原动作图集.png": "227a5bb1becb0b979f37a28244e0f85e635e97dd3821216f87edcb11bc7723e5",
+    "原动作帧表.json": "6f382b56a990758e426d01097a1a8a08d4cc87de92a2e7364a6fe95a7e9b0a38"
+  },
+  "arrivals": 77,
+  "roadEntrances": 29,
+  "treads": 87,
+  "frontage": [
+    {
+      "riding": false,
+      "ticks": 308,
+      "offRoad": 0,
+      "invalid": 0,
+      "error": 0,
+      "remaining": 0
+    },
+    {
+      "riding": true,
+      "ticks": 115,
+      "offRoad": 0,
+      "invalid": 0,
+      "error": 2.2737367544323206e-13,
+      "remaining": 0
+    }
+  ],
+  "pageErrors": [],
+  "networkRequests": [],
+  "nativeGodot": "完整原Godot工程按固定提交和Git LFS另行恢复；默认恢复浏览器V3和制作链。",
+  "remoteDownload": "待发布后从远端实际恢复验证"
+}

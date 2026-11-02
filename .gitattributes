@@ -2,3 +2,4 @@
 "传送/campus-building-repair-v3.zip" -filter -diff -merge -text
 "传送/image-send-helper.zip" -filter -diff -merge -text
 "图片发送助手/*.cmd" text eol=crlf
+"传送/campus-workspace-recovery-v1.zip" -filter -diff -merge -text

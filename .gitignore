@@ -1,0 +1,6 @@
+.venv/
+.cache/
+**/node_modules/
+**/__pycache__/
+*.pyc
+工作输出/
