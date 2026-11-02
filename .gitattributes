@@ -1,2 +1,2 @@
 传送/*.zip filter=lfs diff=lfs merge=lfs -text
-"传送/campus-original-motion-v2.zip" -filter -diff -merge -text
+"传送/campus-building-repair-v3.zip" -filter -diff -merge -text

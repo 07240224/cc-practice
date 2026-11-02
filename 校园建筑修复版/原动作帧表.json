@@ -1,0 +1,33 @@
+{
+	"animationRate": 7.0,
+	"bikeOffset": 12,
+	"cell": 192,
+	"columns": 32,
+	"directions": [
+		"down",
+		"up",
+		"left",
+		"right"
+	],
+	"frames": [],
+	"origin": [
+		96,
+		160
+	],
+	"phaseCount": 128,
+	"renderScale": 2,
+	"rows": 17,
+	"sequence": [
+		0,
+		1,
+		2,
+		1
+	],
+	"sourceSpeeds": {
+		"bike": 300.0,
+		"run": 175.0,
+		"walk": 112.0
+	},
+	"spriteScale": 0.235,
+	"walkOffset": 0
+}

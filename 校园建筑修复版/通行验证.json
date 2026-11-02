@@ -1,0 +1,1427 @@
+{
+  "arrivals": [
+    {
+      "id": "academic_link",
+      "segments": 2,
+      "ticks": 10,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "wudonglecture",
+      "segments": 10,
+      "ticks": 61,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "statistics",
+      "segments": 12,
+      "ticks": 83,
+      "error": 1.2710574864626038e-12,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "finance",
+      "segments": 18,
+      "ticks": 134,
+      "error": 3.410605131648481e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "activity",
+      "segments": 15,
+      "ticks": 112,
+      "error": 4.687428401686771e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "research",
+      "segments": 32,
+      "ticks": 240,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "bookstore",
+      "segments": 28,
+      "ticks": 211,
+      "error": 2.2737367544323206e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "guoding_gym",
+      "segments": 38,
+      "ticks": 292,
+      "error": 1.7053025658242404e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "teaching1",
+      "segments": 52,
+      "ticks": 751,
+      "error": 5.684341886080802e-14,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "teaching2",
+      "segments": 52,
+      "ticks": 736,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "guodinglecture",
+      "segments": 48,
+      "ticks": 601,
+      "error": 5.684341886080802e-14,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "greenleaf_canteen",
+      "segments": 38,
+      "ticks": 289,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "sufe_cafe",
+      "segments": 32,
+      "ticks": 245,
+      "error": 3.2155493553843715e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "halal_canteen",
+      "segments": 38,
+      "ticks": 293,
+      "error": 1.1368683772161603e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "third_canteen",
+      "segments": 26,
+      "ticks": 206,
+      "error": 5.684341886080802e-14,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "cainiao_station",
+      "segments": 55,
+      "ticks": 920,
+      "error": 0.010169953509600094,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "old_gate",
+      "segments": 15,
+      "ticks": 117,
+      "error": 3.2155493553843715e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "water_tower",
+      "segments": 33,
+      "ticks": 253,
+      "error": 9.25343817704044e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g01",
+      "segments": 34,
+      "ticks": 272,
+      "error": 1.1368683772161603e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g02",
+      "segments": 41,
+      "ticks": 309,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g03",
+      "segments": 32,
+      "ticks": 254,
+      "error": 2.8421709430404007e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g04",
+      "segments": 36,
+      "ticks": 273,
+      "error": 1.1368683772161603e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g05",
+      "segments": 39,
+      "ticks": 294,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g06",
+      "segments": 37,
+      "ticks": 293,
+      "error": 1.7053025658242404e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g07",
+      "segments": 34,
+      "ticks": 271,
+      "error": 9.112693272687351e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g08",
+      "segments": 32,
+      "ticks": 254,
+      "error": 2.3437142008433856e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g11",
+      "segments": 25,
+      "ticks": 194,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g12",
+      "segments": 24,
+      "ticks": 193,
+      "error": 2.3437142008433856e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g13",
+      "segments": 25,
+      "ticks": 191,
+      "error": 2.2737367544323206e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g14",
+      "segments": 24,
+      "ticks": 188,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g15",
+      "segments": 24,
+      "ticks": 190,
+      "error": 4.547473508864641e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g16",
+      "segments": 21,
+      "ticks": 165,
+      "error": 4.099037227506403e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g29",
+      "segments": 34,
+      "ticks": 259,
+      "error": 1.3830600733622801e-12,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g34",
+      "segments": 30,
+      "ticks": 242,
+      "error": 7.190186943645084e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g35",
+      "segments": 39,
+      "ticks": 295,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g30",
+      "segments": 24,
+      "ticks": 196,
+      "error": 6.915300366811401e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g31",
+      "segments": 33,
+      "ticks": 254,
+      "error": 4.547473508864641e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g32",
+      "segments": 26,
+      "ticks": 217,
+      "error": 9.713407672867936e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g33",
+      "segments": 37,
+      "ticks": 281,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g09",
+      "segments": 29,
+      "ticks": 235,
+      "error": 3.4576501834057003e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "admin",
+      "segments": 54,
+      "ticks": 843,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "tech_n",
+      "segments": 42,
+      "ticks": 428,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "tech_s",
+      "segments": 50,
+      "ticks": 703,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "law",
+      "segments": 43,
+      "ticks": 384,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "graduate",
+      "segments": 41,
+      "ticks": 312,
+      "error": 2.8421709430404007e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "bath",
+      "segments": 31,
+      "ticks": 250,
+      "error": 1.1368683772161603e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "medical",
+      "segments": 36,
+      "ticks": 274,
+      "error": 1.1368683772161603e-12,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "redtile",
+      "segments": 37,
+      "ticks": 295,
+      "error": 9.713407672867936e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "art",
+      "segments": 43,
+      "ticks": 461,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "museum",
+      "segments": 43,
+      "ticks": 394,
+      "error": 2.2737367544323206e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "archive",
+      "segments": 42,
+      "ticks": 344,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "ningyuanB",
+      "segments": 19,
+      "ticks": 150,
+      "error": 8.198074455012806e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "ningyuanA",
+      "segments": 16,
+      "ticks": 126,
+      "error": 1.1368683772161603e-12,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "teacher",
+      "segments": 15,
+      "ticks": 125,
+      "error": 1.1368683772161603e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "humanities",
+      "segments": 10,
+      "ticks": 77,
+      "error": 3.595093471822542e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "business",
+      "segments": 10,
+      "ticks": 70,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "westoffice",
+      "segments": 13,
+      "ticks": 93,
+      "error": 3.2155493553843715e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "affairs",
+      "segments": 11,
+      "ticks": 86,
+      "error": 5.684341886080801e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "stats_e",
+      "segments": 11,
+      "ticks": 80,
+      "error": 5.684341886080801e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "library",
+      "segments": 19,
+      "ticks": 138,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "accounting",
+      "segments": 22,
+      "ticks": 156,
+      "error": 8.038873388460929e-14,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "teaching4",
+      "segments": 11,
+      "ticks": 78,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "economics",
+      "segments": 11,
+      "ticks": 81,
+      "error": 4.099037227506403e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "phoenix",
+      "segments": 21,
+      "ticks": 158,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "enterprise",
+      "segments": 23,
+      "ticks": 171,
+      "error": 4.856703836433968e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "wuchuan_pool",
+      "segments": 25,
+      "ticks": 189,
+      "error": 3.8131724593878115e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "exchange",
+      "segments": 28,
+      "ticks": 207,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "wuchuan_hall",
+      "segments": 7,
+      "ticks": 47,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "badminton",
+      "segments": 12,
+      "ticks": 91,
+      "error": 2.3437142008433856e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "wuchuan_canteen",
+      "segments": 12,
+      "ticks": 84,
+      "error": 7.031142602530156e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "advanced_research",
+      "segments": 12,
+      "ticks": 92,
+      "error": 1.2710574864626038e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "w13",
+      "segments": 9,
+      "ticks": 68,
+      "error": 3.410605131648481e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "w14",
+      "segments": 7,
+      "ticks": 60,
+      "error": 1.6077746776921858e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "w15",
+      "segments": 6,
+      "ticks": 50,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "w16",
+      "segments": 6,
+      "ticks": 46,
+      "error": 4.823324033076558e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "w17",
+      "segments": 5,
+      "ticks": 34,
+      "error": 1.1368683772161603e-13,
+      "remaining": 0,
+      "invalid": 0
+    },
+    {
+      "id": "w18",
+      "segments": 3,
+      "ticks": 22,
+      "error": 0,
+      "remaining": 0,
+      "invalid": 0
+    }
+  ],
+  "roadArrivals": [
+    {
+      "id": "academic_link",
+      "entrance": 0,
+      "segments": 2,
+      "ticks": 10,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "academic_link",
+      "entrance": 1,
+      "segments": 2,
+      "ticks": 16,
+      "error": 3.2155493553843715e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "academic_link",
+      "entrance": 2,
+      "segments": 5,
+      "ticks": 31,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "wudonglecture",
+      "entrance": 0,
+      "segments": 10,
+      "ticks": 61,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "statistics",
+      "entrance": 0,
+      "segments": 12,
+      "ticks": 83,
+      "error": 1.2710574864626038e-12,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "finance",
+      "entrance": 0,
+      "segments": 18,
+      "ticks": 134,
+      "error": 3.410605131648481e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "activity",
+      "entrance": 0,
+      "segments": 15,
+      "ticks": 112,
+      "error": 4.687428401686771e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "research",
+      "entrance": 0,
+      "segments": 32,
+      "ticks": 240,
+      "error": 0,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "bookstore",
+      "entrance": 0,
+      "segments": 28,
+      "ticks": 211,
+      "error": 2.2737367544323206e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "guoding_gym",
+      "entrance": 0,
+      "segments": 38,
+      "ticks": 292,
+      "error": 1.7053025658242404e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "teaching1",
+      "entrance": 0,
+      "segments": 52,
+      "ticks": 751,
+      "error": 5.684341886080802e-14,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "teaching2",
+      "entrance": 0,
+      "segments": 52,
+      "ticks": 736,
+      "error": 0,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "guodinglecture",
+      "entrance": 0,
+      "segments": 48,
+      "ticks": 601,
+      "error": 5.684341886080802e-14,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "greenleaf_canteen",
+      "entrance": 0,
+      "segments": 38,
+      "ticks": 289,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "sufe_cafe",
+      "entrance": 0,
+      "segments": 32,
+      "ticks": 245,
+      "error": 3.2155493553843715e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "halal_canteen",
+      "entrance": 0,
+      "segments": 38,
+      "ticks": 293,
+      "error": 1.1368683772161603e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "third_canteen",
+      "entrance": 0,
+      "segments": 26,
+      "ticks": 206,
+      "error": 5.684341886080802e-14,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "cainiao_station",
+      "entrance": 0,
+      "segments": 55,
+      "ticks": 920,
+      "error": 0.010169953509600094,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "library",
+      "entrance": 0,
+      "segments": 19,
+      "ticks": 138,
+      "error": 0,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "accounting",
+      "entrance": 0,
+      "segments": 22,
+      "ticks": 156,
+      "error": 8.038873388460929e-14,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "teaching4",
+      "entrance": 0,
+      "segments": 11,
+      "ticks": 78,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "economics",
+      "entrance": 0,
+      "segments": 11,
+      "ticks": 81,
+      "error": 4.099037227506403e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "phoenix",
+      "entrance": 0,
+      "segments": 21,
+      "ticks": 158,
+      "error": 0,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "enterprise",
+      "entrance": 0,
+      "segments": 23,
+      "ticks": 171,
+      "error": 4.856703836433968e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "wuchuan_pool",
+      "entrance": 0,
+      "segments": 25,
+      "ticks": 189,
+      "error": 3.8131724593878115e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "exchange",
+      "entrance": 0,
+      "segments": 28,
+      "ticks": 207,
+      "error": 0,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "wuchuan_hall",
+      "entrance": 0,
+      "segments": 7,
+      "ticks": 47,
+      "error": 2.5421149729252077e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "badminton",
+      "entrance": 0,
+      "segments": 12,
+      "ticks": 91,
+      "error": 2.3437142008433856e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    },
+    {
+      "id": "wuchuan_canteen",
+      "entrance": 0,
+      "segments": 12,
+      "ticks": 84,
+      "error": 7.031142602530156e-13,
+      "remaining": 0,
+      "offRoad": 0,
+      "validGoal": true,
+      "roadGoal": true
+    }
+  ],
+  "frontage": [
+    {
+      "riding": false,
+      "ticks": 308,
+      "offRoad": 0,
+      "invalid": 0,
+      "error": 0,
+      "remaining": 0
+    },
+    {
+      "riding": true,
+      "ticks": 115,
+      "offRoad": 0,
+      "invalid": 0,
+      "error": 2.2737367544323206e-13,
+      "remaining": 0
+    }
+  ],
+  "steps": [
+    {
+      "id": "academic_link",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "academic_link",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "academic_link",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "academic_link",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "academic_link",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "academic_link",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "academic_link",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "academic_link",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "academic_link",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "wudonglecture",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "wudonglecture",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "wudonglecture",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "statistics",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "statistics",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "statistics",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "finance",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "finance",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "finance",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "activity",
+      "expected": 0.48,
+      "actual": 0.48
+    },
+    {
+      "id": "activity",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "activity",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "activity",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "research",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "research",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "research",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "bookstore",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "bookstore",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "guoding_gym",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "guoding_gym",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "guoding_gym",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "teaching1",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "teaching1",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "teaching1",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "teaching2",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "teaching2",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "teaching2",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "guodinglecture",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "guodinglecture",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "guodinglecture",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "greenleaf_canteen",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "greenleaf_canteen",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "greenleaf_canteen",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "sufe_cafe",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "sufe_cafe",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "halal_canteen",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "halal_canteen",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "halal_canteen",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "third_canteen",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "third_canteen",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "third_canteen",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "cainiao_station",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "cainiao_station",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "cainiao_station",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "library",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "library",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "library",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "accounting",
+      "expected": 0.48,
+      "actual": 0.48
+    },
+    {
+      "id": "accounting",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "accounting",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "accounting",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "teaching4",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "teaching4",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "teaching4",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "economics",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "economics",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "economics",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "phoenix",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "phoenix",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "phoenix",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "enterprise",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "enterprise",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "enterprise",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "wuchuan_pool",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "wuchuan_pool",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "wuchuan_pool",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "exchange",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "exchange",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "exchange",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "wuchuan_hall",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "wuchuan_hall",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "wuchuan_hall",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "badminton",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "badminton",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "badminton",
+      "expected": 0.12,
+      "actual": 0.12
+    },
+    {
+      "id": "wuchuan_canteen",
+      "expected": 0.36,
+      "actual": 0.36
+    },
+    {
+      "id": "wuchuan_canteen",
+      "expected": 0.24,
+      "actual": 0.24
+    },
+    {
+      "id": "wuchuan_canteen",
+      "expected": 0.12,
+      "actual": 0.12
+    }
+  ],
+  "profiles": [
+    "academic_link",
+    "wudonglecture",
+    "statistics",
+    "finance",
+    "activity",
+    "research",
+    "bookstore",
+    "guoding_gym",
+    "teaching1",
+    "teaching2",
+    "guodinglecture",
+    "greenleaf_canteen",
+    "sufe_cafe",
+    "halal_canteen",
+    "third_canteen",
+    "cainiao_station",
+    "library",
+    "accounting",
+    "teaching4",
+    "economics",
+    "phoenix",
+    "enterprise",
+    "wuchuan_pool",
+    "exchange",
+    "wuchuan_hall",
+    "badminton",
+    "wuchuan_canteen"
+  ],
+  "errors": [],
+  "requests": []
+}
