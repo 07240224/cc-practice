@@ -43,5 +43,13 @@
   "pageErrors": [],
   "networkRequests": [],
   "nativeGodot": "完整原Godot工程按固定提交和Git LFS另行恢复；默认恢复浏览器V3和制作链。",
-  "remoteDownload": "待发布后从远端实际恢复验证"
+  "remoteDownload": {
+    "verified": true,
+    "sourceCommit": "027df9f60056e245e4e50606681d78df2d3b4e72",
+    "bootstrapHTTP": 200,
+    "bootstrapSHA256": "cd216df97f695a969d54c198cb9be8ef7aee89ebfafd248e7888306768a0e80b",
+    "packages": "从GitHub raw直接下载两个ZIP；未用--packages-dir",
+    "restoredFiles": 351,
+    "manifestVerification": true
+  }
 }
