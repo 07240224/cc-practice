@@ -119,5 +119,14 @@
     }
   },
   "independentReviewer": "/root/marked_regions_gate",
-  "remoteRecovery": "发布后实际下载验证"
+  "remoteRecovery": {
+    "verified": true,
+    "sourceCommit": "3ccb8f1cbc8cdcc2d76a650c518e2121c58c03a6",
+    "bootstrapHTTP": 200,
+    "bootstrapSHA256": "0de7352b5967d7d4556eb3ad438241377d6f7b426ade6a142e877ed0d8555678",
+    "packages": "纯HTTPS远端下载三个包，未使用本地包缓存",
+    "files": 477,
+    "entry": "校园道路修复版/打开校园.html",
+    "version": "campus-road-layout-repair-v4"
+  }
 }
