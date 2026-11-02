@@ -2,6 +2,7 @@
   "repository": "https://github.com/i-m-not-sufer/sufe-campus-adventure",
   "commit": "5cc649fdf5618df8177251ef59eaed7d6af1e495",
   "gitLFSRequired": true,
-  "browserProject": "校园建筑修复版",
-  "note": "浏览器V3和制作链随恢复包提供。原Godot整仓与LFS资源按需单独恢复；不要把浏览器版当作全部原游戏。"
+  "browserProject": "校园道路修复版",
+  "browserBuildBaseline": "校园建筑修复版",
+  "note": "最新浏览器V4、受保护V3输入及制作链由恢复入口取得。原Godot整仓与LFS资源按需单独恢复；不要把浏览器版当作全部原游戏。"
 }

@@ -1,0 +1,123 @@
+{
+  "version": "V4",
+  "runtime": {
+    "version": "V4",
+    "file": "campus-road-layout-repair-v4.zip",
+    "bytes": 31714843,
+    "sha256": "7f5e3d1c116023a2543e8b044581773b861b53522661a6d13bd0fc8080276dee",
+    "files": 118,
+    "entry": "校园道路修复版/打开校园.html",
+    "coreSHA256": {
+      "打开校园.html": "75b829381d686f67e3d4ddafd9c1f9c1dcaae7a8ed98a526afd9b1f6cc61bc45",
+      "运行脚本.js": "30c5f8c709af20da446a1a06365d6df13cd30c785e3010143912a7183f1620e2",
+      "场景数据.json": "a3bc71f9d81e8cab079653d0b7b8545d5d29c5901ea44b667f9a53e09c8203eb",
+      "建筑建模.js": "021ebc2067c92757cf90630915f4515243066095754c191f4f5b4a1a4bcbf4f4",
+      "原动作图集.png": "227a5bb1becb0b979f37a28244e0f85e635e97dd3821216f87edcb11bc7723e5",
+      "原动作帧表.json": "6f382b56a990758e426d01097a1a8a08d4cc87de92a2e7364a6fe95a7e9b0a38"
+    },
+    "scope": "本轮明确局部道路与边界修复；其余建筑和路网见后续方案",
+    "source": "制作工具/building-repair",
+    "recovery": "传送/恢复校园工作区.py；V3历史输入+V4运行包+v2资料包"
+  },
+  "localRecovery": {
+    "files": 477,
+    "rebuildFromOwnVenv": true,
+    "sixCoreHashesMatch": true
+  },
+  "mapValidation": {
+    "arrivals": 77,
+    "entrances": 31,
+    "treads": 87,
+    "stationWalls": [
+      {
+        "point": [
+          867.4,
+          382
+        ],
+        "valid": false,
+        "road": false
+      },
+      {
+        "point": [
+          876.6,
+          382
+        ],
+        "valid": false,
+        "road": false
+      },
+      {
+        "point": [
+          872,
+          380
+        ],
+        "valid": false,
+        "road": false
+      }
+    ],
+    "pageErrors": [],
+    "requests": [],
+    "geometry": {
+      "cuts": [
+        {
+          "id": "USER-BLUE-PARK",
+          "removedArea": 7044.083323993212,
+          "remainingAreas": {
+            "site": 0.0,
+            "walkSurface": 0.0,
+            "asphalt": 0.0,
+            "paving": 0.0,
+            "roadWalkSurface": 0.0
+          }
+        },
+        {
+          "id": "RESEARCH-SPUR",
+          "removedArea": 420.5,
+          "remainingAreas": {
+            "site": 0.0,
+            "walkSurface": 0.0,
+            "asphalt": 0.0,
+            "paving": 0.0,
+            "roadWalkSurface": 0.0
+          }
+        }
+      ],
+      "revision": "campus-road-layout-repair-v4",
+      "centralLawnRoadArea": 0.0,
+      "joinedReferenceIoU": 0.9489665564208377,
+      "repairedRoadWidths": [
+        {
+          "id": "W-ECON-FRONT",
+          "fullWidth": 7,
+          "missingArea": 1.226521046378479e-13
+        },
+        {
+          "id": "W-RESEARCH-EAST",
+          "fullWidth": 7,
+          "missingArea": 0.0
+        },
+        {
+          "id": "W-METRO-EDGE",
+          "fullWidth": 7,
+          "missingArea": 9.062096663287144e-14
+        },
+        {
+          "id": "W-CANTEEN-BRANCH",
+          "fullWidth": 6,
+          "missingArea": 1.856726578042256e-13
+        },
+        {
+          "id": "W-DORM-LINK",
+          "fullWidth": 6,
+          "missingArea": 2.247667330035341e-12
+        },
+        {
+          "id": "W-METRO-ACCESS",
+          "fullWidth": 5,
+          "missingArea": 2.7434902132744266e-16
+        }
+      ]
+    }
+  },
+  "independentReviewer": "/root/marked_regions_gate",
+  "remoteRecovery": "发布后实际下载验证"
+}

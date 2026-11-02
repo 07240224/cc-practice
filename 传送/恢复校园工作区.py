@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Restore the approved browser V3 and its editable production chain to a new workspace."""
+"""Restore the latest browser V4, its protected V3 inputs, and editable production chain."""
 import argparse
 import ctypes
 import errno
@@ -15,11 +15,13 @@ import tempfile
 import urllib.request
 
 BASE_URL = 'https://raw.githubusercontent.com/07240224/cc-practice/main/%E4%BC%A0%E9%80%81/'
-CAPSULE_MANIFEST_SHA = '8f8ed2c8fb47f5a8f2bf7a4bc9d4849ad499f5ddea96904b73ddc26b39a3ce2e'
-CAPSULE_MANIFEST_BYTES = 42149
+ENTRY_FOLDER = '校园道路修复版'
+CAPSULE_MANIFEST_SHA = '69dbbd7f5d7038bd3df41adb96f4cfa7837620d6986705c99d703ec3ff385f09'
+CAPSULE_MANIFEST_BYTES = 43407
 PACKAGES = [
-    {'file':'campus-building-repair-v3.zip','bytes':27508585,'sha256':'b26d52297c03337f89bf272833a5368381a077636940497357ff372f01a409f4'},
-    {'file':'campus-workspace-recovery-v1.zip','bytes':73977698,'sha256':'cf70f059bef7e9f32d06807c839d57d4f34a39870e9cc1b50b530d5a7a25de8c'},
+    {'file':'campus-building-repair-v3.zip','bytes':27508585,'sha256':'b26d52297c03337f89bf272833a5368381a077636940497357ff372f01a409f4','prefix':'校园建筑修复版','url':'https://raw.githubusercontent.com/07240224/cc-practice/027df9f60056e245e4e50606681d78df2d3b4e72/%E4%BC%A0%E9%80%81/campus-building-repair-v3.zip'},
+    {'file':'campus-workspace-recovery-v2.zip','bytes':73999125,'sha256':'b5f3733e12146257a447b5222c1eca15772deee9fe3e3d1a54d7b47770fe0250'},
+    {'file':'campus-road-layout-repair-v4.zip','bytes':31714843,'sha256':'7f5e3d1c116023a2543e8b044581773b861b53522661a6d13bd0fc8080276dee','prefix':'校园道路修复版'},
 ]
 
 def file_hash(path):
@@ -46,12 +48,14 @@ def verify(root):
     if not inventory_path.is_file() or inventory_path.is_symlink() or file_hash(inventory_path)!=CAPSULE_MANIFEST_SHA:
         raise ValueError('恢复资料清单不匹配，未覆盖')
     inventory=json.loads(inventory_path.read_text(encoding='utf-8'))['files']
-    v3path=root/'制作工具'/'V3文件清单.json'
-    reject_symlinks(v3path)
-    if not v3path.is_file() or file_hash(v3path)!=inventory['制作工具/V3文件清单.json']['sha256']:
-        raise ValueError('V3文件清单不匹配')
     expected_files=dict(inventory)
-    expected_files.update(json.loads(v3path.read_text(encoding='utf-8'))['files'])
+    for version in ['V3','V4']:
+        version_path=root/'制作工具'/(version+'文件清单.json')
+        reject_symlinks(version_path)
+        key='制作工具/'+version+'文件清单.json'
+        if not version_path.is_file() or file_hash(version_path)!=inventory[key]['sha256']:
+            raise ValueError(version+'文件清单不匹配')
+        expected_files.update(json.loads(version_path.read_text(encoding='utf-8'))['files'])
     expected_files['恢复资料清单.json']={'bytes':CAPSULE_MANIFEST_BYTES,'sha256':CAPSULE_MANIFEST_SHA}
     if data.get('files')!=expected_files:
         raise ValueError('恢复成员清单缺失或改变，未覆盖')
@@ -137,7 +141,7 @@ def fetch(spec,temp,local):
             raise ValueError('本地恢复包校验失败：'+spec['file'])
         return source
     print('下载 '+spec['file'],flush=True)
-    request=urllib.request.Request(BASE_URL+spec['file'],headers={'User-Agent':'campus-workspace-restore/1'})
+    request=urllib.request.Request(spec.get('url',BASE_URL+spec['file']),headers={'User-Agent':'campus-workspace-restore/1'})
     with urllib.request.urlopen(request,timeout=90) as response,dest.open('xb') as out:
         total=0
         while True:
@@ -160,7 +164,7 @@ def setup(root,args):
 def main():
     if sys.version_info<(3,10):raise SystemExit('需要Python 3.10或更新版本')
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--target',type=Path,default=Path.cwd()/'校园完整工作区')
+    parser.add_argument('--target',type=Path,default=Path.cwd()/'校园完整工作区V4')
     parser.add_argument('--verify',action='store_true',help='只核对已恢复目录，不写文件')
     parser.add_argument('--packages-dir',type=Path,help='使用本地已有的两个恢复ZIP，仍核对固定SHA256')
     parser.add_argument('--setup-tools',action='store_true',help='恢复后创建本目录.venv并安装构建依赖')
@@ -171,7 +175,7 @@ def main():
     target=target.resolve()
     if args.verify or os.path.lexists(target):
         count=verify(target)
-        print(json.dumps({'verified':True,'files':count,'root':str(target),'entry':str(target/'校园建筑修复版'/'打开校园.html')},ensure_ascii=False))
+        print(json.dumps({'verified':True,'files':count,'root':str(target),'entry':str(target/ENTRY_FOLDER/'打开校园.html')},ensure_ascii=False))
         if not args.verify:setup(target,args)
         return
     target.parent.mkdir(parents=True,exist_ok=True)
@@ -180,21 +184,22 @@ def main():
         temp=Path(name);work=temp/'workspace';work.mkdir();seen=set()
         for i,spec in enumerate(PACKAGES):
             archive=fetch(spec,temp,args.packages_dir)
-            unpack(archive,work,seen,'校园建筑修复版' if i==0 else None)
+            unpack(archive,work,seen,spec.get('prefix'))
         inventory=json.loads((work/'恢复资料清单.json').read_text(encoding='utf-8'))
         for name,item in inventory['files'].items():
             p=work.joinpath(*checked_member(name).parts)
             if p.stat().st_size!=item['bytes'] or file_hash(p)!=item['sha256']:
                 raise ValueError('制作资料成员哈希不匹配：'+name)
-        baseline=json.loads((work/'制作工具'/'已发布基线.json').read_text(encoding='utf-8'))
-        for name,expected in baseline.items():
-            if file_hash(work/'校园建筑修复版'/name)!=expected:
-                raise ValueError('V3基线哈希不匹配：'+name)
+        for manifest_name, folder in [('已发布基线.json','校园建筑修复版'),('V4已发布基线.json',ENTRY_FOLDER)]:
+            baseline=json.loads((work/'制作工具'/manifest_name).read_text(encoding='utf-8'))
+            for name,expected in baseline.items():
+                if file_hash(work/folder/name)!=expected:
+                    raise ValueError(folder+'基线哈希不匹配：'+name)
         files={p.relative_to(work).as_posix():{'bytes':p.stat().st_size,'sha256':file_hash(p)} for p in sorted(work.rglob('*')) if p.is_file()}
         (work/'恢复完成.json').write_text(json.dumps({'format':1,'packages':PACKAGES,'files':files},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
         install_new(work,target)
     count=verify(target)
-    print(json.dumps({'restored':True,'files':count,'root':str(target),'entry':str(target/'校园建筑修复版'/'打开校园.html'),'tools':str(target/'制作工具')},ensure_ascii=False),flush=True)
+    print(json.dumps({'restored':True,'files':count,'root':str(target),'entry':str(target/ENTRY_FOLDER/'打开校园.html'),'tools':str(target/'制作工具')},ensure_ascii=False),flush=True)
     setup(target,args)
 
 if __name__=='__main__':

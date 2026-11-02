@@ -1,0 +1,168 @@
+{
+  "cuts": [
+    {
+      "map": "wuchuan",
+      "valid": false,
+      "road": false,
+      "route": 0
+    },
+    {
+      "map": "guoding",
+      "valid": false,
+      "road": false,
+      "route": 0
+    }
+  ],
+  "routes": [
+    {
+      "id": "W-ECON-FRONT",
+      "riding": false,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    },
+    {
+      "id": "W-ECON-FRONT",
+      "riding": true,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    },
+    {
+      "id": "W-RESEARCH-EAST",
+      "riding": false,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    },
+    {
+      "id": "W-RESEARCH-EAST",
+      "riding": true,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    },
+    {
+      "id": "W-METRO-EDGE",
+      "riding": false,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    },
+    {
+      "id": "W-METRO-EDGE",
+      "riding": true,
+      "bad": 0,
+      "remaining": 0,
+      "error": 1.2710574864626038e-13
+    },
+    {
+      "id": "W-METRO-ACCESS",
+      "riding": false,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    },
+    {
+      "id": "W-METRO-ACCESS",
+      "riding": true,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    },
+    {
+      "id": "W-CANTEEN-BRANCH",
+      "riding": false,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    },
+    {
+      "id": "W-CANTEEN-BRANCH",
+      "riding": true,
+      "bad": 0,
+      "remaining": 0,
+      "error": 1.1368683772161603e-13
+    },
+    {
+      "id": "W-DORM-LINK",
+      "riding": false,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    },
+    {
+      "id": "W-DORM-LINK",
+      "riding": true,
+      "bad": 0,
+      "remaining": 0,
+      "error": 1.6077746776921858e-13
+    }
+  ],
+  "station": [
+    {
+      "riding": false,
+      "segments": 17,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    },
+    {
+      "riding": true,
+      "segments": 17,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    }
+  ],
+  "stationWalls": [
+    {
+      "point": [
+        867.4,
+        382
+      ],
+      "valid": false,
+      "road": false
+    },
+    {
+      "point": [
+        876.6,
+        382
+      ],
+      "valid": false,
+      "road": false
+    },
+    {
+      "point": [
+        872,
+        380
+      ],
+      "valid": false,
+      "road": false
+    }
+  ],
+  "joined": [
+    {
+      "id": "w14",
+      "segments": 11,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    },
+    {
+      "id": "w13",
+      "segments": 13,
+      "bad": 0,
+      "remaining": 0,
+      "error": 0
+    }
+  ],
+  "camera": {
+    "type": "OrthographicCamera",
+    "elevation": 35,
+    "azimuth": 12.5,
+    "zoom": 1
+  },
+  "errors": [],
+  "requests": []
+}

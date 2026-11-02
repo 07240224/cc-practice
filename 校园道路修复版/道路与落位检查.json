@@ -1,0 +1,472 @@
+{
+  "revision": "road-layout-repair-v4",
+  "roadBuildingOverlaps": [],
+  "buildingOverlaps": [],
+  "entrances": [
+    {
+      "id": "library",
+      "road": "W5",
+      "door": [
+        702.4936668687347,
+        751.141224585841
+      ],
+      "arrival": [
+        703.9130504635363,
+        755.0409489621026
+      ],
+      "foreignOverlap": 0.0,
+      "length": 7.92
+    },
+    {
+      "id": "accounting",
+      "road": "W1",
+      "door": [
+        447.04,
+        474.02
+      ],
+      "arrival": [
+        447.04,
+        479.21999999999997
+      ],
+      "foreignOverlap": 0.0,
+      "length": 111.61
+    },
+    {
+      "id": "teaching4",
+      "road": "W7",
+      "door": [
+        617.130302149885,
+        575.0953893117886
+      ],
+      "arrival": [
+        618.5496857446866,
+        578.9951136880502
+      ],
+      "foreignOverlap": 0.0,
+      "length": 16.52
+    },
+    {
+      "id": "economics",
+      "road": "W-ECON-FRONT",
+      "door": [
+        719.3013122215478,
+        463.5652356221816
+      ],
+      "arrival": [
+        720.7206958163493,
+        467.4649599984431
+      ],
+      "foreignOverlap": 0.0,
+      "length": 10.01
+    },
+    {
+      "id": "phoenix",
+      "road": "W1",
+      "door": [
+        410.13030214988504,
+        556.0953893117886
+      ],
+      "arrival": [
+        411.54968574468654,
+        559.9951136880502
+      ],
+      "foreignOverlap": 0.0,
+      "length": 51.3
+    },
+    {
+      "id": "enterprise",
+      "road": "W1",
+      "door": [
+        358.3288473379581,
+        594.2827282717587
+      ],
+      "arrival": [
+        362.09002465416023,
+        596.0365940579826
+      ],
+      "foreignOverlap": 0.0,
+      "length": 37.09
+    },
+    {
+      "id": "wuchuan_pool",
+      "road": "W1",
+      "door": [
+        296.7609245925864,
+        630.1218921878512
+      ],
+      "arrival": [
+        300.5221019087885,
+        631.8757579740751
+      ],
+      "foreignOverlap": 0.0,
+      "length": 25.92
+    },
+    {
+      "id": "exchange",
+      "road": "W2",
+      "door": [
+        365.95,
+        710.96
+      ],
+      "arrival": [
+        365.95,
+        715.11
+      ],
+      "foreignOverlap": 0.0,
+      "length": 79.25
+    },
+    {
+      "id": "wuchuan_hall",
+      "road": "W6",
+      "door": [
+        657.2084834398161,
+        650.5526228988618
+      ],
+      "arrival": [
+        658.6278670346176,
+        654.4523472751233
+      ],
+      "foreignOverlap": 0.0,
+      "length": 22.3
+    },
+    {
+      "id": "badminton",
+      "road": "W1",
+      "door": [
+        634.6693927948505,
+        467.3240061053252
+      ],
+      "arrival": [
+        636.088776389652,
+        471.22373048158676
+      ],
+      "foreignOverlap": 0.0,
+      "length": 34.74
+    },
+    {
+      "id": "wuchuan_canteen",
+      "road": "W-CANTEEN-BRANCH",
+      "door": [
+        787.7882820065594,
+        491.15569669100273
+      ],
+      "arrival": [
+        789.2076656013609,
+        495.05542106726426
+      ],
+      "foreignOverlap": 0.0,
+      "length": 35.91
+    },
+    {
+      "id": "w13",
+      "road": "W-DORM-LINK",
+      "door": [
+        790.1610981402292,
+        525.2802092693665
+      ],
+      "arrival": [
+        791.0908583160588,
+        527.2740864008472
+      ],
+      "foreignOverlap": 0.0,
+      "length": 45.8
+    },
+    {
+      "id": "w13",
+      "road": "W-DORM-LINK",
+      "door": [
+        826.2301958310295,
+        515.0811803071805
+      ],
+      "arrival": [
+        827.159956006859,
+        517.0750574386611
+      ],
+      "foreignOverlap": 0.0,
+      "length": 83.26
+    },
+    {
+      "id": "academic_link",
+      "road": "D5",
+      "door": [
+        1118.3486399877943,
+        966.6582813869572
+      ],
+      "arrival": [
+        1120.1025057740183,
+        970.4194587031594
+      ],
+      "foreignOverlap": 0.0,
+      "length": 19.2
+    },
+    {
+      "id": "academic_link",
+      "road": "D5",
+      "door": [
+        1158.226182617407,
+        948.0630778703664
+      ],
+      "arrival": [
+        1159.980048403631,
+        951.8242551865686
+      ],
+      "foreignOverlap": 0.0,
+      "length": 25.33
+    },
+    {
+      "id": "academic_link",
+      "road": "D5",
+      "door": [
+        1198.1037252470196,
+        929.4678743537756
+      ],
+      "arrival": [
+        1199.8575910332436,
+        933.2290516699778
+      ],
+      "foreignOverlap": 0.0,
+      "length": 31.46
+    },
+    {
+      "id": "wudonglecture",
+      "road": "RED3",
+      "door": [
+        1184.9542359077432,
+        883.5596342753879
+      ],
+      "arrival": [
+        1186.771494433228,
+        887.4567577596455
+      ],
+      "foreignOverlap": 0.0,
+      "length": 13.53
+    },
+    {
+      "id": "statistics",
+      "road": "RED2",
+      "door": [
+        1150.3809460939256,
+        855.2504622962932
+      ],
+      "arrival": [
+        1152.1348118801495,
+        859.0116396124953
+      ],
+      "foreignOverlap": 0.0,
+      "length": 11.11
+    },
+    {
+      "id": "finance",
+      "road": "D3",
+      "door": [
+        853.5537381367664,
+        790.2160040702169
+      ],
+      "arrival": [
+        852.1343545419647,
+        794.1157284464783
+      ],
+      "foreignOverlap": 0.0,
+      "length": 135.17
+    },
+    {
+      "id": "activity",
+      "road": "D2",
+      "door": [
+        1158.233305939822,
+        707.8184378422029
+      ],
+      "arrival": [
+        1153.7017670046387,
+        709.9315291509064
+      ],
+      "foreignOverlap": 0.0,
+      "length": 10.49
+    },
+    {
+      "id": "research",
+      "road": "RESEARCH_FRONT",
+      "door": [
+        1274.851465586116,
+        606.0584879414907
+      ],
+      "arrival": [
+        1273.0342070606312,
+        602.1613644572332
+      ],
+      "foreignOverlap": 0.0,
+      "length": 13.7
+    },
+    {
+      "id": "bookstore",
+      "road": "G8",
+      "door": [
+        1141.688309018513,
+        609.0833443356302
+      ],
+      "arrival": [
+        1144.7697554944377,
+        607.6464422457118
+      ],
+      "foreignOverlap": 0.0,
+      "length": 31.88
+    },
+    {
+      "id": "guoding_gym",
+      "road": "G3",
+      "door": [
+        1266.15,
+        322.97
+      ],
+      "arrival": [
+        1266.15,
+        327.12
+      ],
+      "foreignOverlap": 0.0,
+      "length": 46.15
+    },
+    {
+      "id": "teaching1",
+      "road": "G14",
+      "door": [
+        1706.0,
+        464.08
+      ],
+      "arrival": [
+        1706.0,
+        468.22999999999996
+      ],
+      "foreignOverlap": 0.0,
+      "length": 8.77
+    },
+    {
+      "id": "teaching2",
+      "road": "TEACHING_LINK",
+      "door": [
+        1666.25,
+        417.87
+      ],
+      "arrival": [
+        1666.25,
+        422.02
+      ],
+      "foreignOverlap": 0.0,
+      "length": 8.98
+    },
+    {
+      "id": "guodinglecture",
+      "road": "G14",
+      "door": [
+        1625.65,
+        465.67
+      ],
+      "arrival": [
+        1625.65,
+        469.82
+      ],
+      "foreignOverlap": 0.0,
+      "length": 7.18
+    },
+    {
+      "id": "greenleaf_canteen",
+      "road": "G1",
+      "door": [
+        1407.74,
+        473.61
+      ],
+      "arrival": [
+        1407.74,
+        477.76
+      ],
+      "foreignOverlap": 0.0,
+      "length": 11.24
+    },
+    {
+      "id": "sufe_cafe",
+      "road": "G1",
+      "door": [
+        1267.3,
+        474.5
+      ],
+      "arrival": [
+        1267.3,
+        478.0
+      ],
+      "foreignOverlap": 0.0,
+      "length": 11.0
+    },
+    {
+      "id": "halal_canteen",
+      "road": "G16",
+      "door": [
+        1477.47,
+        568.38
+      ],
+      "arrival": [
+        1477.47,
+        564.23
+      ],
+      "foreignOverlap": 0.0,
+      "length": 2.23
+    },
+    {
+      "id": "third_canteen",
+      "road": "INNER_AXIS",
+      "door": [
+        1031.8082222099297,
+        449.69684458297814
+      ],
+      "arrival": [
+        1030.5258016832736,
+        453.643729125603
+      ],
+      "foreignOverlap": 0.0,
+      "length": 32.49
+    },
+    {
+      "id": "cainiao_station",
+      "road": "G21R",
+      "door": [
+        1833.56215327778,
+        625.5357095704442
+      ],
+      "arrival": [
+        1829.800975961578,
+        627.2895753566681
+      ],
+      "foreignOverlap": 0.0,
+      "length": 7.91
+    }
+  ],
+  "prototypeProfiles": [
+    "academic_link",
+    "wudonglecture",
+    "statistics",
+    "finance",
+    "activity",
+    "research",
+    "bookstore",
+    "guoding_gym",
+    "teaching1",
+    "teaching2",
+    "guodinglecture",
+    "greenleaf_canteen",
+    "sufe_cafe",
+    "halal_canteen",
+    "third_canteen",
+    "cainiao_station",
+    "library",
+    "accounting",
+    "teaching4",
+    "economics",
+    "phoenix",
+    "enterprise",
+    "wuchuan_pool",
+    "exchange",
+    "wuchuan_hall",
+    "badminton",
+    "wuchuan_canteen"
+  ],
+  "roadConnectivity": {},
+  "placementPolicy": "主楼保留，21/22按参考图重连；转折、接站及边界显式修复，无自动腾挪。"
+}

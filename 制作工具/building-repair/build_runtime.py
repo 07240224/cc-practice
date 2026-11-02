@@ -13,7 +13,10 @@ a = old.index('// Architectural geometry.')
 z = old.index('\nfunction wallLine', a)
 base = (B / '建筑建模.js').read_text(encoding='utf-8').replace('function block(', 'function contextBlock(').replace('function entryCanopy(', 'function contextEntryCanopy(').replace('function architecturalBuilding(', 'function legacyArchitecturalBuilding(')
 model = base + '\n' + (R / 'prototype_facades.js').read_text(encoding='utf-8')
+model += '\n' + (R / 'site_features.js').read_text(encoding='utf-8')
+model = model.replace('function prototypeBuilding(b){', "function prototypeBuilding(b){if(b.kind==='metro')return metroEntrance(b);")
 runtime = old[:a] + model + old[z:]
+runtime = runtime.replace("for(const p of m.site)wallLine([...p.outer,p.outer[0]],2.2,.35,'校区围墙');", 'mapBoundary();')
 a = runtime.index('function updateCamera(')
 z = runtime.index('\n', a)
 runtime = runtime[:a] + (R / 'camera_view.js').read_text(encoding='utf-8') + runtime[z:]

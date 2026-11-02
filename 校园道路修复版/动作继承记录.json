@@ -1,0 +1,65 @@
+{
+  "sourceRepo": "https://github.com/i-m-not-sufer/sufe-campus-adventure",
+  "sourceFiles": [
+    {
+      "path": "locations/campus_map/painted/scripts/player.gd",
+      "sha256": "575304366b5c9d7d72d19b4c1e59759438f03ecdb9f9ea43d8a83f6d5126f0fd"
+    },
+    {
+      "path": "locations/campus_map/painted/scripts/bicycle.gd",
+      "sha256": "45060e6a8accfc8f7ea5cdb9f7c8e1b6164bf5512fbe1c3445590591c6a03e61"
+    },
+    {
+      "path": "locations/campus_map/painted/data/frames.json",
+      "sha256": "bbbf29895f27cfe0e2cacb21934ded519d259cb254a95b223f068371af8b9f88"
+    },
+    {
+      "path": "locations/campus_map/painted/assets/student-walk-v2.png",
+      "sha256": "3607f5c576369c52f7fe01ee4bc4cd17cc46404ecf6ff1a424128076cd5bec24"
+    }
+  ],
+  "atlasSHA256": "227a5bb1becb0b979f37a28244e0f85e635e97dd3821216f87edcb11bc7723e5",
+  "geometrySHA256": "a3bc71f9d81e8cab079653d0b7b8545d5d29c5901ea44b667f9a53e09c8203eb",
+  "displacement": {
+    "previousWalk": 4.4,
+    "walkMultiplier": 3,
+    "walk": 13.2,
+    "previousRun": 8,
+    "runMultiplier": 10,
+    "run": 80,
+    "bikeOriginalToWalk": 2.6785714285714284,
+    "bike": 35.35714285714286
+  },
+  "gait": {
+    "order": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "stepsPerSecond": 7,
+    "idleColumn": 1,
+    "rows": [
+      "down",
+      "up",
+      "left",
+      "right"
+    ]
+  },
+  "bicycle": {
+    "key": "F",
+    "sourceRenderedPhases": 128,
+    "originalBodyCrop": 0.68,
+    "originalCadenceRadiansPerSecond": 20,
+    "cadenceMultiplier": 1,
+    "poseEdits": false
+  },
+  "scope": "V4修正局部校地边界、21/22连体、经济学院转折与接站路、科研前三角；原人物素材、走跑帧序、自行车绘制动作、位移速度与体力规则保持。",
+  "runtimeIntegration": {
+    "physicsStep": 0.016666666666666666,
+    "frameAccumulator": true,
+    "maximumCatchupSeconds": 0.25,
+    "cameraFollowPerSecond": 12,
+    "occlusion": "圆外保留原不透明深度；圆内单独绘制局部透明层；切图回收局部层材质。"
+  }
+}

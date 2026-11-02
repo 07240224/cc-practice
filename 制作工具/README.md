@@ -1,12 +1,14 @@
 # 跨工作区恢复与继续制作
 
+当前有效版本是道路与布局修复 V4（`校园道路修复版`）。恢复入口现在同时取得最新 V4、受保护 V3 构建基线和 v2 制作资料；旧 v1 恢复包只对应历史 V3。V4 生成源新增 `building-repair/layout_v4.py` 与 `site_features.js`，全校后续整改方案见根目录 `后续建筑与道路整改方案.md`。
+
 当前目录已持久保存此前仅在旧会话 scratch 中的制作脚本。路径以本目录所在项目为基准，不依赖旧 `/workspace/cc-practice` 或 `/workspace/scratch`。
 
 ## 先恢复文件
 
 运行仓库 `传送/恢复校园工作区.py --target 当前项目/校园完整工作区`。它用标准库下载已核验的 V3 包与制作资料包，安装到全新目录，保存逐文件SHA256清单。目标已存在且内容一致时只验证，不重写；内容有变、目标非空或含符号链接时拒绝覆盖。原有不完整的 cc-practice 无需删除或搬走。
 
-恢复后打开 `校园建筑修复版/打开校园.html` 即可离线运行；读取或直接编辑运行版不需要先装构建依赖。
+恢复后打开 `校园道路修复版/打开校园.html` 即可离线运行；读取或直接编辑运行版不需要先装构建依赖。
 
 ## 继续生成建筑和道路
 
@@ -17,16 +19,18 @@ python 制作工具/安装依赖.py --browser
 .venv/bin/python 制作工具/继续制作.py --verify-reproduction
 ```
 
-Windows 的虚拟环境 Python 为 `.venv/Scripts/python.exe`。生成入口默认输出到 `工作输出/校园建筑修复版`，不会覆盖已发布基线。该输出已存在时指定新的 `--output`。`--verify-reproduction` 用于确认未修改生成源时关键文件与已发布 V3 一致；有意改了生成源后，不使用这个要求逐字相同的选项。
+Windows 的虚拟环境 Python 为 `.venv/Scripts/python.exe`。生成入口默认输出到 `工作输出/校园道路修复版`，不会覆盖已发布基线。该输出已存在时指定新的 `--output`。`--verify-reproduction` 比较 `V4已发布基线.json` 的六项关键文件；有意改了生成源后，不使用这个要求逐字相同的选项。`已发布基线.json` 仍固定保存 V3，供恢复链核验历史输入。
 
 正式有效源是 `building-repair/prepare_scene.py`、`build_runtime.py`、`prototype_facades.js`、`camera_controls.js`、`camera_view.js`。从任意 cwd 调用继续制作入口都使用工具所在项目为根目录。新输出不会继承 V3 的旧截图与独立验收报告。
 
 ## 核验新输出
 
 ```sh
-CAMPUS_OUTPUT_DIR="$PWD/工作输出/校园建筑修复版" node 制作工具/building-repair/validate.cjs
-CAMPUS_OUTPUT_DIR="$PWD/工作输出/校园建筑修复版" node 制作工具/building-repair/catalog.cjs
-CAMPUS_OUTPUT_DIR="$PWD/工作输出/校园建筑修复版" node 制作工具/building-repair/capture_final.cjs
+CAMPUS_OUTPUT_DIR="$PWD/工作输出/校园道路修复版" .venv/bin/python 制作工具/building-repair/validate_layout.py
+CAMPUS_OUTPUT_DIR="$PWD/工作输出/校园道路修复版" node 制作工具/building-repair/validate_v4.cjs
+CAMPUS_OUTPUT_DIR="$PWD/工作输出/校园道路修复版" node 制作工具/building-repair/validate.cjs
+CAMPUS_OUTPUT_DIR="$PWD/工作输出/校园道路修复版" node 制作工具/building-repair/catalog.cjs
+CAMPUS_OUTPUT_DIR="$PWD/工作输出/校园道路修复版" node 制作工具/building-repair/capture_final.cjs
 ```
 
 设置 `CAMPUS_CHROMIUM` 可指定已安装的 Chromium。`document.py` 可生成对照文档和俯视图，需 Pillow及可用中文字体。`.venv`和`node_modules`不随恢复包复制，使用安装入口在新工作区建立。

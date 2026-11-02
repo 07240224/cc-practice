@@ -48,6 +48,9 @@ def entrance(m, x, z, road, angle=0, width=7, canopy='slab', columns=None, steps
         e['via'] = route
     m.setdefault('entrances', []).append(e)
     return e
+from layout_v4 import apply_layout
+apply_layout(D, F, part, world, rings)
+M = {m['id']: m for m in D['models']}
 r = M['research']
 r.update(rotation=25, width=128, depth=64, height=51.8, parts=[part(-7, 1, 42, 27, 14, 'redtower', role='research-tower'), part(-59, 0, 70, 64, 2, 'redtower', h=7.8, role='research-podium'), part(16, -3, 28, 58, 2, 'redtower', h=7.8, role='research-podium'), part(-11, 20, 26, 12, 2, 'redtower', h=7.8, role='research-podium')])
 entrance(r, -10, -25, 'RESEARCH_FRONT', 180, 22, 'research-portico', [-10.2, 10.2], 3, 0.12, 0.7, 7, 7.8)
@@ -56,7 +59,7 @@ g8 = LineString(roadmap['G8']['points'])
 front = LineString([world(r, -150, -43), world(r, 30, -43)])
 cross = g8.intersection(front)
 assert cross.geom_type == 'Point'
-D['maps']['guoding']['roads'].append(dict(id='RESEARCH_FRONT', name='科研楼前连续道路', map='guoding', width=7, points=[[cross.x, cross.y], world(r, 30, -43), roadmap['G18R']['points'][0]], connects=['G8', 'G18R'], basis='初始校园图科研组团西北侧沿楼前道路'))
+D['maps']['guoding']['roads'].append(dict(id='RESEARCH_FRONT', name='科研楼前连续道路', map='guoding', width=7, points=[[cross.x, cross.y], world(r, 30, -43), roadmap['G18R']['points'][0]], connects=['G8', 'G18R'], basis='沿科研楼北侧前沿连接外围道路，不穿三角草坪'))
 r['frontRoad'] = 'RESEARCH_FRONT'
 r['prototype'] = '红砖外框、连续窄竖窗槽、低裙房与深凹玻璃门厅；整体与武东片区同轴。'
 w = M['wudonglecture']
@@ -97,21 +100,29 @@ entrance(m, 0, 15, 'W1', 0, 9, 'phoenix', [], 3)
 m = M['teaching4']
 m.update(height=14.8, parts=[part(0, 0, 92, 30, 4, 'cream', 'terrace')])
 entrance(m, 0, 15, 'W7', 0, 16, 'red-tile', [-6, -2.8, 2.8, 6])
-entrance(M['economics'], 0, 15.5, 'W4', 0, 11, 'economics', [], 3)
+entrance(M['economics'], 0, 15.5, 'W-ECON-FRONT', 0, 11, 'economics', [], 3, route=[[723, 474]])
+joined = M['w13']
+entrance(joined, -19, 8, 'W-DORM-LINK', 0, 6, 'none', [], 0,
+         route=[world(joined, -42, 11), world(joined, -43, -6)])['identity'] = 'w14'
+entrance(joined, 18, 14, 'W-DORM-LINK', 0, 6, 'none', [], 0,
+         route=[world(joined, -3, 17), world(joined, -42, 11), world(joined, -43, -6)])['identity'] = 'w13'
 entrance(M['library'], 39, 32.5, 'W5', 0, 8, 'library', [], 3)
 M['library']['parts'][3].update(z=17.75, d=29.5)
 entrance(M['enterprise'], 0, 12.5, 'W1', 0, 13, 'steel-frame', [], 3)
 for id in ['exchange', 'wuchuan_pool', 'wuchuan_hall', 'badminton', 'wuchuan_canteen']:
     m = M[id]
-    road = {'exchange': 'W2', 'wuchuan_pool': 'W1', 'wuchuan_hall': 'W6', 'badminton': 'W1', 'wuchuan_canteen': 'W4'}[id]
+    road = {'exchange': 'W2', 'wuchuan_pool': 'W1', 'wuchuan_hall': 'W6', 'badminton': 'W1', 'wuchuan_canteen': 'W-CANTEEN-BRANCH'}[id]
     entrance(m, 0, m.get('entryFace', m['depth'] / 2), road, 0, 12, 'sports' if 'hall' in m['kind'] else 'canteen', [], 3, route=[[413, 720]] if id == 'exchange' else None)
 primary = set(['research', 'academic_link', 'wudonglecture', 'statistics', 'finance', 'activity', 'bookstore', 'guoding_gym', 'teaching1', 'teaching2', 'guodinglecture', 'greenleaf_canteen', 'sufe_cafe', 'halal_canteen', 'third_canteen', 'cainiao_station', 'library', 'accounting', 'economics', 'phoenix', 'enterprise', 'teaching4', 'exchange', 'wuchuan_pool', 'wuchuan_hall', 'badminton', 'wuchuan_canteen'])
-report = dict(revision='architecture-repair-v3', roadBuildingOverlaps=[], buildingOverlaps=[], entrances=[], prototypeProfiles=[], roadConnectivity={}, placementPolicy='主楼坐标固定；依据实景部件重建，无自动腾挪。')
+report = dict(revision='road-layout-repair-v4', roadBuildingOverlaps=[], buildingOverlaps=[], entrances=[], prototypeProfiles=[], roadConnectivity={}, placementPolicy='主楼保留，21/22按参考图重连；转折、接站及边界显式修复，无自动腾挪。')
 for m in D['models']:
     m['posts'] = []
     m['groundFixtures'] = []
     m['steps'] = []
     m['actualBuildingFootprint'] = rings(shape(m))
+    if m['kind'] == 'metro':
+        m['groundFixtures'] = [rings(rect(m, x, 0, .45, 7.6))[0] for x in [-4.6, 4.6]]
+        m['groundFixtures'].append(rings(rect(m, 6, 1.2, 1.6, .4))[0])
     if m['id'] in primary:
         m['facadeProfile'] = m['id']
         report['prototypeProfiles'].append(m['id'])
@@ -131,7 +142,7 @@ for m in D['models']:
         if m['kind'] == 'cainiao':
             m['groundFixtures'] = [rings(rect(m, x, 4.5, 2.6, 1.1))[0] for x in [-10.5, 10.5]]
         entries = m.get('entries') or [dict(x=m['entryLocal'][0], z=m.get('entryFace', m['depth'] / 2), porch=m.get('porch', 'double'))]
-        if m['kind'] in ['finance', 'bookstore', 'dormcourt', 'gym', 'cainiao', 'oldgate', 'watertower', 'statistics']:
+        if m['kind'] in ['finance', 'bookstore', 'dormcourt', 'gym', 'cainiao', 'oldgate', 'watertower', 'statistics', 'metro']:
             entries = []
         for e in entries:
             if e.get('porch') in ['single', 'double', 'wide', 'redhip', 'frame']:
@@ -162,6 +173,15 @@ for mid, mp in D['maps'].items():
     site = unary_union([Polygon(r['outer'], r.get('holes', [])) for r in mp['site']])
     lines = {r['id']: LineString(r['points']) for r in mp['roads']}
     asphalt = unary_union([lines[r['id']].buffer(r['width'] / 2, cap_style=2, join_style=2) for r in mp['roads']])
+    if mid == 'wuchuan':
+        # Seven-wide edge road narrows to the five-wide station forecourt over this segment.
+        a, b = lines['W-METRO-ACCESS'].coords
+        dx, dz = b[0] - a[0], b[1] - a[1]
+        length = math.hypot(dx, dz)
+        nx, nz = -dz / length, dx / length
+        taper = Polygon([[a[0] + nx * 3.5, a[1] + nz * 3.5], [b[0] + nx * 2.5, b[1] + nz * 2.5],
+                         [b[0] - nx * 2.5, b[1] - nz * 2.5], [a[0] - nx * 3.5, a[1] - nz * 3.5]])
+        asphalt = asphalt.union(taper)
     junctions = []
     for i, line in enumerate(lines.values()):
         for other in list(lines.values())[i + 1:]:
@@ -170,8 +190,21 @@ for mid, mp in D['maps'].items():
             for p in pts:
                 if not any((p.distance(q) < 2 for q in junctions)):
                     junctions.append(p)
+    repaired_ids = ({'W1', 'W4', 'W-ECON-FRONT', 'W-RESEARCH-EAST', 'W-METRO-EDGE',
+                     'W-METRO-ACCESS', 'W-CANTEEN-BRANCH', 'W-DORM-LINK'} if mid == 'wuchuan'
+                    else {'G3', 'G16', 'G17R', 'G18R', 'RESEARCH_FRONT'})
+    repaired_junctions = []
     for p in junctions:
-        asphalt = asphalt.union(p.buffer(4.4, quad_segs=10))
+        touching = [r for r in mp['roads'] if lines[r['id']].distance(p) < 1e-7]
+        if any(r['id'] in repaired_ids for r in touching):
+            repaired_junctions.append((p, min(r['width'] for r in touching)))
+        else:
+            asphalt = asphalt.union(p.buffer(4.4, quad_segs=10))
+    # Close only the inside corners. Straight stems retain their specified width.
+    for p, width in repaired_junctions:
+        radius = min(1.25, width * .18)
+        rounded = asphalt.buffer(radius, quad_segs=8).buffer(-radius, quad_segs=8)
+        asphalt = asphalt.union(rounded.intersection(p.buffer(width * 2, quad_segs=8)))
     asphalt = asphalt.intersection(site)
     for i, m in enumerate(ms):
         sh = shape(m)
@@ -190,6 +223,9 @@ for mid, mp in D['maps'].items():
         solids.extend((Point(p).buffer(0.3) for b in D['bridges'] for p in b['posts']))
     water = unary_union([Polygon(s['polygon']) for s in D['spaces'] if s['kind'] == 'water' and Polygon(s['polygon']).intersects(site)])
     excluded = unary_union([Polygon(s['polygon']) for s in F['exclusions']])
+    # The old approximate hatch boundary must not shave the verified edge road.
+    if mp.get('protectedRoadCorridors'):
+        excluded = excluded.difference(unary_union([Polygon(s['outer'], s.get('holes', [])) for s in mp['protectedRoadCorridors']]))
     wall = unary_union([LineString(l).buffer(0.3) for l in D['sportsEnclosure']['wallSegments']]) if mid == 'guoding' else Polygon()
     obstacles = unary_union(solids + [water, excluded, wall])
     walk = site.buffer(-0.85).difference(obstacles.buffer(0.65))
@@ -246,7 +282,7 @@ for mid, mp in D['maps'].items():
     assert walk.contains(Point(mp['portal'])), (mid, 'portal blocked')
     mp.update(walkSurface=rings(walk), asphalt=rings(asphalt), paving=rings(paving), junctions=[[p.x, p.y] for p in junctions], grid=dict(origin=[x0, y0], step=step, cols=cols, rows=rows, data=base64.b64encode(grid).decode()), roadGrid=base64.b64encode(roadgrid).decode())
     print(mid, 'asphalt components', len(rings(asphalt)), 'entrances', len(approaches), flush=True)
-D['revision'] = 'campus-architecture-repair-v3'
+D['revision'] = 'campus-road-layout-repair-v4'
 (O / '场景数据.json').write_text(json.dumps(D, ensure_ascii=False, separators=(',', ':')), encoding='utf-8', newline='\n')
 (O / '道路与落位检查.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8', newline='\n')
 print('road overlaps', report['roadBuildingOverlaps'], 'building overlaps', report['buildingOverlaps'])

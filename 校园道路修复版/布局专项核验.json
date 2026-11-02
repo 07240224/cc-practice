@@ -1,0 +1,61 @@
+{
+  "cuts": [
+    {
+      "id": "USER-BLUE-PARK",
+      "removedArea": 7044.083323993212,
+      "remainingAreas": {
+        "site": 0.0,
+        "walkSurface": 0.0,
+        "asphalt": 0.0,
+        "paving": 0.0,
+        "roadWalkSurface": 0.0
+      }
+    },
+    {
+      "id": "RESEARCH-SPUR",
+      "removedArea": 420.5,
+      "remainingAreas": {
+        "site": 0.0,
+        "walkSurface": 0.0,
+        "asphalt": 0.0,
+        "paving": 0.0,
+        "roadWalkSurface": 0.0
+      }
+    }
+  ],
+  "revision": "campus-road-layout-repair-v4",
+  "centralLawnRoadArea": 0.0,
+  "joinedReferenceIoU": 0.9489665564208377,
+  "repairedRoadWidths": [
+    {
+      "id": "W-ECON-FRONT",
+      "fullWidth": 7,
+      "missingArea": 1.226521046378479e-13
+    },
+    {
+      "id": "W-RESEARCH-EAST",
+      "fullWidth": 7,
+      "missingArea": 0.0
+    },
+    {
+      "id": "W-METRO-EDGE",
+      "fullWidth": 7,
+      "missingArea": 9.062096663287144e-14
+    },
+    {
+      "id": "W-CANTEEN-BRANCH",
+      "fullWidth": 6,
+      "missingArea": 1.856726578042256e-13
+    },
+    {
+      "id": "W-DORM-LINK",
+      "fullWidth": 6,
+      "missingArea": 2.247667330035341e-12
+    },
+    {
+      "id": "W-METRO-ACCESS",
+      "fullWidth": 5,
+      "missingArea": 2.7434902132744266e-16
+    }
+  ]
+}

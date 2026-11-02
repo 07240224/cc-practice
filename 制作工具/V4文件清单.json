@@ -1,0 +1,477 @@
+{
+  "format": 1,
+  "files": {
+    "校园道路修复版/01-行走起点.png": {
+      "bytes": 1403445,
+      "sha256": "1b9f4cb977873c3363069f08d3d07fc30201716bd52cc21f9319d4130be90e89"
+    },
+    "校园道路修复版/02-科研门厅与前路.png": {
+      "bytes": 1296237,
+      "sha256": "3f3dfc6c9320e227a2902e879f514c04ea5508d4426a631ca8bf6853b82f351f"
+    },
+    "校园道路修复版/03-科研前路骑车.png": {
+      "bytes": 1291764,
+      "sha256": "f6f0c1fb5ab087b4ad50a982648743fbbcb97626bde1c0177e403514885a5085"
+    },
+    "校园道路修复版/04-第三食堂.png": {
+      "bytes": 1390841,
+      "sha256": "371064cab218e15a03a0088472fb8940fbfa4fa7b5fd7095d55e66f1f2c5a09e"
+    },
+    "校园道路修复版/05-图书馆.png": {
+      "bytes": 894834,
+      "sha256": "cdd4f91fa1ab1f7bbe5c39334afd3d08154c3b7154e90df1f80e10be4eb768c6"
+    },
+    "校园道路修复版/06-连体院楼.png": {
+      "bytes": 1184860,
+      "sha256": "8bef91967a93a069c3a4ce4c7986bb2d07fd9de65a9b9cccfa6d0f0300fa4d87"
+    },
+    "校园道路修复版/07-菜鸟驿站.png": {
+      "bytes": 642208,
+      "sha256": "b6a7731bfa2281619542dfd64bb2785a10cec16637ebe8119f28d3e848f2661b"
+    },
+    "校园道路修复版/08-国定武东全景.png": {
+      "bytes": 529693,
+      "sha256": "8b174e718e9d31f8cff5c3c6709385ba66408f403b4a859f5736642d0cddb85b"
+    },
+    "校园道路修复版/09-武川全景.png": {
+      "bytes": 528131,
+      "sha256": "39429086d5a7564b4094779246d9a85e5d0827bc835c35897abd8d14297d02a8"
+    },
+    "校园道路修复版/10-俯视布局核对.png": {
+      "bytes": 124636,
+      "sha256": "9a227bdbc3cba2d87d8932caccff6dcaffe1980c1f37c19fe9492f44039511e1"
+    },
+    "校园道路修复版/11-经济学院转折与接站道路.png": {
+      "bytes": 1031536,
+      "sha256": "4a66f8f7a34c3484b395f583b20304068fb7efaa6b2ab6ba54c67acca932d4e5"
+    },
+    "校园道路修复版/12-21与22连体楼.png": {
+      "bytes": 1332815,
+      "sha256": "84f391e2a473537414c58c0290f0b65399a5cc6641549fdc150fe363ee3d91e4"
+    },
+    "校园道路修复版/13-黄圈地铁站口.png": {
+      "bytes": 549011,
+      "sha256": "1b3e305e5ec17edb8d83a33623c2478071c68dc01df107c53ec76aca338b1ccb"
+    },
+    "校园道路修复版/14-科研三角外围道路.png": {
+      "bytes": 1292699,
+      "sha256": "97644612af2c16d1f0a6c5d0687952bafade830a33b5b0d75dfea1d5f4e07630"
+    },
+    "校园道路修复版/vendor/THREE-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d"
+    },
+    "校园道路修复版/vendor/three.min.js": {
+      "bytes": 669884,
+      "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa"
+    },
+    "校园道路修复版/使用说明.txt": {
+      "bytes": 1135,
+      "sha256": "6eb7648374b65cbca1fdf83fb3472359b3db413f95aee53bedb883c790796955"
+    },
+    "校园道路修复版/修复专项通行验证.json": {
+      "bytes": 2700,
+      "sha256": "af8b59b28fbd74032844d85f9693b20fd55012f320cefa596b4e8766c195a04a"
+    },
+    "校园道路修复版/动作保留校验.json": {
+      "bytes": 1076,
+      "sha256": "1fe2786cca748346258a8fefab3b1a2367562199b24e9fed753c6c88d63e04e6"
+    },
+    "校园道路修复版/动作继承记录.json": {
+      "bytes": 2030,
+      "sha256": "e8e9290a2917549747ec68411d9da32ed670a10e379173dae4f0bf8ca1477510"
+    },
+    "校园道路修复版/动作继承说明.txt": {
+      "bytes": 485,
+      "sha256": "be5e02220079ca6b46b33d13666ecee82a32d6b6dd58ed7787ad8d983ce36a40"
+    },
+    "校园道路修复版/原动作图集.png": {
+      "bytes": 2326098,
+      "sha256": "227a5bb1becb0b979f37a28244e0f85e635e97dd3821216f87edcb11bc7723e5"
+    },
+    "校园道路修复版/原动作帧表.json": {
+      "bytes": 380,
+      "sha256": "6f382b56a990758e426d01097a1a8a08d4cc87de92a2e7364a6fe95a7e9b0a38"
+    },
+    "校园道路修复版/原动作来源/bicycle.gd": {
+      "bytes": 2872,
+      "sha256": "45060e6a8accfc8f7ea5cdb9f7c8e1b6164bf5512fbe1c3445590591c6a03e61"
+    },
+    "校园道路修复版/原动作来源/frames.json": {
+      "bytes": 417,
+      "sha256": "bbbf29895f27cfe0e2cacb21934ded519d259cb254a95b223f068371af8b9f88"
+    },
+    "校园道路修复版/原动作来源/player.gd": {
+      "bytes": 9416,
+      "sha256": "575304366b5c9d7d72d19b4c1e59759438f03ecdb9f9ea43d8a83f6d5126f0fd"
+    },
+    "校园道路修复版/原动作来源/student-walk-v2.png": {
+      "bytes": 864779,
+      "sha256": "3607f5c576369c52f7fe01ee4bc4cd17cc46404ecf6ff1a424128076cd5bec24"
+    },
+    "校园道路修复版/原动作来源/导出宿主.gd": {
+      "bytes": 406,
+      "sha256": "5aa7ef99ea518d980f8a95294e4f3a657e8256843dc5b1ef16f4b91f52195fdc"
+    },
+    "校园道路修复版/原动作来源/导出工具.gd": {
+      "bytes": 3114,
+      "sha256": "8aad96a9115e56e556766f05a25c4d947b2e27b70e54a5341094ac2df94161f4"
+    },
+    "校园道路修复版/原型对照.html": {
+      "bytes": 20144,
+      "sha256": "4121c729b5fec83bb9f45c8714b693141a2079a5eb1968987cc886caf633dfd9"
+    },
+    "校园道路修复版/原型对照索引.json": {
+      "bytes": 17176,
+      "sha256": "bb73c6e6f0bce4151923d9b3d80b78955c44344aa87affa8fc8f6a297dc76d9f"
+    },
+    "校园道路修复版/后续建筑与道路整改方案.md": {
+      "bytes": 4156,
+      "sha256": "aaf967725eeeb12524af7e2b294e59b3ec9041beca3144d9290c213c109f9ae0"
+    },
+    "校园道路修复版/场景数据.json": {
+      "bytes": 2828383,
+      "sha256": "a3bc71f9d81e8cab079653d0b7b8545d5d29c5901ea44b667f9a53e09c8203eb"
+    },
+    "校园道路修复版/布局专项核验.json": {
+      "bytes": 1271,
+      "sha256": "7fb2367204f98ab002cb9f645bed2d8910d5cb5c01da17a776b8028a2362b0ca"
+    },
+    "校园道路修复版/建筑建模.js": {
+      "bytes": 39313,
+      "sha256": "021ebc2067c92757cf90630915f4515243066095754c191f4f5b4a1a4bcbf4f4"
+    },
+    "校园道路修复版/打开校园.html": {
+      "bytes": 10048942,
+      "sha256": "75b829381d686f67e3d4ddafd9c1f9c1dcaae7a8ed98a526afd9b1f6cc61bc45"
+    },
+    "校园道路修复版/更新内嵌版本.py": {
+      "bytes": 620,
+      "sha256": "772183d245fe35d3178c273c01a501189fe5b6f03cbe6f1398453711224d004d"
+    },
+    "校园道路修复版/本轮修复记录.json": {
+      "bytes": 1200,
+      "sha256": "e3292c0f332af9e509cbe2721b9f40678d38fb3f29e6003069ec0a71ab88a0f9"
+    },
+    "校园道路修复版/本轮独立复核.txt": {
+      "bytes": 577,
+      "sha256": "447694a0d705feda602b237b1078c63242b1c0a90a1d59ba4455a7268589c32f"
+    },
+    "校园道路修复版/构建来源.json": {
+      "bytes": 1000,
+      "sha256": "2b0801e232d8cb373339172a4e18c3cbaa1e00d1ff8b646be67d2d7733e45cb6"
+    },
+    "校园道路修复版/核对照片/accounting-129.jpg": {
+      "bytes": 51305,
+      "sha256": "ead31a7f89ceb356fe740436f6a57fbe605fc7cbe8c5c31dfc1a5becdd8bb902"
+    },
+    "校园道路修复版/核对照片/bookstore-38.jpg": {
+      "bytes": 93588,
+      "sha256": "31f60ac726ec93b3a7d0cb88ef7c67204fab9dbad64911870a609549c622bd81"
+    },
+    "校园道路修复版/核对照片/bookstore-40.jpg": {
+      "bytes": 100683,
+      "sha256": "f482d784e81bc9a13c622f0d481e25d2809257d02aaee9f8306bc9ab20d0ea6f"
+    },
+    "校园道路修复版/核对照片/bookstore-42.jpg": {
+      "bytes": 59168,
+      "sha256": "51e921e0de04dbc2f72bfc77eede427bfbdd0a176d6804c1fe38d04889552df7"
+    },
+    "校园道路修复版/核对照片/campus-03.jpg": {
+      "bytes": 188519,
+      "sha256": "7bc99cd67a02d938ef88dc5499d4ee3cd41f6ac55459545d88f7b4bbae88625a"
+    },
+    "校园道路修复版/核对照片/campusEnglish-03.jpg": {
+      "bytes": 219291,
+      "sha256": "6ab65b60f11c90fa5c18e3a64216a221a46e841e7e9f101252c7fa159db1ed52"
+    },
+    "校园道路修复版/核对照片/campusEnglish-04.jpg": {
+      "bytes": 271206,
+      "sha256": "d2243dfcda0156af98499cc445e3ddf533b0798d53da0092cd131e26355eeeaf"
+    },
+    "校园道路修复版/核对照片/campusTour-16.jpg": {
+      "bytes": 168172,
+      "sha256": "cb65460d2ce1db9ae343462808fc80cf9b535ac3583488f416195b220ac9c407"
+    },
+    "校园道路修复版/核对照片/campusTour-22.jpg": {
+      "bytes": 60295,
+      "sha256": "8d8d732ecc9736618e407387403f1e0b41f01e2d378e9c1a6b862af654507fbb"
+    },
+    "校园道路修复版/核对照片/campusTour-30.jpg": {
+      "bytes": 101282,
+      "sha256": "e94b743c451b9dfa357dc54a2980d30b52b44bbfb55c673f5340c51ede8fdb1d"
+    },
+    "校园道路修复版/核对照片/campusTour-31.jpg": {
+      "bytes": 100428,
+      "sha256": "1b694e39b0698c190692a58b375dea384d86e1f7eddedb191e4a63d4ed51993c"
+    },
+    "校园道路修复版/核对照片/campusTour-34.jpg": {
+      "bytes": 175043,
+      "sha256": "8f62ee842fb13156c3de2f291a8b1c40b84bac997bef32401cc50630ec799d85"
+    },
+    "校园道路修复版/核对照片/campusTour-35.jpg": {
+      "bytes": 50278,
+      "sha256": "edf0466084fe690ca59a0763604c61dc46d5c9840375deb89ddf82aeb815cfaa"
+    },
+    "校园道路修复版/核对照片/campusTour-37.jpg": {
+      "bytes": 267576,
+      "sha256": "57652034db6371401ec9f5cee35e8c36f787191c5602f2575d53563e95d0b6e7"
+    },
+    "校园道路修复版/核对照片/campusTour-38.jpg": {
+      "bytes": 81921,
+      "sha256": "cf3a50b0b0fe9ff160674707f9e24ebe1aef686a703a9d6e61cedd395c3e3560"
+    },
+    "校园道路修复版/核对照片/campusTour-39.jpg": {
+      "bytes": 100323,
+      "sha256": "ddc9168bcaf4c1823c3bca8342128be896d21e0ecb7be56b892970f4068dfe63"
+    },
+    "校园道路修复版/核对照片/campusTour2-13.jpg": {
+      "bytes": 141438,
+      "sha256": "dac500320b3ca6ee822f5e6625c54dca6ab5bd6ec5331c633c4839cac6ef89d6"
+    },
+    "校园道路修复版/核对照片/campusTour2-15.jpg": {
+      "bytes": 34020,
+      "sha256": "3c4126d77652c2672845976d87339d6cfbf1629ce34f28bd68f7b28f9845cf49"
+    },
+    "校园道路修复版/核对照片/campusTour2-16.jpg": {
+      "bytes": 52635,
+      "sha256": "e56691027491ae70f67b86d0ec291c185d19fa5c6192a40eab381da638b6d694"
+    },
+    "校园道路修复版/核对照片/campusTour2-17.jpg": {
+      "bytes": 191812,
+      "sha256": "06d8e7dfd6cb03d8887f0ad98bc8f3e43758c73b25e0378b65c09cbbc7565489"
+    },
+    "校园道路修复版/核对照片/campusTour2-18.jpg": {
+      "bytes": 226710,
+      "sha256": "6ef9db362461c9a492cd91cb04ae6b69c614690ea1f761b35e3db18c3372cc76"
+    },
+    "校园道路修复版/核对照片/campusTour2-19.jpg": {
+      "bytes": 242471,
+      "sha256": "90d76b36d3e51e7a5fabe745a99eb1e19c86cc64f07004065c7c1ba896b3e4cc"
+    },
+    "校园道路修复版/核对照片/campusTour2-20.jpg": {
+      "bytes": 49150,
+      "sha256": "e51f963287a7cbdf8f555fc981a9f829af691a3f9cf93a184abc842736843692"
+    },
+    "校园道路修复版/核对照片/campusTour2-21.jpg": {
+      "bytes": 212114,
+      "sha256": "6105c23a2024ab909370bae248d6141bed41f65ef8b731de45ee66fef9c0483f"
+    },
+    "校园道路修复版/核对照片/campusTour2-24.jpg": {
+      "bytes": 68139,
+      "sha256": "4ecd85562946ecdc6bc53c97882b9dea04058d010b4e4220cbfeea45b70132f0"
+    },
+    "校园道路修复版/核对照片/campusTour2-27.jpg": {
+      "bytes": 145062,
+      "sha256": "2428943cd9dd75b43c2a38e8917908ccf021bff439113229706b889dfd79cfa6"
+    },
+    "校园道路修复版/核对照片/campusTour2-29.jpg": {
+      "bytes": 267141,
+      "sha256": "8b0d542a3913140ddde53d89f9a1bd9ea19b5f6c853cb252556bf58e9922ba92"
+    },
+    "校园道路修复版/核对照片/campusTour2-32.jpg": {
+      "bytes": 97144,
+      "sha256": "16337c4e289af4f5a324c58fbad8b1731c854dba1685de044ce57ad0ecc4cc1c"
+    },
+    "校园道路修复版/核对照片/canteens-03.jpg": {
+      "bytes": 118030,
+      "sha256": "467b1d6e2db3c172bdd028cfa1199bf41f57896248b5b56d58247f89eb71b705"
+    },
+    "校园道路修复版/核对照片/canteens-10.jpg": {
+      "bytes": 167340,
+      "sha256": "5ea7c85c853083dbc0d62312a3424dcef506c567b890532919273e3a80c53aa2"
+    },
+    "校园道路修复版/核对照片/finance-09.jpg": {
+      "bytes": 222555,
+      "sha256": "78d4fa6f52657a0f117c774c7028fd63447f2bc44aac063c19633b36d1dd0773"
+    },
+    "校园道路修复版/核对照片/finance2-04.jpg": {
+      "bytes": 252248,
+      "sha256": "ae3de5f7d6394b4a4df45693196ada2cd2ade4a1bc367d0a920370ecc3ccbd47"
+    },
+    "校园道路修复版/核对照片/food17-08.jpg": {
+      "bytes": 58187,
+      "sha256": "bf8b2678eb0a9b268f44b95b309d1705d9fd658875341a55c5cefa6835ca30be"
+    },
+    "校园道路修复版/核对照片/food17-20.jpg": {
+      "bytes": 53279,
+      "sha256": "82721a5fc061cfe3862e69febceaaf140a27092ace40b72ff02c01ce3f83ffdf"
+    },
+    "校园道路修复版/核对照片/food22-00.jpg": {
+      "bytes": 110938,
+      "sha256": "5c63a4f5d10d3d9b081c0632def60fa178ca8c6b185fd3abc56155dc384f7356"
+    },
+    "校园道路修复版/核对照片/food22-04.jpg": {
+      "bytes": 239395,
+      "sha256": "fa0547f8df41387c64045871f13f91fde26e947f94abcd70f983e605d006c212"
+    },
+    "校园道路修复版/核对照片/food22-08.jpg": {
+      "bytes": 64814,
+      "sha256": "14501e44a734497b6e1395b47aa3961a4193a4fd7a854550ca7974e8080177f6"
+    },
+    "校园道路修复版/核对照片/food26-16.jpg": {
+      "bytes": 173243,
+      "sha256": "d37b281093fd9d997e2f0747af0f4d2f488013b5871bb4c8603589acc58014f5"
+    },
+    "校园道路修复版/核对照片/gym-02.jpg": {
+      "bytes": 54103,
+      "sha256": "e7f82cd38273aa3aa3cbea402c426471a2968afc956cb6cd9e637d32381cbf3b"
+    },
+    "校园道路修复版/核对照片/heritage-58.jpg": {
+      "bytes": 73036,
+      "sha256": "04d6f3709a0407b125da531685d1edcb8013402e000e344f0c91e1aefc7a5bfc"
+    },
+    "校园道路修复版/核对照片/libraryAerial-00.jpg": {
+      "bytes": 112918,
+      "sha256": "374b01eb0d5fabcf4f0b0ef7e650c3351c0b1e74f5f6464a0ba0e1126a6540b7"
+    },
+    "校园道路修复版/核对照片/reference-corridor-side.jpg": {
+      "bytes": 368582,
+      "sha256": "e244e3c20a5c36d3dec2e1bd364452941ce112851490e6edd30525dcdc4f6e29"
+    },
+    "校园道路修复版/核对照片/reference-corridor-under.jpg": {
+      "bytes": 252210,
+      "sha256": "8c383f0e657c95a01d5e4f95f24361dbbff17fca3095b1dbf7f76acf8b2969b3"
+    },
+    "校园道路修复版/核对照片/reference-lecture.jpg": {
+      "bytes": 328940,
+      "sha256": "9e9f761dc1e824f0958cbd0266f0047ca72a3ad831cfd3f443985e08e1a1757e"
+    },
+    "校园道路修复版/核对照片/researchAlt-00.jpg": {
+      "bytes": 119294,
+      "sha256": "e23980e2897c862eae519528d606bd110e170388b58eaf41ef7c86b59e36018f"
+    },
+    "校园道路修复版/核对照片/services22-08.jpg": {
+      "bytes": 88785,
+      "sha256": "58d7e549cb260c917cba13fb2f578d8d1801ddc8acbd748c76b276aa93bb9417"
+    },
+    "校园道路修复版/核对照片/services23-12.jpg": {
+      "bytes": 102980,
+      "sha256": "3202b61eefd3397e3463e1fb3dd31499ba1224e72c944a82b2620b08cff1ba18"
+    },
+    "校园道路修复版/核对照片/studentReal-00.jpg": {
+      "bytes": 120901,
+      "sha256": "faf6e964b1db2ad54876ce9e854899bffa2dba85f1bd33702e003371a2a8fa65"
+    },
+    "校园道路修复版/模型核对/academic_link.png": {
+      "bytes": 168428,
+      "sha256": "fa6be7a84e896e725eb5236c65085937f982f3f254c1b135bbb6c80470cf96aa"
+    },
+    "校园道路修复版/模型核对/accounting.png": {
+      "bytes": 127893,
+      "sha256": "7f53e8ad29cb05a4d0f6ad1dfcc7d6cbe2ed1fb019b2ad8f2b297957b5e7f5af"
+    },
+    "校园道路修复版/模型核对/activity.png": {
+      "bytes": 182880,
+      "sha256": "e069c8ae85e82ca7bb2a0469f16111acfe042642a7c1ba23268ae6eb9ec38b20"
+    },
+    "校园道路修复版/模型核对/badminton.png": {
+      "bytes": 20909,
+      "sha256": "05adac40d1e7dc5397df9727838e626d00ef2a456544a2a8614ebc94e7f9ab44"
+    },
+    "校园道路修复版/模型核对/bookstore.png": {
+      "bytes": 21897,
+      "sha256": "a4e3e348fb8d9306903457857bb73cbf78f56741c39ea890b2192969aaf3f87e"
+    },
+    "校园道路修复版/模型核对/cainiao_station.png": {
+      "bytes": 57348,
+      "sha256": "bdb99f4382a6c417e3a02cd3f5e6d75ffc9ededf374afb8701f35a2a95e70527"
+    },
+    "校园道路修复版/模型核对/economics.png": {
+      "bytes": 132782,
+      "sha256": "5ee323279b0ae1d7ed89c964c0c9f130205e8b7945ea9e82bd73d37d4ca3b1a8"
+    },
+    "校园道路修复版/模型核对/enterprise.png": {
+      "bytes": 153418,
+      "sha256": "3ee1ac838522ddd10b7bdbe34355a78e591580ba5fcc72e26958f678329bdbc2"
+    },
+    "校园道路修复版/模型核对/exchange.png": {
+      "bytes": 74799,
+      "sha256": "1722f55a75857fcae2142fafae13e041ed4e684116772dfbb05429a260b1d017"
+    },
+    "校园道路修复版/模型核对/finance.png": {
+      "bytes": 141468,
+      "sha256": "72df8f522976ab822567e1aa4ffb4d443833eb951d9ffc44d03bd09cf530b737"
+    },
+    "校园道路修复版/模型核对/greenleaf_canteen.png": {
+      "bytes": 67943,
+      "sha256": "e2e13580f71656211fcce02c7dc10bf4d8d70db74482ac1137f5845af3de822f"
+    },
+    "校园道路修复版/模型核对/guoding_gym.png": {
+      "bytes": 56917,
+      "sha256": "eb52e355aa45955e5fb4317bca9bf830c08ce4e898db8a4977b9bc105a992a98"
+    },
+    "校园道路修复版/模型核对/guodinglecture.png": {
+      "bytes": 115664,
+      "sha256": "250ccc5102f799afbee30fa867e2c5a119a7f3e19baf789f57f346da0d83d16e"
+    },
+    "校园道路修复版/模型核对/halal_canteen.png": {
+      "bytes": 71686,
+      "sha256": "127783a9f78e48d8839af6e804900667ddf75e4eba16566a1db647b8fb412328"
+    },
+    "校园道路修复版/模型核对/library.png": {
+      "bytes": 146931,
+      "sha256": "cd58698acfde966ed5f3481f60ff9f5cdd3e1bbb6c52a432b51440c4bf0e2acf"
+    },
+    "校园道路修复版/模型核对/phoenix.png": {
+      "bytes": 122209,
+      "sha256": "7936dc320732d014b6a2e40c904e497445b11e52ff98dd5b38d0cc73bd4d1105"
+    },
+    "校园道路修复版/模型核对/research.png": {
+      "bytes": 114932,
+      "sha256": "1bba449d577dff55a3eb621603b23762b0a87b64846a1a8c3d962d457d01d4e5"
+    },
+    "校园道路修复版/模型核对/statistics.png": {
+      "bytes": 109270,
+      "sha256": "0b7bc6debd690295c47dd136ce1afdf91d663208107b5ccf818814f96573e1ed"
+    },
+    "校园道路修复版/模型核对/sufe_cafe.png": {
+      "bytes": 73097,
+      "sha256": "1037162392704e551d826595f9d3c03a755a71200650dd89ffdd6d2bf410048a"
+    },
+    "校园道路修复版/模型核对/teaching1.png": {
+      "bytes": 139506,
+      "sha256": "ac057ddfd524a4d0050d2b9e22592fc6c021778c7df00f106f24b23f3e77b0fb"
+    },
+    "校园道路修复版/模型核对/teaching2.png": {
+      "bytes": 127472,
+      "sha256": "cd4a067c1881aeafefc6f70dabea43f083133fce666927a6623311313e2624d5"
+    },
+    "校园道路修复版/模型核对/teaching4.png": {
+      "bytes": 100834,
+      "sha256": "962d3d36ac384eacfb081fc70befd54778710ed1a13c61515edbf1b207278649"
+    },
+    "校园道路修复版/模型核对/third_canteen.png": {
+      "bytes": 66596,
+      "sha256": "6f251796f6300c863f98f77f22764ece35cae02feef1f443cd6a8683f44eeb08"
+    },
+    "校园道路修复版/模型核对/wuchuan_canteen.png": {
+      "bytes": 87474,
+      "sha256": "11a1422a599742eb943e641cde7b300446503c04d2953b8ae4a30747d7283602"
+    },
+    "校园道路修复版/模型核对/wuchuan_hall.png": {
+      "bytes": 33724,
+      "sha256": "b433d5b53b2ffd22b5824a60753e364a9f31fdc42d593e7fdf9a2485680a81e2"
+    },
+    "校园道路修复版/模型核对/wuchuan_pool.png": {
+      "bytes": 45526,
+      "sha256": "6cc5bcef4090abd23c17d75736b025188c08722c6ff6b2b3cd2e1b665155a84d"
+    },
+    "校园道路修复版/模型核对/wudonglecture.png": {
+      "bytes": 217435,
+      "sha256": "3ceb9343751784ab7763b1905cb794cd0086c3576bf21b24ad3013307b400bea"
+    },
+    "校园道路修复版/运行脚本.js": {
+      "bytes": 71070,
+      "sha256": "30c5f8c709af20da446a1a06365d6df13cd30c785e3010143912a7183f1620e2"
+    },
+    "校园道路修复版/通行验证.json": {
+      "bytes": 26976,
+      "sha256": "3dc1c043babf3a36f5666a99b4ce15aea38aa2031fa5d3252b96b677bf9a4335"
+    },
+    "校园道路修复版/道路与落位检查.json": {
+      "bytes": 8866,
+      "sha256": "9f2f7bdce460e834dc6386b650d6f23c9db6b97ddad8f3d0113e6749a790b78a"
+    }
+  }
+}

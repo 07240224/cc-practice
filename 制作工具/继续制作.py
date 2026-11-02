@@ -17,14 +17,14 @@ def main():
     tools = Path(__file__).resolve().parent
     root = tools.parent
     baseline = root / '校园建筑修复版'
-    out = (args.output or root / '工作输出' / '校园建筑修复版').absolute()
+    out = (args.output or root / '工作输出' / '校园道路修复版').absolute()
     for p in [out, *out.parents]:
         if p.is_symlink():
             raise SystemExit('输出路径包含符号链接，拒绝写入')
     out = out.resolve()
     if out.exists():
         raise SystemExit('输出已存在，未更改任何文件；请指定新的 --output')
-    protected = [root / n for n in ['校园建筑修复版', '校园动作继承版', '校园建筑版', '制作工具', '占地复核图', '图片发送助手', '参考资料', '传送']]
+    protected = [root / n for n in ['校园道路修复版', '校园建筑修复版', '校园动作继承版', '校园建筑版', '制作工具', '占地复核图', '图片发送助手', '参考资料', '传送']]
     if out == root or any(out == p or p in out.parents or out in p.parents for p in protected):
         raise SystemExit('拒绝覆盖或嵌入已发布基线、工具或资料目录')
     if not (baseline / '打开校园.html').is_file():
@@ -46,16 +46,19 @@ def main():
         env['CAMPUS_OUTPUT_DIR'] = str(staging)
         for name in ['prepare_scene.py', 'build_runtime.py']:
             subprocess.run([sys.executable, str(tools / 'building-repair' / name)], env=env, check=True)
-        frozen = json.loads((tools / '已发布基线.json').read_text(encoding='utf-8'))
+        baseline_manifest = tools / 'V4已发布基线.json'
+        if not baseline_manifest.is_file():
+            baseline_manifest = tools / '已发布基线.json'
+        frozen = json.loads(baseline_manifest.read_text(encoding='utf-8'))
         actual = {name: hashlib.sha256((staging / name).read_bytes()).hexdigest() for name in frozen}
         same = actual == frozen
         if args.verify_reproduction and not same:
             raise SystemExit('重现哈希不一致，未写入目标；差异：' + ', '.join(n for n in frozen if actual[n] != frozen[n]))
-        (staging / '构建结果.json').write_text(json.dumps({'reproducesPublishedV3': same, 'sha256': actual, 'validation': '新输出不继承原版验收记录；编辑后的版本须重新验证并复核。'}, ensure_ascii=False, indent=2), encoding='utf-8')
+        (staging / '构建结果.json').write_text(json.dumps({'reproducesPublishedVersion': same, 'publishedBaseline': baseline_manifest.name, 'sha256': actual, 'validation': '新输出不继承原版验收记录；编辑后的版本须重新验证并复核。'}, ensure_ascii=False, indent=2), encoding='utf-8')
         # The target has not existed. Linux renameat2 is used by the restore module when available.
         from 恢复支持 import install_new_directory
         install_new_directory(staging, out)
-    print(json.dumps({'output': str(out), 'reproducesPublishedV3': same, 'entry': str(out / '打开校园.html')}, ensure_ascii=False))
+    print(json.dumps({'output': str(out), 'reproducesPublishedVersion': same, 'publishedBaseline': baseline_manifest.name, 'entry': str(out / '打开校园.html')}, ensure_ascii=False))
 
 if __name__ == '__main__':
     main()
