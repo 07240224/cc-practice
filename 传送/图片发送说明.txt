@@ -1,0 +1,9 @@
+图片发送工具：image-send-helper.zip
+
+用于将原图封装为ZIP，以文件附件发送至原对话。保留原始文件字节，不缩图。
+Windows可用“截图转ZIP.cmd”读取剪贴板图片打包，或“原图文件转ZIP.cmd”选择原图。
+跨平台离线方式：打开“打开图片打包工具.html”，拖入、选择或粘贴图片，下载ZIP后发送。
+网页打包已实际验证；Windows脚本已静态审查，未在Windows执行验证。Codex消息接收上限保持不变。
+地图最新包campus-building-repair-v3.zip及队友原始包继续保留。
+
+SHA256：b014e5bce86e20b70ec5b4571ea53db28cf7a4f52a089aafded447076b1596a2

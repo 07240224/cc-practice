@@ -1,0 +1,24 @@
+图片发送助手
+
+作用：将图片封装为ZIP，改用文件附件发送；消息大小上限保持不变。
+这是发送方式的替代方案，不修改Codex客户端或服务器的消息大小上限。
+
+Windows截图：
+截图后运行“截图转ZIP.cmd”。工具把剪贴板图片无损保存为PNG并放进ZIP，再把ZIP文件放进剪贴板。回到原Codex对话按Ctrl+V，以ZIP文件附件发送。
+
+原始图片文件：
+运行“原图文件转ZIP.cmd”，选择图片，工具打成ZIP并复制ZIP文件到剪贴板。文件内容逐字节保留，不缩图、不压低清晰度。回到原对话粘贴文件附件。
+
+浏览器备用方式：
+打开“打开图片打包工具.html”，选择、拖入或粘贴图片，下载ZIP，再作为文件附件发到原对话。网页离线运行，不上传到第三方。
+
+ZIP保存位置：%LOCALAPPDATA%\CodexImageSender\packages
+多张图片按24 MiB分包；单张超过单包大小时会提示并停止。若Codex不接收剪贴板中的文件列表，请用附件按钮选择生成的ZIP。
+收到ZIP后，助手按文件下载并解压查看原图。
+
+验证范围：离线网页打包已用真实PNG及大文件测试，ZIP的CRC与图片字节一致；Windows脚本已做静态审查，未在Windows执行验证。原报错图片的发送结果需要在实际Codex客户端中验证。
+
+诊断依据：
+https://github.com/hyperium/tonic/blob/master/tonic/src/codec/decode.rs
+https://github.com/hyperium/tonic/blob/master/tonic/src/codec/mod.rs
+https://github.com/openai/codex/issues/54870

@@ -1,0 +1,16 @@
+{
+  "realPNGBytes": 1295368,
+  "largeInputBytes": 16021329,
+  "largeZipBytes": 16021455,
+  "batchCounts": [
+    1,
+    1
+  ],
+  "jsErrors": 0,
+  "externalRequests": 0,
+  "zipCRC": "passed",
+  "realPNGByteIdentity": true,
+  "largeLoadByteIdentity": true,
+  "windowsClientEndToEnd": "not executed in this cloud environment",
+  "clientLimitChanged": false
+}

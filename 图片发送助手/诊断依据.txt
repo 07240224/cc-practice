@@ -1,0 +1,11 @@
+截图中的错误：decoded message length too large: found 16021329 bytes, the limit is: 4194304 bytes。
+16,021,329字节是gRPC消息长度，4,194,304字节是接收上限。
+源码：tonic/src/codec/decode.rs 的接收长度检查及 codec/mod.rs 的 DEFAULT_MAX_RECV_MESSAGE_SIZE。
+https://github.com/hyperium/tonic/blob/master/tonic/src/codec/decode.rs
+https://github.com/hyperium/tonic/blob/master/tonic/src/codec/mod.rs
+同类应用问题及ZIP作为文件附件成功送达的记录：
+https://github.com/openai/codex/issues/54870
+
+本工具将图片封装为ZIP，供原对话通过文件附件通道接收，不修改Codex客户端/服务端，不修补应用二进制，不更改启动项。
+脚本和网页没有网络上传逻辑；原图保留在本机，用户主动发送生成的ZIP后才进入聊天。
+验证记录只覆盖已执行的网页和ZIP文件测试；不将此记录作为原报错图片通过本机Codex发送成功的证明。
