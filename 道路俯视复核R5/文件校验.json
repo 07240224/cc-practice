@@ -1,0 +1,86 @@
+{
+  "参考来源与版次.json": {
+    "bytes": 996,
+    "sha256": "c917b885e2a23eb021266a2d8c1b6ecb013a3d978c1daa5ae1887889e0d2ed1d"
+  },
+  "使用与核对说明.md": {
+    "bytes": 2028,
+    "sha256": "01f09ac53f13bb960027f5850b12ee83e0b35e136c36a4ecd527c808cafc80c3"
+  },
+  "07-绿叶步行街.png": {
+    "bytes": 372819,
+    "sha256": "d396875de2abef9de0dad5d36e82d63f3025b3dfc87fc3a91344387a53103437"
+  },
+  "2020校方考试图_仅作版本对照.jpg": {
+    "bytes": 403480,
+    "sha256": "f68a25b7b0bcaf864fa6b9141ec5370a14ba7bb763ed90906670ce54ac08e578"
+  },
+  "打开道路核对图.html": {
+    "bytes": 9600785,
+    "sha256": "3bb56579ed5d0c83d1313bf733d4bbd9196535ee9153e6e8c277b757d5f4ae2a"
+  },
+  "排除对象清单.csv": {
+    "bytes": 1357523,
+    "sha256": "5ab7640374d3cc128ee9bae3c5ec55a248ccac8e43cb037f1435eb8cb88b89b1"
+  },
+  "01-全校道路俯视核对.png": {
+    "bytes": 1085042,
+    "sha256": "edc0b178668e5158ef7868ef0c1f24210731072a5e49dc74df3410f7bbde632c"
+  },
+  "02-武川全部道路.png": {
+    "bytes": 737161,
+    "sha256": "12904c04e6d61a1985208cb7fc97916795a92e233bca85cc400053a829f91726"
+  },
+  "道路原色面.png": {
+    "bytes": 186548,
+    "sha256": "19002db68ce449796cbfafd33ecb84161ba009553476212105797167e8e9933f"
+  },
+  "路面分类核对.json": {
+    "bytes": 3093743,
+    "sha256": "ba646ee560480748ec5a5344f851b039085517ea56658e05aa5050d695f76798"
+  },
+  "05-科研三角三边.png": {
+    "bytes": 399202,
+    "sha256": "0547135232055083c1508ea9fc8a2929c070e11341e858b7cf483e8fd66c760b"
+  },
+  "06-教学楼连廊下通路.png": {
+    "bytes": 453409,
+    "sha256": "c962238ba87d66b2fb10808db7f2574c40216427be9b23907156188471d257a9"
+  },
+  "分区核对清单.csv": {
+    "bytes": 2029,
+    "sha256": "211c74cef5f543c9797c7a2e2647bc166c351b5ad03783c190593c973153af42"
+  },
+  "道路面透明层.png": {
+    "bytes": 298657,
+    "sha256": "8079fb5004ffdbf8ad714c1bf5c6ae4589a5746f81f5f8a9000ce0cc08bb24ca"
+  },
+  "04-武东全部道路.png": {
+    "bytes": 989336,
+    "sha256": "bede0b2b76e69c58bc2e354aec892f95ce3dac7ec5aa8582c2ba4549a180de2d"
+  },
+  "专项核对结果.json": {
+    "bytes": 732,
+    "sha256": "c51ced120e2583fed9298d24dfdc72059ffe59486a83a7254b1377232b082466"
+  },
+  "08-经济学院与接站方向.png": {
+    "bytes": 924303,
+    "sha256": "cbbaa3f8f5515f21cff0f32cb90484f5d4bbbaf9aef6cee6edaa425752b90d0f"
+  },
+  "核对图底层.png": {
+    "bytes": 386681,
+    "sha256": "8bbc22cf71fc0cc0592b725aa4e795e369bcaa5808133f6deb651666e9edd43f"
+  },
+  "道路面数据.json": {
+    "bytes": 2515529,
+    "sha256": "94fb0e5404f9a7814497de7a9c9e35566c3976c07010c84862a86e860b39abf5"
+  },
+  "03-国定全部道路.png": {
+    "bytes": 581834,
+    "sha256": "eaeb73b86a43ab3756b01f6ff7359ee7f454a55fea77c161d1869cb6d8835e0b"
+  },
+  "校方高清辅助参考.jpg": {
+    "bytes": 6509113,
+    "sha256": "1237b6f90c2e87e95154f4d681a34ee720f4f1902f62d8da4a042280c9b8f370"
+  }
+}

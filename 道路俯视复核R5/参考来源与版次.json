@@ -1,0 +1,17 @@
+{
+  "layoutAuthority": "对话中用户提供的初始校园俯视图及后续批注，2291×1279；本轮未把网络文件冒充其原始附件。",
+  "rasterTracingAid": {
+    "file": "校方高清辅助参考.jpg",
+    "page": "https://www.sufe.edu.cn/61/67/c13569a221543/page.htm",
+    "url": "https://www.sufe.edu.cn/_upload/article/images/ab/f4/6a26678f4f5f8373802ac02e5fa3/e74ce5ad-a377-4964-8e81-2eb6718b22b7.jpg",
+    "edition": "2023-06",
+    "role": "高清边缘描边辅助；名称/局部版次区别不作为改动初图路网的授权"
+  },
+  "olderCrossCheck": {
+    "file": "2020校方考试图_仅作版本对照.jpg",
+    "page": "https://gs.sufe.edu.cn/Home/Detail/6858",
+    "url": "https://usercenter.sufe.edu.cn/Service/UeditorDownload?name=upload/image/20201218/6374389584137891253236758.jpg",
+    "role": "旧版平面图交叉核对；考试标注不是新增道路"
+  },
+  "stage": "本轮只交付俯视核对稿，可玩V4未改；用户确认后重建底图。"
+}

@@ -1,0 +1,12 @@
+{
+  "version": "R5-road-overhead-review",
+  "file": "campus-road-overhead-review-r5.zip",
+  "bytes": 20481333,
+  "sha256": "2f7bb51ef29548bc6b09303aae4eb6b30a60902e251bb9ae85cbdb8833d2d260",
+  "files": 22,
+  "stage": "俯视道路核对，待用户确认；不是游戏修复交付",
+  "entry": "道路俯视复核R5/打开道路核对图.html",
+  "overview": "道路俯视复核R5/01-全校道路俯视核对.png",
+  "triangle": "道路俯视复核R5/05-科研三角三边.png",
+  "gameFilesChanged": false
+}

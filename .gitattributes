@@ -5,3 +5,5 @@
 "传送/campus-workspace-recovery-v1.zip" -filter -diff -merge -text
 "传送/campus-road-layout-repair-v4.zip" -filter -diff -merge -text
 "传送/campus-workspace-recovery-v2.zip" -filter -diff -merge -text
+"传送/campus-road-overhead-review-r5.zip" -filter -diff -merge -text
+"道路俯视复核R5/*.csv" text eol=lf
