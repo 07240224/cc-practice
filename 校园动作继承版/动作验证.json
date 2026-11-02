@@ -1,0 +1,758 @@
+{
+  "directions": [
+    {
+      "key": "ArrowDown",
+      "row": 0,
+      "expected": 0
+    },
+    {
+      "key": "ArrowUp",
+      "row": 1,
+      "expected": 1
+    },
+    {
+      "key": "ArrowLeft",
+      "row": 2,
+      "expected": 2
+    },
+    {
+      "key": "ArrowRight",
+      "row": 3,
+      "expected": 3
+    }
+  ],
+  "speeds": [
+    {
+      "mode": "walk",
+      "distance": 6.600000000002085,
+      "expected": 6.6,
+      "sourceRate": null
+    },
+    {
+      "mode": "run",
+      "distance": 40.0000000000122,
+      "expected": 40,
+      "sourceRate": null
+    },
+    {
+      "mode": "bike",
+      "distance": 17.678571428578472,
+      "expected": 17.67857142857143,
+      "sourceRate": 2.2104440784611263
+    },
+    {
+      "mode": "bike+shift",
+      "distance": 17.678571428578472,
+      "expected": 17.67857142857143,
+      "sourceRate": null
+    }
+  ],
+  "sequence": [
+    0,
+    1,
+    2,
+    1,
+    0
+  ],
+  "arrivals": [
+    {
+      "id": "academic_link",
+      "segments": 4,
+      "ticks": 28,
+      "remaining": 0,
+      "error": 2.5421149729252077e-13,
+      "invalid": 0
+    },
+    {
+      "id": "wudonglecture",
+      "segments": 8,
+      "ticks": 57,
+      "remaining": 0,
+      "error": 6.122223575328581e-13,
+      "invalid": 0
+    },
+    {
+      "id": "statistics",
+      "segments": 8,
+      "ticks": 61,
+      "remaining": 0,
+      "error": 1.5252689837551246e-12,
+      "invalid": 0
+    },
+    {
+      "id": "finance",
+      "segments": 14,
+      "ticks": 116,
+      "remaining": 0,
+      "error": 2.5421149729252077e-13,
+      "invalid": 0
+    },
+    {
+      "id": "activity",
+      "segments": 14,
+      "ticks": 108,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "research",
+      "segments": 17,
+      "ticks": 144,
+      "remaining": 0,
+      "error": 8.879225874701042e-13,
+      "invalid": 0
+    },
+    {
+      "id": "bookstore",
+      "segments": 19,
+      "ticks": 146,
+      "remaining": 0,
+      "error": 5.684341886080801e-13,
+      "invalid": 0
+    },
+    {
+      "id": "guoding_gym",
+      "segments": 30,
+      "ticks": 248,
+      "remaining": 0,
+      "error": 2.5421149729252077e-13,
+      "invalid": 0
+    },
+    {
+      "id": "teaching1",
+      "segments": 40,
+      "ticks": 368,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "teaching2",
+      "segments": 40,
+      "ticks": 353,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "guodinglecture",
+      "segments": 37,
+      "ticks": 299,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "greenleaf_canteen",
+      "segments": 27,
+      "ticks": 227,
+      "remaining": 0,
+      "error": 9.25343817704044e-13,
+      "invalid": 0
+    },
+    {
+      "id": "sufe_cafe",
+      "segments": 24,
+      "ticks": 197,
+      "remaining": 0,
+      "error": 6.844854043943254e-13,
+      "invalid": 0
+    },
+    {
+      "id": "halal_canteen",
+      "segments": 28,
+      "ticks": 226,
+      "remaining": 0,
+      "error": 2.5421149729252077e-13,
+      "invalid": 0
+    },
+    {
+      "id": "third_canteen",
+      "segments": 25,
+      "ticks": 201,
+      "remaining": 0,
+      "error": 2.3437142008433856e-13,
+      "invalid": 0
+    },
+    {
+      "id": "cainiao_station",
+      "segments": 45,
+      "ticks": 561,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "old_gate",
+      "segments": 14,
+      "ticks": 113,
+      "remaining": 0,
+      "error": 1.6077746776921858e-13,
+      "invalid": 0
+    },
+    {
+      "id": "water_tower",
+      "segments": 26,
+      "ticks": 212,
+      "remaining": 0,
+      "error": 6.821210263296962e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g01",
+      "segments": 34,
+      "ticks": 271,
+      "remaining": 0,
+      "error": 3.8131724593878115e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g02",
+      "segments": 34,
+      "ticks": 270,
+      "remaining": 0,
+      "error": 2.8421709430404007e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g03",
+      "segments": 32,
+      "ticks": 254,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g04",
+      "segments": 29,
+      "ticks": 235,
+      "remaining": 0,
+      "error": 1.7053025658242404e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g05",
+      "segments": 29,
+      "ticks": 236,
+      "remaining": 0,
+      "error": 4.856703836433968e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g06",
+      "segments": 29,
+      "ticks": 234,
+      "remaining": 0,
+      "error": 7.031142602530156e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g07",
+      "segments": 28,
+      "ticks": 213,
+      "remaining": 0,
+      "error": 5.084229945850415e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g08",
+      "segments": 26,
+      "ticks": 214,
+      "remaining": 0,
+      "error": 2.2737367544323206e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g11",
+      "segments": 25,
+      "ticks": 193,
+      "remaining": 0,
+      "error": 4.547473508864641e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g12",
+      "segments": 24,
+      "ticks": 192,
+      "remaining": 0,
+      "error": 2.8421709430404007e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g13",
+      "segments": 22,
+      "ticks": 178,
+      "remaining": 0,
+      "error": 8.198074455012806e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g14",
+      "segments": 24,
+      "ticks": 187,
+      "remaining": 0,
+      "error": 4.856703836433968e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g15",
+      "segments": 22,
+      "ticks": 172,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g16",
+      "segments": 21,
+      "ticks": 165,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "g29",
+      "segments": 26,
+      "ticks": 213,
+      "remaining": 0,
+      "error": 4.687428401686771e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g34",
+      "segments": 29,
+      "ticks": 239,
+      "remaining": 0,
+      "error": 1.1368683772161603e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g35",
+      "segments": 29,
+      "ticks": 234,
+      "remaining": 0,
+      "error": 2.5421149729252077e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g30",
+      "segments": 24,
+      "ticks": 199,
+      "remaining": 0,
+      "error": 4.582862941503293e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g31",
+      "segments": 23,
+      "ticks": 190,
+      "remaining": 0,
+      "error": 2.2737367544323206e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g32",
+      "segments": 25,
+      "ticks": 212,
+      "remaining": 0,
+      "error": 9.25343817704044e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g33",
+      "segments": 26,
+      "ticks": 217,
+      "remaining": 0,
+      "error": 7.190186943645084e-13,
+      "invalid": 0
+    },
+    {
+      "id": "g09",
+      "segments": 29,
+      "ticks": 234,
+      "remaining": 0,
+      "error": 3.595093471822542e-13,
+      "invalid": 0
+    },
+    {
+      "id": "admin",
+      "segments": 44,
+      "ticks": 540,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "tech_n",
+      "segments": 42,
+      "ticks": 454,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "tech_s",
+      "segments": 41,
+      "ticks": 420,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "law",
+      "segments": 32,
+      "ticks": 261,
+      "remaining": 0,
+      "error": 2.2737367544323206e-13,
+      "invalid": 0
+    },
+    {
+      "id": "graduate",
+      "segments": 30,
+      "ticks": 250,
+      "remaining": 0,
+      "error": 2.5421149729252077e-13,
+      "invalid": 0
+    },
+    {
+      "id": "bath",
+      "segments": 31,
+      "ticks": 252,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "medical",
+      "segments": 25,
+      "ticks": 198,
+      "remaining": 0,
+      "error": 9.646648066153115e-13,
+      "invalid": 0
+    },
+    {
+      "id": "redtile",
+      "segments": 36,
+      "ticks": 290,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "art",
+      "segments": 42,
+      "ticks": 422,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "museum",
+      "segments": 32,
+      "ticks": 261,
+      "remaining": 0,
+      "error": 2.2737367544323206e-13,
+      "invalid": 0
+    },
+    {
+      "id": "archive",
+      "segments": 32,
+      "ticks": 256,
+      "remaining": 0,
+      "error": 0.021802428018633187,
+      "invalid": 0
+    },
+    {
+      "id": "ningyuanB",
+      "segments": 19,
+      "ticks": 149,
+      "remaining": 0,
+      "error": 0.004747667219288825,
+      "invalid": 0
+    },
+    {
+      "id": "ningyuanA",
+      "segments": 16,
+      "ticks": 126,
+      "remaining": 0,
+      "error": 2.5421149729252077e-13,
+      "invalid": 0
+    },
+    {
+      "id": "teacher",
+      "segments": 15,
+      "ticks": 126,
+      "remaining": 0,
+      "error": 0.025835351313676525,
+      "invalid": 0
+    },
+    {
+      "id": "humanities",
+      "segments": 10,
+      "ticks": 80,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "business",
+      "segments": 6,
+      "ticks": 40,
+      "remaining": 0,
+      "error": 7.190186943645084e-13,
+      "invalid": 0
+    },
+    {
+      "id": "westoffice",
+      "segments": 11,
+      "ticks": 92,
+      "remaining": 0,
+      "error": 1.6077746776921858e-13,
+      "invalid": 0
+    },
+    {
+      "id": "affairs",
+      "segments": 11,
+      "ticks": 85,
+      "remaining": 0,
+      "error": 0.013568268930383228,
+      "invalid": 0
+    },
+    {
+      "id": "stats_e",
+      "segments": 10,
+      "ticks": 75,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "library",
+      "segments": 4,
+      "ticks": 28,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "accounting",
+      "segments": 18,
+      "ticks": 148,
+      "remaining": 0,
+      "error": 8.038873388460929e-14,
+      "invalid": 0
+    },
+    {
+      "id": "teaching4",
+      "segments": 10,
+      "ticks": 77,
+      "remaining": 0,
+      "error": 3.595093471822542e-13,
+      "invalid": 0
+    },
+    {
+      "id": "economics",
+      "segments": 10,
+      "ticks": 78,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    },
+    {
+      "id": "phoenix",
+      "segments": 19,
+      "ticks": 149,
+      "remaining": 0,
+      "error": 2.2737367544323206e-13,
+      "invalid": 0
+    },
+    {
+      "id": "enterprise",
+      "segments": 21,
+      "ticks": 165,
+      "remaining": 0,
+      "error": 5.362597410144533e-13,
+      "invalid": 0
+    },
+    {
+      "id": "wuchuan_pool",
+      "segments": 23,
+      "ticks": 186,
+      "remaining": 0,
+      "error": 1.1368683772161603e-13,
+      "invalid": 0
+    },
+    {
+      "id": "exchange",
+      "segments": 18,
+      "ticks": 139,
+      "remaining": 0,
+      "error": 1.2710574864626038e-13,
+      "invalid": 0
+    },
+    {
+      "id": "wuchuan_hall",
+      "segments": 6,
+      "ticks": 45,
+      "remaining": 0,
+      "error": 5.684341886080801e-13,
+      "invalid": 0
+    },
+    {
+      "id": "badminton",
+      "segments": 11,
+      "ticks": 87,
+      "remaining": 0,
+      "error": 1.2710574864626038e-13,
+      "invalid": 0
+    },
+    {
+      "id": "wuchuan_canteen",
+      "segments": 10,
+      "ticks": 74,
+      "remaining": 0,
+      "error": 1.2710574864626038e-13,
+      "invalid": 0
+    },
+    {
+      "id": "advanced_research",
+      "segments": 12,
+      "ticks": 92,
+      "remaining": 0,
+      "error": 1.2710574864626038e-13,
+      "invalid": 0
+    },
+    {
+      "id": "w13",
+      "segments": 9,
+      "ticks": 68,
+      "remaining": 0,
+      "error": 3.410605131648481e-13,
+      "invalid": 0
+    },
+    {
+      "id": "w14",
+      "segments": 7,
+      "ticks": 60,
+      "remaining": 0,
+      "error": 1.6077746776921858e-13,
+      "invalid": 0
+    },
+    {
+      "id": "w15",
+      "segments": 6,
+      "ticks": 50,
+      "remaining": 0,
+      "error": 2.5421149729252077e-13,
+      "invalid": 0
+    },
+    {
+      "id": "w16",
+      "segments": 6,
+      "ticks": 46,
+      "remaining": 0,
+      "error": 4.823324033076558e-13,
+      "invalid": 0
+    },
+    {
+      "id": "w17",
+      "segments": 5,
+      "ticks": 34,
+      "remaining": 0,
+      "error": 1.1368683772161603e-13,
+      "invalid": 0
+    },
+    {
+      "id": "w18",
+      "segments": 3,
+      "ticks": 22,
+      "remaining": 0,
+      "error": 0,
+      "invalid": 0
+    }
+  ],
+  "wall": [],
+  "source": {
+    "animationRate": 7,
+    "bikeOffset": 12,
+    "cell": 192,
+    "columns": 32,
+    "directions": [
+      "down",
+      "up",
+      "left",
+      "right"
+    ],
+    "frames": [],
+    "origin": [
+      96,
+      160
+    ],
+    "phaseCount": 128,
+    "renderScale": 2,
+    "rows": 17,
+    "sequence": [
+      0,
+      1,
+      2,
+      1
+    ],
+    "sourceSpeeds": {
+      "bike": 300,
+      "run": 175,
+      "walk": 112
+    },
+    "spriteScale": 0.235,
+    "walkOffset": 0
+  },
+  "idle": {
+    "mapId": "guoding",
+    "player": {
+      "x": 1497.4929323837907,
+      "y": 338.3388568829694,
+      "dir": 3,
+      "frame": 1,
+      "riding": false
+    },
+    "ready": true,
+    "pathLength": 0,
+    "occluders": [],
+    "motion": {
+      "gaitStep": 0,
+      "bikePhase": 3.985406797435255,
+      "mode": "idle",
+      "speed": 0,
+      "stamina": 100,
+      "rest": 18.791428571428572,
+      "exhausted": false,
+      "tile": 4
+    },
+    "speeds": {
+      "walk": 13.200000000000001,
+      "run": 80,
+      "bike": 35.35714285714286
+    },
+    "camera": {
+      "type": "OrthographicCamera",
+      "elevation": 35,
+      "azimuth": 12.5,
+      "zoom": 1
+    },
+    "slots": false
+  },
+  "restart": 0,
+  "staminaStart": 100,
+  "staminaAfter": 92,
+  "wallEnd": {
+    "x": 1679.1310664869397,
+    "y": 293.43551444135574,
+    "dir": 3,
+    "frame": 1,
+    "riding": false
+  },
+  "geometrySHA256": "e88c44e80bea2c0c7748a6d30202f876681de925d91d9e36e99cb4f27ad0b7e7",
+  "errors": [],
+  "externalRequests": [],
+  "keyboardToggle": true
+}

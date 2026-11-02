@@ -1,0 +1,22 @@
+{
+  "geometrySHA256": "e88c44e80bea2c0c7748a6d30202f876681de925d91d9e36e99cb4f27ad0b7e7",
+  "runtimeSHA256": "9b010be1492d6d9b78f303f0378e1a6974c12ac4b90e4be52d973b35bfbebe0f",
+  "sourceFiles": [
+    {
+      "path": "locations/campus_map/painted/scripts/player.gd",
+      "sha256": "575304366b5c9d7d72d19b4c1e59759438f03ecdb9f9ea43d8a83f6d5126f0fd"
+    },
+    {
+      "path": "locations/campus_map/painted/scripts/bicycle.gd",
+      "sha256": "45060e6a8accfc8f7ea5cdb9f7c8e1b6164bf5512fbe1c3445590591c6a03e61"
+    },
+    {
+      "path": "locations/campus_map/painted/data/frames.json",
+      "sha256": "bbbf29895f27cfe0e2cacb21934ded519d259cb254a95b223f068371af8b9f88"
+    },
+    {
+      "path": "locations/campus_map/painted/assets/student-walk-v2.png",
+      "sha256": "3607f5c576369c52f7fe01ee4bc4cd17cc46404ecf6ff1a424128076cd5bec24"
+    }
+  ]
+}
